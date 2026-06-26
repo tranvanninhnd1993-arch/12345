@@ -72,5 +72,131 @@
       {"a":"g3_l9_s3.mp3","n":"Tiếp theo, con nhớ công thức: diện tích hình chữ nhật bằng chiều dài nhân chiều rộng; diện tích hình vuông bằng cạnh nhân cạnh. Đơn vị là xăng-ti-mét vuông.","h":"<div class='keybox'><span class='lab'>💡 Công thức</span>CN: <b>dài × rộng</b> · Vuông: <b>cạnh × cạnh</b>. Đơn vị: <b>cm²</b>.</div>"},
       {"a":"g3_l9_s4.mp3","n":"Cuối cùng, con phân biệt rõ: diện tích thì nhân hai cạnh, còn chu vi thì cộng rồi nhân hai. Đừng nhầm hai cái nhé. Giỏi lắm, mình sang kiểm tra nào!","h":"<div class='warnbox'><span class='lab'>⚠️ Đừng nhầm</span>Diện tích = <b>nhân</b> · Chu vi = <b>cộng rồi nhân 2</b>.</div>"}
     ]
+  },
+  "4": {
+    "0": [
+      {"a":"g4_l0_s1.mp3","n":"Chào con! Hôm nay mình học về hàng và lớp của số tự nhiên. Số có thể rất lớn, đến hàng triệu, nhưng vẫn theo một quy luật. Bí quyết là nhóm mỗi ba chữ số thành một lớp.","h":"<div class='hook'>🔢 Số rất lớn cũng có quy luật: nhóm mỗi <b>3 chữ số</b> thành một <b>lớp</b>!</div>"},
+      {"a":"g4_l0_s2.mp3","n":"Bước đầu tiên, mình xem số năm triệu hai trăm ba mươi tư nghìn sáu trăm bảy mươi tám. Nhóm ba chữ số một, ta được: năm triệu, hai trăm ba mươi tư nghìn, và sáu trăm bảy mươi tám.","h":"<div class='exbox'><div class='bignum'>5 234 678</div><div>5 triệu · 234 nghìn · 678 đơn vị</div></div>"},
+      {"a":"g4_l0_s3.mp3","n":"Con nhớ nhé: mỗi lớp gồm ba hàng. Lớp đơn vị có đơn vị, chục, trăm. Lớp nghìn có nghìn, chục nghìn, trăm nghìn. Lớp triệu có triệu, chục triệu, trăm triệu.","h":"<div class='keybox'><span class='lab'>💡 Mỗi lớp = 3 hàng</span>Lớp đơn vị · Lớp nghìn · Lớp triệu.</div>"},
+      {"a":"g4_l0_s4.mp3","n":"Tiếp theo, con để ý: cùng một chữ số nhưng đứng ở hàng khác thì giá trị khác. Trong số bốn nghìn bảy trăm, chữ số bảy đứng ở hàng trăm nên có giá trị là bảy trăm.","h":"<div class='stepcard'><div class='n'>7</div><div>Trong <b>4 700</b>, chữ số 7 ở hàng trăm → giá trị <b>700</b>.</div></div>"},
+      {"a":"g4_l0_s5.mp3","n":"Vậy là con đã biết đọc cả số rất lớn rồi đó. Cứ nhóm ba chữ số một là đọc dễ dàng. Giỏi lắm, mình sang kiểm tra nào!","h":"<div class='tipbox'><span class='lab'>✨ Mẹo</span>Nhóm <b>3 chữ số</b> một là đọc số lớn dễ dàng.</div>"}
+    ],
+    "1": [
+      {"a":"g4_l1_s1.mp3","n":"Chào con! Hôm nay mình học cộng và trừ những số có nhiều chữ số. Số to cỡ nào cũng không sợ: chỉ cần đặt tính thẳng cột rồi tính từ phải sang trái.","h":"<div class='hook'>➕➖ Số to cỡ nào cũng không sợ: <b>đặt thẳng cột, tính từ phải sang trái</b>.</div>"},
+      {"a":"g4_l1_s2.mp3","n":"Bước đầu tiên là phép cộng có nhớ. Bốn nghìn năm trăm sáu mươi bảy cộng hai nghìn ba trăm bốn mươi lăm. Con cộng từ hàng đơn vị, có nhớ khi cần, kết quả là sáu nghìn chín trăm mười hai.","h":"<div class='exbox'><div class='colcalc'>&nbsp;4567<br>+2345<br><span class='bar'>&nbsp;6912</span></div></div>"},
+      {"a":"g4_l1_s3.mp3","n":"Tiếp theo là phép trừ có mượn. Tám nghìn trừ ba nghìn bốn trăm năm mươi sáu. Khi chữ số trên nhỏ hơn, con mượn một ở hàng bên trái. Kết quả là bốn nghìn năm trăm bốn mươi tư.","h":"<div class='exbox'><div class='colcalc'>&nbsp;8000<br>−3456<br><span class='bar'>&nbsp;4544</span></div></div>"},
+      {"a":"g4_l1_s4.mp3","n":"Điều quan trọng nhất con phải nhớ: viết các số thẳng cột với nhau, đơn vị dưới đơn vị, chục dưới chục. Lệch cột là sai ngay.","h":"<div class='keybox'><span class='lab'>💡 Quan trọng nhất</span>Viết các số <b>thẳng cột</b> (đơn vị dưới đơn vị).</div>"},
+      {"a":"g4_l1_s5.mp3","n":"Cuối cùng, con tránh lỗi hay gặp: đừng quên cộng số nhớ, và đừng quên trừ một ở cột vừa mượn. Giỏi lắm!","h":"<div class='warnbox'><span class='lab'>⚠️ Hay gặp</span>Đừng quên <b>cộng số nhớ</b> / <b>trừ 1 ở cột vừa mượn</b>.</div>"}
+    ],
+    "2": [
+      {"a":"g4_l2_s1.mp3","n":"Chào con! Hôm nay mình học nhân với số có hai chữ số. Cách làm là tách ra nhân từng phần rồi cộng lại.","h":"<div class='hook'>✖️ Nhân với số 2 chữ số: <b>tách ra nhân từng phần rồi cộng lại</b>.</div>"},
+      {"a":"g4_l2_s2.mp3","n":"Bước đầu tiên, mình xem ví dụ: hai mươi tư nhân mười hai. Con tách mười hai thành mười cộng hai. Hai mươi tư nhân hai bằng bốn mươi tám; hai mươi tư nhân mười bằng hai trăm bốn mươi. Cộng lại được hai trăm tám mươi tám.","h":"<div class='exbox'><div style='text-align:left;display:inline-block'>24 × 12 = 24 × 2 + 24 × 10<br>= 48 + 240 = <b>288</b></div></div>"},
+      {"a":"g4_l2_s3.mp3","n":"Tiếp theo là mẹo rất hữu ích: nhân với mười chỉ cần thêm một chữ số không; nhân với một trăm thì thêm hai chữ số không.","h":"<div class='keybox'><span class='lab'>💡 Mẹo</span>Nhân 10 → thêm một số 0 · Nhân 100 → thêm hai số 0.</div>"},
+      {"a":"g4_l2_s4.mp3","n":"Cuối cùng con nhớ: tách số ra thành hàng chục và hàng đơn vị, nhân riêng rồi cộng lại là xong. Giỏi lắm, mình sang kiểm tra!","h":"<div class='tipbox'><span class='lab'>✨ Ghi nhớ</span>Tách số → nhân riêng → cộng lại.</div>"}
+    ],
+    "3": [
+      {"a":"g4_l3_s1.mp3","n":"Chào con! Hôm nay mình học chia cho số có hai chữ số. Phép này khó hơn chút: con cần ước lượng, tức là đoán thử thương, rồi nhân và trừ để kiểm tra.","h":"<div class='hook'>➗ Chia cho số 2 chữ số: <b>ước lượng (đoán thử) rồi kiểm tra</b>.</div>"},
+      {"a":"g4_l3_s2.mp3","n":"Bước đầu tiên, mình xem ví dụ: một trăm bốn mươi tư chia mười hai. Con đoán thương là mười hai, vì mười hai nhân mười hai bằng một trăm bốn mươi tư. Vậy thương đúng là mười hai.","h":"<div class='exbox'><div class='bignum'>144 ÷ 12 = 12</div><div>vì 12 × 12 = 144 ✔</div></div>"},
+      {"a":"g4_l3_s3.mp3","n":"Tiếp theo con nhớ cách làm: đoán thương, rồi nhân lại, rồi so với số bị chia. Nếu vừa khít thì con đoán đúng.","h":"<div class='keybox'><span class='lab'>💡 Cách làm</span>Đoán thương → nhân lại → so với số bị chia.</div>"},
+      {"a":"g4_l3_s4.mp3","n":"Con thử thêm: hai trăm chia hai mươi lăm bằng tám, vì hai mươi lăm nhân tám bằng hai trăm. Giỏi lắm!","h":"<div class='stepcard'><div class='n'>a</div><div>200 ÷ 25 = <b>8</b> (vì 25 × 8 = 200)</div></div>"}
+    ],
+    "4": [
+      {"a":"g4_l4_s1.mp3","n":"Chào con! Hôm nay mình học những mẹo thần kỳ: chỉ cần nhìn là biết một số có chia hết cho hai, năm, chín, hay ba không, mà không cần đặt phép chia.","h":"<div class='hook'>🔍 Nhìn là biết số chia hết cho 2, 5, 9, 3 — không cần chia!</div>"},
+      {"a":"g4_l4_s2.mp3","n":"Bước đầu tiên, con nhìn chữ số cuối cùng. Số chia hết cho hai khi tận cùng là không, hai, bốn, sáu, tám, tức là số chẵn. Số chia hết cho năm khi tận cùng là không hoặc năm.","h":"<div class='keybox'><span class='lab'>💡 Nhìn chữ số cuối</span>Chia hết 2: tận cùng chẵn · Chia hết 5: tận cùng 0 hoặc 5.</div>"},
+      {"a":"g4_l4_s3.mp3","n":"Tiếp theo, con cộng tất cả các chữ số lại. Nếu tổng chia hết cho chín thì số đó chia hết cho chín; nếu tổng chia hết cho ba thì số đó chia hết cho ba.","h":"<div class='keybox'><span class='lab'>💡 Cộng các chữ số</span>Tổng chia hết 9 → số chia hết 9 · Tổng chia hết 3 → số chia hết 3.</div>"},
+      {"a":"g4_l4_s4.mp3","n":"Tóm lại cho dễ nhớ: với hai và năm thì nhìn chữ số cuối, còn với ba và chín thì cộng tất cả các chữ số. Giỏi lắm, mình sang kiểm tra!","h":"<div class='tipbox'><span class='lab'>✨ Tóm gọn</span>2 &amp; 5 → nhìn chữ số cuối · 3 &amp; 9 → cộng các chữ số.</div>"}
+    ],
+    "5": [
+      {"a":"g4_l5_s1.mp3","n":"Chào con! Hôm nay mình học về phân số. Phân số cho biết ta lấy mấy phần trong mấy phần bằng nhau. Nó gồm tử số ở trên và mẫu số ở dưới.","h":"<div class='hook'>¾ Phân số gồm <b>tử số</b> (trên) và <b>mẫu số</b> (dưới).</div>"},
+      {"a":"g4_l5_s2.mp3","n":"Bước đầu tiên, mình xem phân số ba phần tư. Chia một hình thành bốn phần bằng nhau, tô ba phần. Số bốn ở dưới là mẫu số, số ba ở trên là tử số.","h":"<div class='exbox'><svg viewBox='0 0 200 36' width='200'><rect x='2' y='2' width='196' height='32' fill='none' stroke='#4f6ef7' stroke-width='2'/><rect x='2' y='2' width='147' height='32' fill='#7f9cf5'/><line x1='51' y1='2' x2='51' y2='34' stroke='#fff' stroke-width='2'/><line x1='100' y1='2' x2='100' y2='34' stroke='#fff' stroke-width='2'/><line x1='149' y1='2' x2='149' y2='34' stroke='#4f6ef7' stroke-width='2'/></svg><div class='bignum'>3/4</div><div>chia 4 phần, tô 3 phần</div></div>"},
+      {"a":"g4_l5_s3.mp3","n":"Tiếp theo, có những phân số khác nhau nhưng cùng một giá trị. Ví dụ một phần hai bằng hai phần tư bằng ba phần sáu. Chúng đều là một nửa.","h":"<div class='exbox'><div class='bignum'>1/2 = 2/4 = 3/6</div><div>đều là một nửa</div></div>"},
+      {"a":"g4_l5_s4.mp3","n":"Cuối cùng là rút gọn: chia cả tử và mẫu cho cùng một số để phân số gọn nhất. Ví dụ sáu phần tám, chia cả hai cho hai, được ba phần tư.","h":"<div class='keybox'><span class='lab'>💡 Rút gọn</span>6/8 = 3/4 (chia cả tử và mẫu cho 2).</div>"}
+    ],
+    "6": [
+      {"a":"g4_l6_s1.mp3","n":"Chào con! Hôm nay mình học so sánh phân số. Nếu hai phân số cùng mẫu số thì rất dễ: phân số nào có tử số lớn hơn thì lớn hơn.","h":"<div class='hook'>⚖️ Cùng mẫu số: <b>tử lớn hơn thì lớn hơn</b>.</div>"},
+      {"a":"g4_l6_s2.mp3","n":"Bước đầu tiên, ví dụ ba phần năm và hai phần năm. Hai phân số cùng mẫu là năm, mà ba lớn hơn hai, nên ba phần năm lớn hơn.","h":"<div class='stepcard'><div class='n'>1</div><div><b>3/5</b> và <b>2/5</b>: cùng mẫu, 3 lớn hơn 2 → <b>3/5 lớn hơn</b>.</div></div>"},
+      {"a":"g4_l6_s3.mp3","n":"Tiếp theo, nếu khác mẫu số thì con phải quy đồng, tức là đưa về cùng mẫu. So một phần hai với một phần ba: một phần hai bằng ba phần sáu, một phần ba bằng hai phần sáu, nên một phần hai lớn hơn.","h":"<div class='exbox'><div style='text-align:left;display:inline-block'>1/2 = 3/6 ; 1/3 = 2/6<br>→ <b>1/2 lớn hơn</b></div></div>"},
+      {"a":"g4_l6_s4.mp3","n":"Vậy con nhớ: cùng mẫu thì so tử số, khác mẫu thì quy đồng rồi mới so. Giỏi lắm, mình sang kiểm tra!","h":"<div class='keybox'><span class='lab'>💡 Ghi nhớ</span>Cùng mẫu → so tử · Khác mẫu → quy đồng trước.</div>"}
+    ],
+    "7": [
+      {"a":"g4_l7_s1.mp3","n":"Chào con! Hôm nay mình học cộng và trừ phân số. Khi hai phân số cùng mẫu số thì rất dễ: con chỉ cộng hoặc trừ tử số, còn mẫu số giữ nguyên.","h":"<div class='hook'>➕ Cùng mẫu: <b>cộng (trừ) tử số, giữ nguyên mẫu</b>.</div>"},
+      {"a":"g4_l7_s2.mp3","n":"Bước đầu tiên, ví dụ một phần tư cộng hai phần tư. Con cộng tử số: một cộng hai bằng ba, mẫu vẫn là bốn, nên kết quả là ba phần tư.","h":"<div class='exbox'><div class='bignum'>1/4 + 2/4 = 3/4</div></div>"},
+      {"a":"g4_l7_s3.mp3","n":"Đây là lỗi hay gặp, con nhớ kỹ nhé: tuyệt đối không cộng mẫu số. Một phần tư cộng hai phần tư là ba phần tư, chứ không phải ba phần tám đâu.","h":"<div class='warnbox'><span class='lab'>⚠️ Hay sai</span>KHÔNG cộng mẫu! 1/4 + 2/4 = 3/4 (không phải 3/8).</div>"},
+      {"a":"g4_l7_s4.mp3","n":"Cuối cùng, nếu khác mẫu số thì con phải quy đồng về cùng mẫu trước, rồi mới cộng trừ tử số. Giỏi lắm!","h":"<div class='keybox'><span class='lab'>💡 Khác mẫu</span>Quy đồng về cùng mẫu trước, rồi mới cộng/trừ tử.</div>"}
+    ],
+    "8": [
+      {"a":"g4_l8_s1.mp3","n":"Chào con! Hôm nay mình học nhân và chia phân số. Nhân phân số còn dễ hơn cộng: con chỉ cần lấy tử nhân tử, mẫu nhân mẫu.","h":"<div class='hook'>✖️ Nhân phân số: <b>tử nhân tử, mẫu nhân mẫu</b>.</div>"},
+      {"a":"g4_l8_s2.mp3","n":"Bước đầu tiên, ví dụ một phần hai nhân một phần ba. Tử một nhân một bằng một, mẫu hai nhân ba bằng sáu, nên kết quả là một phần sáu.","h":"<div class='exbox'><div class='bignum'>1/2 × 1/3 = 1/6</div></div>"},
+      {"a":"g4_l8_s3.mp3","n":"Tiếp theo là phép chia phân số. Chia cho một phân số nghĩa là nhân với phân số đảo ngược. Ví dụ ba phần tư chia một phần tư, ta lấy ba phần tư nhân bốn, bằng ba.","h":"<div class='exbox'><div class='bignum'>3/4 ÷ 1/4 = 3/4 × 4 = 3</div></div>"},
+      {"a":"g4_l8_s4.mp3","n":"Cuối cùng con nhớ: nhân thì thẳng hàng tử với tử mẫu với mẫu; còn chia thì lật ngược phân số phía sau rồi nhân. Giỏi lắm!","h":"<div class='keybox'><span class='lab'>💡 Ghi nhớ</span>Nhân: thẳng hàng · Chia: lật ngược rồi nhân.</div>"}
+    ],
+    "9": [
+      {"a":"g4_l9_s1.mp3","n":"Chào con! Hôm nay mình học về các loại góc. Ngoài góc vuông, còn có góc nhọn nhỏ hơn góc vuông, và góc tù lớn hơn góc vuông.","h":"<div class='hook'>📐 Có góc <b>nhọn</b>, góc <b>vuông</b>, góc <b>tù</b>.</div>"},
+      {"a":"g4_l9_s2.mp3","n":"Bước đầu tiên, con nhìn ba góc này. Góc nhọn nhỏ hơn góc vuông. Góc tù thì lớn hơn góc vuông. Và góc bẹt bằng hai góc vuông, chính là một đường thẳng.","h":"<div class='exbox'><svg viewBox='0 0 280 70' width='100%' style='max-width:280px'><g stroke-width='3' fill='none'><path d='M20 60 L20 15 M20 60 L55 25' stroke='#16a34a'/><text x='35' y='70' font-size='11' font-weight='700' fill='#16a34a' stroke='none' text-anchor='middle'>nhọn</text><path d='M120 60 L120 15 M120 60 L165 60' stroke='#4f6ef7'/><rect x='120' y='48' width='12' height='12' stroke='#4f6ef7'/><text x='135' y='70' font-size='11' font-weight='700' fill='#4f6ef7' stroke='none' text-anchor='middle'>vuông</text><path d='M220 60 L220 15 M220 60 L268 50' stroke='#dc2626'/><text x='240' y='70' font-size='11' font-weight='700' fill='#dc2626' stroke='none' text-anchor='middle'>tù</text></g></svg></div>"},
+      {"a":"g4_l9_s3.mp3","n":"Tiếp theo là hai hình mới. Hình bình hành có hai cặp cạnh đối song song và bằng nhau. Hình thoi là hình bình hành đặc biệt có bốn cạnh bằng nhau.","h":"<div class='keybox'><span class='lab'>💡 Hai hình</span>Bình hành: 2 cặp cạnh song song · Thoi: 4 cạnh bằng nhau.</div>"},
+      {"a":"g4_l9_s4.mp3","n":"Cuối cùng con nhớ: góc bẹt bằng hai góc vuông, duỗi thẳng thành một đường thẳng. Giỏi lắm, mình sang kiểm tra nào!","h":"<div class='tipbox'><span class='lab'>✨ Nhớ nhé</span>Góc bẹt = 2 góc vuông = một đường thẳng.</div>"}
+    ]
+  },
+  "5": {
+    "0": [
+      {"a":"g5_l0_s1.mp3","n":"Chào con! Trước khi học số thập phân, mình cùng ôn nhanh về phân số: rút gọn, so sánh, và cộng trừ.","h":"<div class='hook'>½ Ôn nhanh phân số trước khi học số thập phân.</div>"},
+      {"a":"g5_l0_s2.mp3","n":"Bước đầu tiên là rút gọn. Con chia cả tử và mẫu cho cùng một số. Ví dụ bốn phần tám, chia cả hai cho bốn, được một phần hai.","h":"<div class='exbox'><div class='bignum'>4/8 = 1/2</div></div>"},
+      {"a":"g5_l0_s3.mp3","n":"Tiếp theo, cộng phân số cùng mẫu thì cộng tử số. Ví dụ hai phần ba cộng một phần ba bằng ba phần ba, mà ba phần ba chính bằng một.","h":"<div class='exbox'><div class='bignum'>2/3 + 1/3 = 1</div></div>"},
+      {"a":"g5_l0_s4.mp3","n":"Con nhớ kỹ điều này: phân số có tử bằng mẫu thì bằng một; tử lớn hơn mẫu thì lớn hơn một. Giỏi lắm, mình sang kiểm tra!","h":"<div class='keybox'><span class='lab'>💡 Nhớ</span>Tử = mẫu → bằng 1 · Tử lớn hơn mẫu → lớn hơn 1.</div>"}
+    ],
+    "1": [
+      {"a":"g5_l1_s1.mp3","n":"Chào con! Hôm nay mình học số thập phân. Khi đo đạc, nhiều khi không tròn, ví dụ cao một mét rưỡi. Số có dấu phẩy như vậy gọi là số thập phân.","h":"<div class='hook'>🔢 Số có <b>dấu phẩy</b> gọi là <b>số thập phân</b>.</div>"},
+      {"a":"g5_l1_s2.mp3","n":"Bước đầu tiên, mình xem số ba phẩy bảy. Phần trước dấu phẩy là phần nguyên, ở đây là ba đơn vị. Phần sau dấu phẩy là bảy phần mười.","h":"<div class='exbox'><div class='bignum'>3 , 7</div><div>3 đơn vị · 7 phần mười</div></div>"},
+      {"a":"g5_l1_s3.mp3","n":"Con nhớ thứ tự sau dấu phẩy: chữ số thứ nhất là phần mười, chữ số thứ hai là phần trăm, chữ số thứ ba là phần nghìn.","h":"<div class='keybox'><span class='lab'>💡 Sau dấu phẩy</span>phần mười · phần trăm · phần nghìn.</div>"},
+      {"a":"g5_l1_s4.mp3","n":"Cuối cùng, con tập đổi phân số sang số thập phân. Một phần mười bằng không phẩy một. Một phần hai bằng không phẩy năm. Một phần tư bằng không phẩy hai mươi lăm. Giỏi lắm!","h":"<div class='exbox'><div>1/10 = 0,1 · 1/2 = 0,5 · 1/4 = 0,25</div></div>"}
+    ],
+    "2": [
+      {"a":"g5_l2_s1.mp3","n":"Chào con! Hôm nay mình học so sánh số thập phân. Quy tắc là: luôn so phần nguyên trước, nếu bằng nhau mới so từng hàng sau dấu phẩy.","h":"<div class='hook'>⚖️ So <b>phần nguyên trước</b>, rồi mới so từng hàng sau dấu phẩy.</div>"},
+      {"a":"g5_l2_s2.mp3","n":"Bước đầu tiên, ví dụ so không phẩy năm với không phẩy bốn mươi lăm. Phần nguyên đều là không. Xét phần mười: năm lớn hơn bốn, nên không phẩy năm lớn hơn.","h":"<div class='exbox'><div style='text-align:left;display:inline-block'>0,5 và 0,45: phần mười 5 lớn hơn 4<br>→ <b>0,5 lớn hơn</b></div></div>"},
+      {"a":"g5_l2_s3.mp3","n":"Đây là lỗi hay gặp, con nhớ nhé: đừng thấy bốn mươi lăm to hơn năm mà kết luận sai. Phải so theo từng hàng, phần mười trước.","h":"<div class='warnbox'><span class='lab'>⚠️ Hay sai</span>Đừng nghĩ 45 lớn hơn 5! So <b>theo hàng</b>: phần mười trước.</div>"},
+      {"a":"g5_l2_s4.mp3","n":"Cuối cùng con nhớ một điều hay: thêm chữ số không ở cuối phần thập phân không làm đổi giá trị. Một phẩy hai bằng một phẩy hai mươi. Giỏi lắm!","h":"<div class='keybox'><span class='lab'>💡 Mẹo</span>Thêm số 0 ở cuối không đổi giá trị: 1,2 = 1,20.</div>"}
+    ],
+    "3": [
+      {"a":"g5_l3_s1.mp3","n":"Chào con! Hôm nay mình học cộng và trừ số thập phân. Bí quyết quan trọng nhất là viết sao cho các dấu phẩy thẳng cột với nhau.","h":"<div class='hook'>➕➖ Bí quyết: viết các <b>dấu phẩy thẳng cột</b>.</div>"},
+      {"a":"g5_l3_s2.mp3","n":"Bước đầu tiên, mình tính một phẩy hai cộng ba phẩy bốn. Con đặt thẳng dấu phẩy, cộng như số tự nhiên: hai cộng bốn bằng sáu, một cộng ba bằng bốn, rồi hạ dấu phẩy xuống. Kết quả là bốn phẩy sáu.","h":"<div class='exbox'><div class='colcalc'>&nbsp;1,2<br>+3,4<br><span class='bar'>&nbsp;4,6</span></div></div>"},
+      {"a":"g5_l3_s3.mp3","n":"Con nhớ: dấu phẩy ở kết quả luôn thẳng cột với dấu phẩy của các số bên trên.","h":"<div class='keybox'><span class='lab'>💡 Ghi nhớ</span>Dấu phẩy ở kết quả <b>thẳng cột</b> với các số trên.</div>"},
+      {"a":"g5_l3_s4.mp3","n":"Cuối cùng, lỗi hay gặp là viết lệch dấu phẩy dẫn đến cộng nhầm hàng. Con hãy canh dấu phẩy thật thẳng nhé. Giỏi lắm!","h":"<div class='warnbox'><span class='lab'>⚠️ Hay sai</span>Viết lệch dấu phẩy → cộng nhầm hàng.</div>"}
+    ],
+    "4": [
+      {"a":"g5_l4_s1.mp3","n":"Chào con! Hôm nay mình học nhân số thập phân. Cách làm gồm hai bước: bước một là nhân như số tự nhiên, bước hai là đặt lại dấu phẩy.","h":"<div class='hook'>✖️ Nhân số thập phân: ① nhân như số tự nhiên ② đặt lại dấu phẩy.</div>"},
+      {"a":"g5_l4_s2.mp3","n":"Bước đầu tiên, ví dụ một phẩy hai nhân ba. Con bỏ dấu phẩy, nhân mười hai với ba bằng ba mươi sáu. Vì một phẩy hai có một chữ số sau dấu phẩy, nên kết quả cũng có một chữ số sau dấu phẩy, là ba phẩy sáu.","h":"<div class='exbox'><div style='text-align:left;display:inline-block'>12 × 3 = 36<br>1,2 có 1 chữ số sau phẩy → <b>3,6</b></div></div>"},
+      {"a":"g5_l4_s3.mp3","n":"Tiếp theo khó hơn: không phẩy hai nhân không phẩy ba. Nhân hai với ba bằng sáu. Tổng cộng có hai chữ số sau dấu phẩy, nên kết quả là không phẩy không sáu.","h":"<div class='exbox'><div style='text-align:left;display:inline-block'>2 × 3 = 6<br>2 chữ số sau phẩy → <b>0,06</b></div></div>"},
+      {"a":"g5_l4_s4.mp3","n":"Con nhớ quy tắc vàng: đếm tổng số chữ số sau dấu phẩy của hai thừa số, rồi kết quả có đúng bấy nhiêu chữ số sau dấu phẩy. Giỏi lắm!","h":"<div class='keybox'><span class='lab'>💡 Quy tắc vàng</span>Đếm tổng chữ số sau phẩy của 2 thừa số → đặt dấu phẩy.</div>"}
+    ],
+    "5": [
+      {"a":"g5_l5_s1.mp3","n":"Chào con! Hôm nay mình học chia số thập phân. Con chia bình thường, đến khi sang phần thập phân thì thêm dấu phẩy vào kết quả rồi chia tiếp.","h":"<div class='hook'>➗ Chia tới phần thập phân thì <b>thêm dấu phẩy vào kết quả</b> rồi chia tiếp.</div>"},
+      {"a":"g5_l5_s2.mp3","n":"Bước đầu tiên, ví dụ bốn phẩy tám chia hai. Bốn chia hai bằng hai, rồi đặt dấu phẩy, tám chia hai bằng bốn. Kết quả là hai phẩy bốn.","h":"<div class='exbox'><div class='bignum'>4,8 ÷ 2 = 2,4</div></div>"},
+      {"a":"g5_l5_s3.mp3","n":"Tiếp theo, khi số bị chia là số tròn. Sáu chia bốn không hết: con viết một, thêm dấu phẩy, rồi hạ về hai mươi chia bốn bằng năm. Kết quả là một phẩy năm.","h":"<div class='exbox'><div class='bignum'>6 ÷ 4 = 1,5</div></div>"},
+      {"a":"g5_l5_s4.mp3","n":"Con nhớ điều quan trọng: khi hạ tới phần thập phân, nhớ đặt dấu phẩy vào kết quả đúng lúc đó. Giỏi lắm, mình sang kiểm tra!","h":"<div class='keybox'><span class='lab'>💡 Ghi nhớ</span>Hạ tới phần thập phân → đặt dấu phẩy vào kết quả.</div>"}
+    ],
+    "6": [
+      {"a":"g5_l6_s1.mp3","n":"Chào con! Hôm nay mình học tỉ số phần trăm. Phần trăm nghĩa là so với một trăm phần. Ví dụ pin điện thoại năm mươi phần trăm là còn một nửa.","h":"<div class='hook'>％ Phần trăm = so với <b>100 phần</b>.</div>"},
+      {"a":"g5_l6_s2.mp3","n":"Bước đầu tiên, con hiểu: năm mươi phần trăm bằng năm mươi phần một trăm, chính là một nửa.","h":"<div class='exbox'><div class='bignum'>50% = 50/100 = 1/2</div></div>"},
+      {"a":"g5_l6_s3.mp3","n":"Tiếp theo, con tập đổi phân số ra phần trăm: một phần hai là năm mươi phần trăm, một phần tư là hai mươi lăm phần trăm, ba phần tư là bảy mươi lăm phần trăm.","h":"<div class='keybox'><span class='lab'>💡 Đổi</span>1/2 = 50% · 1/4 = 25% · 3/4 = 75%.</div>"},
+      {"a":"g5_l6_s4.mp3","n":"Cuối cùng, tìm phần trăm của một số. Ví dụ mười phần trăm của hai trăm: con lấy hai trăm chia một trăm rồi nhân mười, bằng hai mươi. Giỏi lắm!","h":"<div class='exbox'><div class='bignum'>10% của 200 = 20</div></div>"}
+    ],
+    "7": [
+      {"a":"g5_l7_s1.mp3","n":"Chào con! Hôm nay mình học diện tích tam giác và hình thang. Điều quan trọng nhất cần nhớ là cả hai công thức đều có bước chia hai ở cuối.","h":"<div class='hook'>🔺 Diện tích tam giác &amp; hình thang — nhớ <b>chia 2</b> ở cuối!</div>"},
+      {"a":"g5_l7_s2.mp3","n":"Bước đầu tiên là tam giác. Diện tích bằng đáy nhân chiều cao chia hai. Ví dụ đáy sáu, cao bốn: sáu nhân bốn bằng hai mươi tư, chia hai bằng mười hai.","h":"<div class='exbox'><svg viewBox='0 0 160 90' width='160'><polygon points='20,75 140,75 60,20' fill='#eef1ff' stroke='#4f6ef7' stroke-width='2'/><line x1='60' y1='75' x2='60' y2='20' stroke='#dc2626' stroke-dasharray='4 3'/><text x='95' y='88' font-size='11' font-weight='700'>đáy</text><text x='66' y='50' font-size='10' font-weight='700' fill='#dc2626'>cao</text></svg><div class='bignum'>S = đáy × cao ÷ 2</div></div>"},
+      {"a":"g5_l7_s3.mp3","n":"Tiếp theo là hình thang. Diện tích bằng đáy lớn cộng đáy bé, nhân chiều cao, rồi chia hai. Ví dụ hai đáy là năm và ba, cao bốn: năm cộng ba bằng tám, nhân bốn bằng ba mươi hai, chia hai bằng mười sáu.","h":"<div class='exbox'><div class='bignum'>S = (đáy lớn + đáy bé) × cao ÷ 2</div><div>(5+3)×4÷2 = 16</div></div>"},
+      {"a":"g5_l7_s4.mp3","n":"Con nhớ kỹ: cả hai công thức đều có bước chia hai ở cuối. Quên chia hai là sai gấp đôi đấy. Giỏi lắm!","h":"<div class='warnbox'><span class='lab'>⚠️ Đừng quên</span>Cả hai công thức đều <b>÷ 2</b> ở cuối!</div>"}
+    ],
+    "8": [
+      {"a":"g5_l8_s1.mp3","n":"Chào con! Hôm nay mình học về hình tròn. Hình tròn có hai số đặc biệt là bán kính và đường kính, cùng một con số kỳ diệu là pi, xấp xỉ ba phẩy mười bốn.","h":"<div class='hook'>⭕ Hình tròn: bán kính, đường kính, và số pi xấp xỉ <b>3,14</b>.</div>"},
+      {"a":"g5_l8_s2.mp3","n":"Bước đầu tiên, con nhớ: đường kính bằng hai lần bán kính. Đường kính đi qua tâm và nối hai mép của hình tròn.","h":"<div class='exbox'><svg viewBox='0 0 140 100' width='140'><circle cx='70' cy='50' r='40' fill='#fbeaf0' stroke='#d4537e' stroke-width='2'/><line x1='70' y1='50' x2='110' y2='50' stroke='#d4537e' stroke-width='2'/><circle cx='70' cy='50' r='3' fill='#d4537e'/><text x='88' y='45' font-size='12' font-weight='700'>r</text></svg><div>Đường kính = 2 × bán kính</div></div>"},
+      {"a":"g5_l8_s3.mp3","n":"Tiếp theo là hai công thức. Chu vi bằng đường kính nhân ba phẩy mười bốn. Diện tích bằng bán kính nhân bán kính nhân ba phẩy mười bốn.","h":"<div class='keybox'><span class='lab'>💡 Công thức</span>Chu vi = d × 3,14 · Diện tích = r × r × 3,14.</div>"},
+      {"a":"g5_l8_s4.mp3","n":"Cuối cùng, ví dụ bán kính một xăng-ti-mét: chu vi bằng hai nhân một nhân ba phẩy mười bốn, bằng sáu phẩy hai mươi tám. Giỏi lắm!","h":"<div class='exbox'><div>r = 1 → chu vi = 2 × 1 × 3,14 = 6,28 cm</div></div>"}
+    ],
+    "9": [
+      {"a":"g5_l9_s1.mp3","n":"Chào con! Hôm nay mình học về vận tốc. Đi nhanh hay chậm chính là vận tốc. Ba bạn vận tốc, quãng đường, thời gian luôn đi cùng nhau theo một công thức.","h":"<div class='hook'>🚗💨 Vận tốc = đi nhanh hay chậm.</div>"},
+      {"a":"g5_l9_s2.mp3","n":"Bước đầu tiên là công thức gốc: vận tốc bằng quãng đường chia thời gian. Ví dụ đi sáu mươi ki-lô-mét trong hai giờ, vận tốc bằng sáu mươi chia hai, là ba mươi ki-lô-mét một giờ.","h":"<div class='exbox'><div class='bignum'>Vận tốc = Quãng đường ÷ Thời gian</div><div>60 ÷ 2 = 30 km/giờ</div></div>"},
+      {"a":"g5_l9_s3.mp3","n":"Tiếp theo, từ công thức gốc con suy ra hai công thức kia. Quãng đường bằng vận tốc nhân thời gian. Thời gian bằng quãng đường chia vận tốc.","h":"<div class='keybox'><span class='lab'>💡 Suy ra</span>Quãng đường = v × t · Thời gian = s ÷ v.</div>"},
+      {"a":"g5_l9_s4.mp3","n":"Cuối cùng, một mẹo nhớ: con vẽ tam giác với quãng đường ở trên, vận tốc và thời gian ở dưới; che cái cần tìm là ra công thức. Giỏi lắm, mình sang kiểm tra!","h":"<div class='tipbox'><span class='lab'>✨ Mẹo nhớ</span>Tam giác s trên, v và t dưới — che cái cần tìm.</div>"}
+    ]
   }
 }
