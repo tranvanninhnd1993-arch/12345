@@ -532,6 +532,58 @@ function hard5(){const t=ri(0,3);
  if(t===2){const v=ri(5,12)*5,tm=ri(2,4),x=ri(3,20),s=v*tm+x;return mc('Một người đi xe '+v+' km/giờ trong '+tm+' giờ, rồi đi bộ thêm '+x+' km. Tổng cộng đi được mấy km?',s,numCands(s),v+' × '+tm+' + '+x+' = '+s+' km.')}
  const m=ri(20,60),a=m,b=m+5,c=m-5,arr=shuffle([a,b,c]);return mc('Ba ngày cửa hàng bán '+arr[0]+', '+arr[1]+', '+arr[2]+' kg. Trung bình mỗi ngày bán mấy kg?',m,numCands(m),'Tổng '+(a+b+c)+' ÷ 3 = '+m+'.')}
 const HARD={2:hard2,3:hard3,4:hard4,5:hard5};
+/* ===== BÀI TOÁN CÓ LỜI VĂN theo từng bài (đọc hiểu mới giải được) ===== */
+const WORD={
+ 2:[
+  function(){const N=nm(),t=ri(2,9),u=ri(1,9),s=t*10+u;return mc(N+' có '+t+' bó chục que tính và '+u+' que lẻ. '+N+' có tất cả bao nhiêu que tính?',s,numCands(s),t+' chục + '+u+' = '+s+' que.')},
+  function(){const N=nm(),a=ri(5,9),b=ri(4,9),s=a+b;return mc(N+' có '+a+' cái kẹo, được mẹ cho thêm '+b+' cái. '+N+' có tất cả mấy cái kẹo?',s,numCands(s),a+' + '+b+' = '+s+'.')},
+  function(){const N=nm(),a=ri(11,18),b=ri(3,Math.min(9,a-2)),s=a-b;return mc(N+' có '+a+' quả táo, ăn mất '+b+' quả. '+N+' còn lại mấy quả?',s,numCands(s),a+' − '+b+' = '+s+'.')},
+  function(){if(ri(0,1)){const a=ri(3,15),b=ri(3,15),s=a+b;return mc('Mẹ mua '+a+' kg gạo và '+b+' kg ngô. Tất cả nặng bao nhiêu ki-lô-gam?',s+' kg',numCands(s).map(function(x){return x+' kg'}),a+' + '+b+' = '+s+' kg.')}const a=ri(3,9),b=ri(2,8),s=a+b;return mc('Có '+a+' lít nước và '+b+' lít sữa rót chung vào thùng. Thùng có mấy lít?',s+' lít',numCands(s).map(function(x){return x+' lít'}),a+' + '+b+' = '+s+' lít.')},
+  function(){if(ri(0,1)){const a=ri(15,60),b=ri(15,40),s=a+b;return mc('Lớp 2A có '+a+' bạn, lớp 2B có '+b+' bạn. Cả hai lớp có mấy bạn?',s,numCands(s),a+' + '+b+' = '+s+'.')}const a=ri(40,99),b=ri(15,a-5),s=a-b;return mc('Cửa hàng có '+a+' cái bánh, đã bán '+b+' cái. Cửa hàng còn lại mấy cái?',s,numCands(s),a+' − '+b+' = '+s+'.')},
+  function(){const x=ri(2,6),s=x*3;return mc(nm()+' vẽ '+x+' hình tam giác. Tất cả có bao nhiêu cạnh?',s,numCands(s),x+' tam giác × 3 cạnh = '+s+' cạnh.')},
+  function(){const h=ri(1,9),k=ri(1,3),r=h+k;return mc('Bây giờ là '+h+' giờ. Sau '+k+' giờ nữa là mấy giờ?',r+' giờ',numCands(r).map(function(x){return x+' giờ'}),h+' + '+k+' = '+r+' giờ.')},
+  function(){const b=pick([2,5]),a=ri(2,9),s=a*b;return mc('Có '+a+' đĩa, mỗi đĩa '+b+' cái bánh. Tất cả có bao nhiêu cái bánh?',s,numCands(s),a+' × '+b+' = '+s+'.')},
+  function(){const b=pick([2,5]),q=ri(2,9),p=b*q;return mc('Có '+p+' cái kẹo chia đều cho '+b+' bạn. Mỗi bạn được mấy cái?',q,numCands(q),p+' ÷ '+b+' = '+q+'.')},
+  function(){const h=ri(1,9),t=ri(0,9),u=ri(0,9),s=h*100+t*10+u;return mc('Một thùng có '+h+' trăm, '+t+' chục và '+u+' viên bi. Tất cả có mấy viên bi?',s,numCands(s),'= '+s+' viên.')}
+ ],
+ 3:[
+  function(){const h=ri(1,9),t=ri(0,9),u=ri(0,9),s=h*100+t*10+u;return mc('Cửa hàng có '+h+' trăm, '+t+' chục và '+u+' quyển vở lẻ. Tất cả có mấy quyển vở?',s,numCands(s),'= '+s+' quyển.')},
+  function(){const a=ri(3,9),b=ri(3,9),s=a*b;return mc('Có '+a+' túi, mỗi túi '+b+' viên bi. Tất cả có bao nhiêu viên bi?',s,numCands(s),a+' × '+b+' = '+s+'.')},
+  function(){const d=pick([2,3,4,5]),q=ri(2,8),n=d*q;return mc('Lớp có '+n+' bạn, trong đó một phần '+d+' số bạn là nữ. Lớp có mấy bạn nữ?',q,numCands(q),n+' ÷ '+d+' = '+q+' bạn.')},
+  function(){const a=ri(11,50),b=ri(2,9),s=a*b;return mc('Mỗi xe buýt chở '+a+' người. Có '+b+' xe như vậy thì chở được bao nhiêu người?',s,numCands(s).concat([s+10,s-10]),a+' × '+b+' = '+s+' người.')},
+  function(){const b=ri(2,8),q=ri(6,20),p=b*q;return mc('Có '+p+' học sinh xếp đều thành '+b+' hàng. Mỗi hàng có mấy bạn?',q,numCands(q),p+' ÷ '+b+' = '+q+'.')},
+  function(){const a=ri(1,9),b=ri(0,9),c=ri(0,9),d=ri(0,9),s=a*1000+b*100+c*10+d;return mc('Một sân vận động có '+a+' nghìn, '+b+' trăm, '+c+' chục và '+d+' khán giả lẻ. Tất cả bao nhiêu người?',s,numCands(s),'= '+grp(s)+' người.')},
+  function(){const h=ri(6,9),m=pick([10,15,20,30]);return mc(nm()+' bắt đầu học lúc '+h+' giờ, học '+m+' phút thì nghỉ. '+nm()+' nghỉ lúc mấy giờ mấy phút?',h+' giờ '+m+' phút',[h+' giờ '+m+' phút',h+' giờ '+(m+5)+' phút',(h+1)+' giờ '+m+' phút',h+' giờ '+(m>5?m-5:m+10)+' phút'],h+' giờ + '+m+' phút = '+h+' giờ '+m+' phút.')},
+  function(){const a=ri(2,4),b=ri(1,3),s=a*3+b*4;return mc(nm()+' vẽ '+a+' hình tam giác và '+b+' hình tứ giác. Tất cả có bao nhiêu cạnh?',s,numCands(s),a+'×3 + '+b+'×4 = '+s+' cạnh.')},
+  function(){const d=ri(4,15),r=ri(2,d-1),p=(d+r)*2;return mc('Mảnh vườn hình chữ nhật dài '+d+' m, rộng '+r+' m. Chu vi mảnh vườn là bao nhiêu mét?',p+' m',numCands(p).map(function(x){return x+' m'}),'('+d+'+'+r+')×2 = '+p+' m.')},
+  function(){const d=ri(3,15),r=ri(2,9),a=d*r;return mc('Nền nhà hình chữ nhật dài '+d+' m, rộng '+r+' m. Diện tích nền nhà là bao nhiêu mét vuông?',a+' m²',numCands(a).map(function(x){return x+' m²'}),d+'×'+r+' = '+a+' m².')}
+ ],
+ 4:[
+  function(){const a=ri(1,9),b=ri(0,9),c=ri(0,9),d=ri(0,9),e=ri(0,9),f=ri(0,9),n=((((a*10+b)*10+c)*10+d)*10+e)*10+f;return mc('Một thành phố có '+a+' trăm nghìn, '+b+' chục nghìn, '+c+' nghìn, '+d+' trăm, '+e+' chục và '+f+' người. Dân số viết thành số là?',grp(n),numCands(n).map(grp),'= '+grp(n)+'.')},
+  function(){if(ri(0,1)){const a=ri(2000,8000),b=ri(1500,6000),s=a+b;return mc('Năm ngoái xã trồng '+grp(a)+' cây, năm nay trồng '+grp(b)+' cây. Cả hai năm trồng bao nhiêu cây?',grp(s),numCands(s).map(grp),grp(a)+' + '+grp(b)+' = '+grp(s)+'.')}const a=ri(5000,9999),b=ri(1500,a-500),s=a-b;return mc('Kho có '+grp(a)+' kg gạo, đã xuất bán '+grp(b)+' kg. Kho còn lại bao nhiêu kg?',grp(s),numCands(s).map(grp),grp(a)+' − '+grp(b)+' = '+grp(s)+'.')},
+  function(){const a=ri(15,60),b=ri(11,30),s=a*b;return mc('Mỗi thùng có '+a+' chai nước. Có '+b+' thùng thì có tất cả bao nhiêu chai?',s,numCands(s).concat([s+10,s-10,s+100]),a+' × '+b+' = '+s+'.')},
+  function(){const b=ri(11,25),q=ri(4,20),p=b*q;return mc('Có '+p+' quyển vở chia đều cho '+b+' lớp. Mỗi lớp được mấy quyển?',q,numCands(q),p+' ÷ '+b+' = '+q+'.')},
+  function(){const k=pick([2,5,9,3]);if(ri(0,1)){const n=k*ri(3,12);return mcRaw('Có '+n+' cái bánh chia đều cho '+k+' bạn. Có chia hết không?','Có, chia hết',['Có, chia hết','Không, còn dư','Không biết','Vừa hết vừa dư'],n+' ÷ '+k+' chia hết.')}const n=k*ri(3,12)+ri(1,k-1);return mcRaw('Có '+n+' cái bánh chia đều cho '+k+' bạn. Có chia hết không?','Không, còn dư',['Không, còn dư','Có, chia hết','Không biết','Chia hết, dư 0'],n+' không chia hết cho '+k+' (còn dư).')},
+  function(){const base=pick([[1,2],[1,3],[2,3],[3,4],[1,4]]),m=ri(2,4),t=base[0]*m,d=base[1]*m;return mcRaw(nm()+' ăn '+t+'/'+d+' cái bánh. Rút gọn phân số '+t+'/'+d+' được phân số nào?',base[0]+'/'+base[1],[base[0]+'/'+base[1],t+'/'+(d-1),(base[0]+1)+'/'+base[1],base[1]+'/'+base[0]],'Chia tử và mẫu cho '+m+' → '+base[0]+'/'+base[1]+'.')},
+  function(){const d=ri(4,9);let a=ri(1,d-1),b=ri(1,d-1);while(a===b){a=ri(1,d-1);b=ri(1,d-1)}const big=Math.max(a,b);return mcRaw('An ăn '+a+'/'+d+' cái bánh, Bình ăn '+b+'/'+d+' cái bánh giống hệt. Ai ăn nhiều hơn?',(big===a?'An':'Bình')+' ăn nhiều hơn',['An ăn nhiều hơn','Bình ăn nhiều hơn','Hai bạn bằng nhau','Không biết'],'Cùng mẫu, '+big+'/'+d+' lớn hơn → '+(big===a?'An':'Bình')+'.')},
+  function(){const d=ri(4,9),a=ri(1,d-2),b=ri(1,d-1-a),s=a+b;return mcRaw(nm()+' ăn '+a+'/'+d+' cái bánh buổi sáng và '+b+'/'+d+' cái buổi chiều. Cả ngày '+nm()+' ăn mấy phần bánh?',s+'/'+d,[s+'/'+d,(a+b)+'/'+(2*d),a+'/'+d,(s+1)+'/'+d],a+'/'+d+' + '+b+'/'+d+' = '+s+'/'+d+'.')},
+  function(){const b=ri(2,6);return mcRaw('Một sợi dây dài 1 mét được cắt thành '+b+' phần bằng nhau. Mỗi phần dài bao nhiêu mét?','1/'+b,['1/'+b,'1/'+(b+1),''+b,'1/'+(b>2?b-1:b+2)],'1 ÷ '+b+' = 1/'+b+' mét.')},
+  function(){const t=ri(0,2);if(t===0)return mcRaw(nm()+' gấp một hình có 4 cạnh bằng nhau nhưng không có góc vuông. Đó là hình gì?','Hình thoi',['Hình thoi','Hình vuông','Hình tròn','Tam giác'],'4 cạnh bằng nhau, không góc vuông → hình thoi.');if(t===1)return mcRaw('Cánh cửa mở hé tạo thành một góc nhỏ hơn góc vuông. Đó là góc gì?','Góc nhọn',['Góc nhọn','Góc tù','Góc bẹt','Góc vuông'],'Nhỏ hơn góc vuông → góc nhọn.');return mcRaw('Tấm bảng có hai cặp cạnh đối song song và bằng nhau. Tấm bảng có dạng hình gì?','Hình bình hành',['Hình bình hành','Tam giác','Hình tròn','Hình thoi'],'2 cặp cạnh đối song song → hình bình hành.')}
+ ],
+ 5:[
+  function(){const d=ri(4,9),a=ri(1,d-2),b=ri(1,d-1-a),s=a+b;return mcRaw('Một cái bánh chia thành '+d+' phần bằng nhau. An ăn '+a+' phần, Bình ăn '+b+' phần. Cả hai ăn mấy phần '+d+'?',s+'/'+d,[s+'/'+d,(a+b)+'/'+(2*d),a+'/'+d,(s+1)+'/'+d],a+'/'+d+' + '+b+'/'+d+' = '+s+'/'+d+'.')},
+  function(){const a=ri(1,9),b=ri(1,9);return mc('Cây bút chì dài '+a+','+b+' cm. Phần nguyên của số đo đó là mấy xăng-ti-mét?',a,[a,b,a*10+b,a+b],'Phần trước dấu phẩy = '+a+' cm.')},
+  function(){let a=ri(11,18),b=ri(11,18);while(a===b){a=ri(11,18);b=ri(11,18)}const big=Math.max(a,b);return mcRaw('An cao '+fmt1(a)+' m, Bình cao '+fmt1(b)+' m. Bạn nào cao hơn?',(big===a?'An':'Bình')+' cao hơn',['An cao hơn','Bình cao hơn','Hai bạn bằng nhau','Không biết'],fmt1(big)+' m cao hơn → '+(big===a?'An':'Bình')+'.')},
+  function(){if(ri(0,1)){const a=ri(11,59),b=ri(11,49),s=a+b;return mc(nm()+' mua '+fmt1(a)+' kg gạo và '+fmt1(b)+' kg đường. Tất cả nặng bao nhiêu ki-lô-gam?',fmt1(s)+' kg',[fmt1(s+1)+' kg',fmt1(s-1)+' kg',fmt1(s+10)+' kg',fmt1(s+2)+' kg'],fmt1(a)+' + '+fmt1(b)+' = '+fmt1(s)+' kg.')}const a=ri(30,99),b=ri(11,a-5),s=a-b;return mc('Một can có '+fmt1(a)+' lít nước, đã dùng '+fmt1(b)+' lít. Trong can còn lại mấy lít?',fmt1(s)+' lít',[fmt1(s+1)+' lít',fmt1(s-1)+' lít',fmt1(s+10)+' lít',fmt1(s+2)+' lít'],fmt1(a)+' − '+fmt1(b)+' = '+fmt1(s)+' lít.')},
+  function(){const a=ri(11,29),k=ri(2,5),s=a*k;return mc('Một lít xăng giá '+fmt1(a)+' nghìn đồng. Mua '+k+' lít xăng hết bao nhiêu nghìn đồng?',fmt1(s)+' nghìn',[fmt1(s+1)+' nghìn',fmt1(s-1)+' nghìn',fmt1(s+10)+' nghìn',fmt1(s+5)+' nghìn'],fmt1(a)+' × '+k+' = '+fmt1(s)+' nghìn.')},
+  function(){const q=ri(11,49),d=ri(2,5),p=q*d;return mc('Có '+fmt1(p)+' kg gạo chia đều vào '+d+' túi. Mỗi túi có bao nhiêu ki-lô-gam?',fmt1(q)+' kg',[fmt1(q+1)+' kg',fmt1(q-1)+' kg',fmt1(q+10)+' kg',fmt1(q+2)+' kg'],fmt1(p)+' ÷ '+d+' = '+fmt1(q)+' kg.')},
+  function(){const p=pick([10,25,50,20]),base=p===25?4:p===20?5:p===10?10:2,N=base*ri(3,9),s=N*p/100;return mc('Lớp có '+N+' bạn, trong đó '+p+'% là học sinh giỏi. Lớp có mấy bạn học sinh giỏi?',s,numCands(s),p+'% của '+N+' = '+s+' bạn.')},
+  function(){let b=ri(2,12),h=ri(2,10);if((b*h)%2)h=h<10?h+1:h-1;const a=b*h/2;return mc('Một tấm biển hình tam giác có đáy '+b+' m và chiều cao '+h+' m. Diện tích tấm biển là bao nhiêu mét vuông?',a+' m²',numCands(a).map(function(x){return x+' m²'}),b+'×'+h+'÷2 = '+a+' m².')},
+  function(){const r=ri(2,12),d=2*r;return mc('Một bánh xe có bán kính '+r+' cm. Đường kính bánh xe là bao nhiêu xăng-ti-mét?',d+' cm',numCands(d).map(function(x){return x+' cm'}),'2 × '+r+' = '+d+' cm.')},
+  function(){const v=ri(2,12)*5,t=ri(2,5),s=v*t;return mc('Một ô tô đi được '+s+' km trong '+t+' giờ. Vận tốc của ô tô là bao nhiêu?',v+' km/giờ',numCands(v).map(function(x){return x+' km/giờ'}),s+' ÷ '+t+' = '+v+' km/giờ.')}
+ ]
+};
+function wordFor(idx){if(idx<0||idx>=CUR.lessons.length)return null;const w=WORD[activeGrade]&&WORD[activeGrade][idx];return w?w():null}
 function genFor(idx){
   if(idx<0||idx>=CUR.lessons.length)return null;
   const g=GEN[activeGrade]&&GEN[activeGrade][idx];if(g)return g();
@@ -541,11 +593,12 @@ function buildQuiz(idx){
   const out=[],seen={};
   function take(fn,n){let c=0,tr=0;while(c<n&&tr<n*10){const q=fn();tr++;if(q&&!seen[q.q]){seen[q.q]=1;out.push(q);c++}}}
   const hard=HARD[activeGrade];
+  take(function(){return wordFor(idx)},8);               // 8 bài toán có lời văn của bài này
   if(hard)take(function(){return hard(idx)},5);          // 5 câu vận dụng nhiều bước
-  if(idx-1>=0)take(function(){return genFor(idx-1)},4);  // 4 câu ôn bài trước
+  if(idx-1>=0)take(function(){return genFor(idx-1)},3);  // 3 câu ôn bài trước
   if(idx-2>=0)take(function(){return genFor(idx-2)},2);  // 2 câu ôn bài trước nữa
-  take(function(){return genFor(idx)},QPER-out.length);  // còn lại: bài hiện tại
-  let guard=0;while(out.length<QPER&&guard++<QPER*4){const q=genFor(idx)||(hard?hard(idx):null);if(q)out.push(q);else break}
+  take(function(){return genFor(idx)},QPER-out.length);  // còn lại: luyện tính bài hiện tại
+  let guard=0;while(out.length<QPER&&guard++<QPER*4){const q=genFor(idx)||wordFor(idx)||(hard?hard(idx):null);if(q)out.push(q);else break}
   shuffle(out);return out.slice(0,QPER);
 }
 
