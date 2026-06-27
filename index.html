@@ -407,7 +407,7 @@ function pick(a){return a[ri(0,a.length-1)]}
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=ri(0,i),t=a[i];a[i]=a[j];a[j]=t}return a}
 function numCands(ans){return shuffle([ans+1,ans-1,ans+2,ans-2,ans+10,ans-10,ans+3].filter(x=>x>=0&&x!==ans))}
 function mc(q,correct,cands,explain){correct=''+correct;const o=[correct];for(const c of(cands||[])){const s=''+c;if(s&&o.indexOf(s)<0){o.push(s);if(o.length>=4)break}}let p=1;while(o.length<4){const n=parseFloat(correct),cand=isNaN(n)?'—'+p:''+(n+p);if(o.indexOf(cand)<0)o.push(cand);if(++p>300)break}shuffle(o);return{q,options:o.slice(0,4),correct:o.indexOf(correct),explain:explain||('Đáp án: '+correct)}}
-function mcRaw(q,correct,opts,explain){let o=[];for(const x of opts){const s=''+x;if(o.indexOf(s)<0)o.push(s)}shuffle(o);o=o.slice(0,4);return{q,options:o,correct:o.indexOf(''+correct),explain}}
+function mcRaw(q,correct,opts,explain){const cs=''+correct;let o=[cs];for(const x of opts){const s=''+x;if(o.indexOf(s)<0)o.push(s)}let g=0;while(o.length<4&&g++<300){let cand=null;const fm=cs.match(/^(-?\d+)\/(\d+)$/);if(fm)cand=fm[1]+'/'+((+fm[2])+ri(1,6));else if(/^-?\d+$/.test(cs))cand=''+(parseInt(cs,10)+(ri(0,1)?1:-1)*ri(1,9));if(cand===null)break;if(o.indexOf(cand)<0)o.push(cand)}o=o.slice(0,4);shuffle(o);return{q,options:o,correct:o.indexOf(cs),explain}}
 function fmt1(t){const sg=t<0?'-':'';t=Math.abs(t);const w=Math.floor(t/10),d=t%10;return sg+(d===0?''+w:w+','+d)}
 function qPlus(a1,a2,b1,b2){const a=ri(a1,a2),b=ri(b1,b2),s=a+b;return mc(a+' + '+b+' = ?',s,numCands(s),a+' + '+b+' = '+s+'.')}
 function qMinusRange(min,max,smin,smax){let a=ri(min,max),b=ri(smin,Math.min(smax,Math.max(smin,a-1)));if(b>a)b=a;const s=a-b;return mc(a+' − '+b+' = ?',s,numCands(s),a+' − '+b+' = '+s+'.')}
@@ -462,11 +462,51 @@ function qSpeed(){const v=ri(2,12)*5,tm=ri(2,5),s=v*tm,t=ri(0,2);
  if(t===0)return mc('Đi '+s+' km trong '+tm+' giờ, vận tốc là?',v+' km/giờ',numCands(v).map(x=>x+' km/giờ'),s+' ÷ '+tm+' = '+v+' km/giờ.');
  if(t===1)return mc('Vận tốc '+v+' km/giờ, đi '+tm+' giờ được bao nhiêu km?',s+' km',numCands(s).map(x=>x+' km'),v+' × '+tm+' = '+s+' km.');
  return mc('Đi '+s+' km với vận tốc '+v+' km/giờ thì hết mấy giờ?',tm+' giờ',numCands(tm).map(x=>x+' giờ'),s+' ÷ '+v+' = '+tm+' giờ.')}
+/* ----- bộ sinh cho các bài khái niệm (trước đây cố định, dễ nhớ đáp án) ----- */
+function grp(n){return (''+n).replace(/\B(?=(\d{3})+(?!\d))/g,' ')}
+function qKgLit(){const t=ri(0,4);
+ if(t===0){let a=ri(2,20),b=ri(2,20);while(b===a)b=ri(2,20);const big=Math.max(a,b);return mcRaw('Bao gạo '+a+' kg và bao gạo '+b+' kg, bao nào nặng hơn?','Bao '+big+' kg',['Bao '+a+' kg','Bao '+b+' kg','Bằng nhau','Không biết'],big+' kg nặng hơn '+Math.min(a,b)+' kg.')}
+ if(t===1){let a=ri(1,10),b=ri(1,10);while(b===a)b=ri(1,10);const big=Math.max(a,b);return mcRaw('Can '+a+' lít và can '+b+' lít nước, can nào nhiều nước hơn?','Can '+big+' lít',['Can '+a+' lít','Can '+b+' lít','Bằng nhau','Không biết'],big+' lít nhiều hơn '+Math.min(a,b)+' lít.')}
+ if(t===2)return mcRaw('Đơn vị nào dùng để đo vật nặng hay nhẹ?','Ki-lô-gam',['Ki-lô-gam','Lít','Mét','Giờ'],'Khối lượng đo bằng ki-lô-gam (kg).');
+ if(t===3)return mcRaw('Đơn vị nào dùng để đo nước nhiều hay ít?','Lít',['Lít','Ki-lô-gam','Xăng-ti-mét','Đồng'],'Dung tích đo bằng lít (l).');
+ const pr=pick([['Con voi','Quả táo'],['Bao xi măng','Cái bút chì'],['Tủ lạnh','Quả trứng'],['Con bò','Chiếc lá'],['Cặp sách đầy','Cục tẩy']]);return mcRaw('Vật nào thường NẶNG hơn?',pr[0],[pr[0],pr[1],'Bằng nhau','Không biết'],pr[0]+' nặng hơn '+pr[1]+'.')}
+function qShape2(){const t=ri(0,5);
+ if(t===0)return mcRaw('Hình tam giác có mấy cạnh?','3',['2','3','4','5'],'Tam giác có 3 cạnh.');
+ if(t===1)return mcRaw('Hình tứ giác có mấy cạnh?','4',['3','4','5','6'],'Tứ giác có 4 cạnh.');
+ if(t===2)return mcRaw('Hình nào có 4 cạnh bằng nhau và 4 góc vuông?','Hình vuông',['Hình vuông','Hình tròn','Tam giác','Hình chữ nhật'],'Hình vuông: 4 cạnh bằng nhau, 4 góc vuông.');
+ if(t===3)return mcRaw('Một đoạn thẳng có mấy điểm ở hai đầu?','2',['1','2','3','4'],'Đoạn thẳng có 2 đầu mút.');
+ if(t===4)return mcRaw('Hình nào KHÔNG có cạnh thẳng?','Hình tròn',['Hình tròn','Tam giác','Hình vuông','Hình chữ nhật'],'Hình tròn không có cạnh thẳng.');
+ const n=pick([['Tam giác','3'],['Hình vuông','4'],['Hình chữ nhật','4'],['Hình tứ giác','4']]);return mcRaw('Hình '+n[0]+' có mấy cạnh?',n[1],['2','3','4','5'],n[0]+' có '+n[1]+' cạnh.')}
+function qShape3(){const t=ri(0,4);
+ if(t===0)return mcRaw('Hình chữ nhật có mấy góc vuông?','4',['1','2','3','4'],'Hình chữ nhật có 4 góc vuông.');
+ if(t===1)return mcRaw('Hình vuông có mấy cạnh bằng nhau?','4',['2','3','4','0'],'Hình vuông có 4 cạnh bằng nhau.');
+ if(t===2)return mcRaw('Dụng cụ nào dùng để kiểm tra góc vuông?','Ê ke',['Ê ke','Com-pa','Thước dây','Bút chì'],'Dùng ê ke để kiểm tra góc vuông.');
+ if(t===3){const n=pick([['Tam giác','3'],['Tứ giác','4'],['Hình vuông','4'],['Hình chữ nhật','4']]);return mcRaw(n[0]+' có mấy cạnh?',n[1],['3','4','5','6'],n[0]+' có '+n[1]+' cạnh.')}
+ return mcRaw('Vật nào có góc vuông?','Góc quyển vở',['Góc quyển vở','Quả bóng','Mặt trăng','Sợi dây cong'],'Góc quyển vở, góc bàn là góc vuông.')}
+function qPlaceBig(){const t=ri(0,2);
+ if(t===0){let n=ri(100000,999999),m=ri(100000,999999);while(m===n)m=ri(100000,999999);const big=Math.max(n,m);return mcRaw('Số nào lớn hơn: '+grp(n)+' hay '+grp(m)+'?',grp(big),[grp(n),grp(m),'Bằng nhau','Không biết'],grp(big)+' lớn hơn.')}
+ if(t===1){const n=ri(10000,999998),v=n+1;return mc('Số liền sau của '+grp(n)+' là?',grp(v),[grp(n-1),grp(n+2),grp(n+10)],grp(n)+' + 1 = '+grp(v)+'.')}
+ const a=ri(1,9),b=ri(0,9),c=ri(0,9),d=ri(0,9),e=ri(0,9),f=ri(0,9),n=((((a*10+b)*10+c)*10+d)*10+e)*10+f;return mc('Số gồm '+a+' trăm nghìn, '+b+' chục nghìn, '+c+' nghìn, '+d+' trăm, '+e+' chục, '+f+' đơn vị là?',grp(n),numCands(n).map(grp),'= '+grp(n)+'.')}
+function qShape4(){const t=ri(0,4);
+ if(t===0)return mcRaw('Góc nào nhỏ hơn góc vuông?','Góc nhọn',['Góc nhọn','Góc tù','Góc bẹt','Góc vuông'],'Góc nhọn nhỏ hơn góc vuông.');
+ if(t===1)return mcRaw('Góc nào lớn hơn góc vuông?','Góc tù',['Góc tù','Góc nhọn','Góc vuông','Không có'],'Góc tù lớn hơn góc vuông.');
+ if(t===2)return mcRaw('Góc bẹt bằng mấy góc vuông?','2',['1','2','3','4'],'Góc bẹt = 2 góc vuông (một đường thẳng).');
+ if(t===3)return mcRaw('Hình thoi có mấy cạnh bằng nhau?','4',['2','3','4','0'],'Hình thoi có 4 cạnh bằng nhau.');
+ return mcRaw('Hình nào có hai cặp cạnh đối song song?','Hình bình hành',['Hình bình hành','Tam giác','Hình tròn','Đường thẳng'],'Hình bình hành có 2 cặp cạnh đối song song.')}
+function qDecConcept(){const t=ri(0,2);
+ if(t===0){const a=ri(1,9),b=ri(1,9);return mc('Số '+a+','+b+' có phần nguyên là mấy?',a,[a,b,a*10+b,0],'Phần trước dấu phẩy là phần nguyên = '+a+'.')}
+ if(t===1){const a=ri(1,9),b=ri(1,9);return mcRaw('Trong số '+a+','+b+', chữ số '+b+' (sau dấu phẩy) ở hàng nào?','Phần mười',['Phần mười','Phần trăm','Đơn vị','Phần nghìn'],'Chữ số đầu sau dấu phẩy là hàng phần mười.')}
+ const fr=pick([['1/10','0,1',['1,0','0,10','10']],['1/2','0,5',['0,2','5,0','0,05']],['1/4','0,25',['0,4','0,5','2,5']],['1/5','0,2',['0,5','0,02','2,0']],['3/4','0,75',['0,34','0,57','7,5']]]);return mcRaw('Phân số '+fr[0]+' viết thành số thập phân là?',fr[1],[fr[1]].concat(fr[2]),fr[0]+' = '+fr[1]+'.')}
+function qCircle(){const t=ri(0,3);
+ if(t===0){const r=ri(2,12);return mc('Hình tròn bán kính '+r+' cm có đường kính bằng?',2*r+' cm',numCands(2*r).map(x=>x+' cm'),'Đường kính = 2 × '+r+' = '+(2*r)+' cm.')}
+ if(t===1){const r=ri(2,12),d=2*r;return mc('Hình tròn đường kính '+d+' cm có bán kính bằng?',r+' cm',numCands(r).map(x=>x+' cm'),'Bán kính = '+d+' ÷ 2 = '+r+' cm.')}
+ if(t===2)return mcRaw('Chu vi hình tròn tính theo công thức nào?','đường kính × 3,14',['đường kính × 3,14','bán kính × 3,14','đường kính × 2','cạnh × 4'],'Chu vi = đường kính × 3,14.');
+ return mcRaw('Số pi (π) xấp xỉ bằng bao nhiêu?','3,14',['3,14','1,34','3,41','2,14'],'π ≈ 3,14.')}
 const GEN={
- 2:[qPV2,()=>qPlus(6,9,4,9),()=>qMinusRange(11,18,4,9),null,qAddSub2,null,qClock,()=>qMul([2,5],9),()=>qDiv([2,5],9),qPV3],
- 3:[qPV3,()=>qMulDiv([3,4,6,7,8,9],9),qFracOf,qMulBig,qDivBig,qPV4,qClockMin,null,qPerim,qArea],
- 4:[null,qAddSubBig,qMul2,qDiv2,qDivisible,qFracReduce,qFracCompare,qFracAddSame,qFracMul,null],
- 5:[qFracMix,null,qDecCompare,qDecAddSub,qDecMul,qDecDiv,qPercent,qTriTrap,null,qSpeed]
+ 2:[qPV2,()=>qPlus(6,9,4,9),()=>qMinusRange(11,18,4,9),qKgLit,qAddSub2,qShape2,qClock,()=>qMul([2,5],9),()=>qDiv([2,5],9),qPV3],
+ 3:[qPV3,()=>qMulDiv([3,4,6,7,8,9],9),qFracOf,qMulBig,qDivBig,qPV4,qClockMin,qShape3,qPerim,qArea],
+ 4:[qPlaceBig,qAddSubBig,qMul2,qDiv2,qDivisible,qFracReduce,qFracCompare,qFracAddSame,qFracMul,qShape4],
+ 5:[qFracMix,qDecConcept,qDecCompare,qDecAddSub,qDecMul,qDecDiv,qPercent,qTriTrap,qCircle,qSpeed]
 };
 /* ----- câu vận dụng nhiều bước (bài toán thực tế) ----- */
 const NAMES=['An','Bình','Lan','Mai','Nam','Hoa','Tú','Linh','Khoa','Vy'];
