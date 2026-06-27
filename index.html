@@ -332,6 +332,7 @@ if(progress.v!==2){progress={currentIndex:0,results:{},totalStars:0,v:2}}
 if(!progress.learns||typeof progress.learns!=='object')progress.learns={};
 const SKIP_AFTER=5; /* tu lan hoc thu 5 moi hien nut "lam kiem tra" */
 let learnGateUnlocked=true; /* false = phai nghe het bai giang moi vao kiem tra */
+let testTimer=null; /* dong ho dem nguoc bai kiem tra */
 function saveProfile(){LS.set('gsai_profile',profile)}
 function saveProg(){LS.set('gsai_progress',progress)}
 function saveSettings(){LS.set('gsai_settings',settings);checkKey()}
@@ -401,7 +402,7 @@ function shapesSVG(){
 }
 
 /* ===== BỘ SINH CÂU HỎI (30 câu/bài, đề đổi mỗi lần) ===== */
-const QPER=30, PASS_RATIO=0.9;
+const QPER=30, PASS_RATIO=0.8, TEST_SECONDS=30*60;
 function ri(a,b){return Math.floor(Math.random()*(b-a+1))+a}
 function pick(a){return a[ri(0,a.length-1)]}
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=ri(0,i),t=a[i];a[i]=a[j];a[j]=t}return a}
@@ -1888,12 +1889,15 @@ function initTestPane(idx){
 function renderTest(idx){
   const quiz=buildQuiz(idx);const area=document.getElementById('testArea');document.getElementById('startTest').style.display='none';
   const sel=new Array(quiz.length).fill(-1);
-  let html='';
+  let html='<div id="testTimer" style="position:sticky;top:6px;z-index:5;background:#4f6ef7;color:#fff;font-weight:800;font-size:18px;text-align:center;padding:10px 12px;border-radius:12px;margin-bottom:14px;box-shadow:0 4px 14px rgba(79,110,247,.3)">⏱ 30:00</div>';
   quiz.forEach((q,i)=>{html+='<div class="quiz-q" data-q="'+i+'"><div class="qt">Câu '+(i+1)+'. '+esc(q.q)+'</div>';q.options.forEach((op,j)=>{html+='<label class="opt" data-opt="'+j+'"><input type="radio" name="q'+i+'"><span class="lt">'+String.fromCharCode(65+j)+'.</span><span>'+esc(op)+'</span></label>'});html+='<div class="explain"></div></div>'});
   html+='<button class="btn big" id="submitTest" style="margin-top:6px">Nộp bài</button>';
   area.innerHTML=html;
   area.querySelectorAll('.quiz-q').forEach((qel,i)=>qel.querySelectorAll('.opt').forEach(opt=>opt.onclick=()=>{if(qel.classList.contains('graded'))return;qel.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel'));opt.classList.add('sel');opt.querySelector('input').checked=true;sel[i]=parseInt(opt.dataset.opt)}));
-  document.getElementById('submitTest').onclick=()=>{
+  let submitted=false;
+  function doSubmit(timedOut){
+    if(submitted)return;submitted=true;
+    if(testTimer){clearInterval(testTimer);testTimer=null;}
     let correct=0;const wrongs=[];
     area.querySelectorAll('.quiz-q').forEach((qel,i)=>{
       qel.classList.add('graded');const q=quiz[i];
@@ -1903,9 +1907,24 @@ function renderTest(idx){
       else wrongs.push({q:'Câu '+(i+1)+'. '+q.q,chosen:sel[i]>=0?(String.fromCharCode(65+sel[i])+'. '+q.options[sel[i]]):null,correct:String.fromCharCode(65+q.correct)+'. '+q.options[q.correct],explain:q.explain});
     });
     const sb=document.getElementById('submitTest');if(sb)sb.style.display='none';
+    const tm=document.getElementById('testTimer');if(tm)tm.style.display='none';
     finishTest(idx,correct,quiz.length);
+    if(timedOut){const note=document.createElement('div');note.className='card';note.style.cssText='background:#fdecec;border-color:#f5b5b5;text-align:center;font-weight:700;color:#dc2626';note.textContent='⏰ Hết giờ! Bài đã được nộp tự động.';area.insertBefore(note,area.children[1]||null);}
     area.insertBefore(buildReview(wrongs), area.children[1]||null);
-  };
+  }
+  document.getElementById('submitTest').onclick=function(){doSubmit(false)};
+  if(testTimer){clearInterval(testTimer);testTimer=null;}
+  let remain=TEST_SECONDS;
+  function fmtT(s){const m=Math.floor(s/60),ss=s%60;return (m<10?'0':'')+m+':'+(ss<10?'0':'')+ss}
+  function tick(){
+    const el=document.getElementById('testTimer');
+    if(!el||!document.body.contains(el)){if(testTimer){clearInterval(testTimer);testTimer=null;}return}
+    if(remain<=0){clearInterval(testTimer);testTimer=null;el.textContent='⏰ Hết giờ!';el.style.background='#dc2626';doSubmit(true);return}
+    el.textContent='⏱ Còn '+fmtT(remain);
+    el.style.background = remain<=60?'#dc2626':(remain<=300?'#d97706':'#4f6ef7');
+    remain--;
+  }
+  tick();testTimer=setInterval(tick,1000);
 }
 function buildReview(wrongs){
   const d=document.createElement('div');
@@ -1924,7 +1943,7 @@ function buildReview(wrongs){
 function finishTest(idx,correct,total){
   const ratio=correct/total;
   const passed=ratio>=PASS_RATIO;
-  const stars=ratio>=1?3:ratio>=PASS_RATIO?2:0;
+  const stars=ratio>=0.9?3:ratio>=PASS_RATIO?2:0;
   const prev=progress.results[idx]||{bestScore:0,bestTotal:total,stars:0,passed:false};
   const newStars=Math.max(stars,prev.stars||0);
   const deltaStars=Math.max(0,newStars-(prev.stars||0));
@@ -1941,10 +1960,10 @@ function showReward(idx,correct,total,passed,stars){
   if(passed){
     card.innerHTML='<div class="reward-emoji">🎉</div><div class="reward-stars">'
       +Array.from({length:3}).map((_,i)=>'<span class="s">'+(i<stars?'⭐':'☆')+'</span>').join('')
-      +'</div><h2>Giỏi quá!</h2><p>Con đúng '+correct+'/'+total+' câu và nhận được '+stars+' sao!'+(stars<3?' Đúng hết cả '+total+' câu để được 3 sao nhé.':'')+'</p>'
+      +'</div><h2>Giỏi quá!</h2><p>Con đúng '+correct+'/'+total+' câu và nhận được '+stars+' sao!'+(stars<3?' Đạt ≥ 90% để được 3 sao nhé.':'')+'</p>'
       +'<div>'+(hasNext?'<button class="btn green" id="rwNext">Bài tiếp theo →</button> ':'')+'<button class="btn ghost" id="rwClose">📌 Xem lại bài làm</button></div>';
   } else {
-    card.innerHTML='<div class="reward-emoji">💪</div><h2>Cố lên nào!</h2><p>Con đúng '+correct+'/'+total+' câu, cần đúng ≥ '+need+'/'+total+' (90%) để qua bài. Hãy xem kỹ các câu sai và cách làm bên dưới nhé!</p>'
+    card.innerHTML='<div class="reward-emoji">💪</div><h2>Cố lên nào!</h2><p>Con đúng '+correct+'/'+total+' câu, cần đúng ≥ '+need+'/'+total+' (80%) để qua bài. Hãy xem kỹ các câu sai và cách làm bên dưới nhé!</p>'
       +'<div><button class="btn" id="rwReview">📌 Xem câu sai</button> <button class="btn ghost" id="rwRetry">🔄 Làm lại</button> <button class="btn ghost" id="rwLearn">📖 Học lại bài</button></div>';
   }
   document.getElementById('reward').classList.add('show');
