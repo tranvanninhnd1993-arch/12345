@@ -329,6 +329,9 @@ let profile=LS.get('gsai_profile',null);
 let progress=LS.get('gsai_progress',{currentIndex:0,results:{},totalStars:0});
 if(typeof progress.totalStars!=='number')progress.totalStars=0;
 if(progress.v!==2){progress={currentIndex:0,results:{},totalStars:0,v:2}}
+if(!progress.learns||typeof progress.learns!=='object')progress.learns={};
+const SKIP_AFTER=5; /* tu lan hoc thu 5 moi hien nut "lam kiem tra" */
+let learnGateUnlocked=true; /* false = phai nghe het bai giang moi vao kiem tra */
 function saveProfile(){LS.set('gsai_profile',profile)}
 function saveProg(){LS.set('gsai_progress',progress)}
 function saveSettings(){LS.set('gsai_settings',settings);checkKey()}
@@ -1703,6 +1706,8 @@ let curIdx=null;
 function lessonCtx(i){const l=CUR.lessons[i];return 'Môn Toán, '+gradeName(activeGrade)+' (chương trình Việt Nam). Bài học: "'+l.title+'". '+(l.desc||'')}
 function openLesson(idx){
   curIdx=idx;const les=CUR.lessons[idx];const r=progress.results[idx];
+  const learnCount=(progress.learns[idx]||0)+1;progress.learns[idx]=learnCount;saveProg();
+  learnGateUnlocked=learnCount>=SKIP_AFTER;
   showView('lesson');
   document.getElementById('pageTitle').textContent='Bài '+(idx+1)+': '+les.title;
   vLesson.innerHTML='<div class="crumb" id="backCurr">← Quay lại lộ trình</div>'
@@ -1710,7 +1715,7 @@ function openLesson(idx){
     +'<div class="ltabs"><button class="ltab active" data-pane="learn">📖 Học bài</button><button class="ltab" data-pane="ask">💬 Hỏi bài AI</button><button class="ltab" data-pane="test">✅ Kiểm tra</button></div>'
     +'<div class="lpane active" id="pane-learn"></div><div class="lpane" id="pane-ask"></div><div class="lpane" id="pane-test"></div>';
   document.getElementById('backCurr').onclick=()=>showView('curriculum');
-  vLesson.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{stopSpeak();vLesson.querySelectorAll('.ltab').forEach(x=>x.classList.remove('active'));vLesson.querySelectorAll('.lpane').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('pane-'+t.dataset.pane).classList.add('active')});
+  vLesson.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{if(t.dataset.pane==='test'&&!learnGateUnlocked){alert('Con nghe hết bài giảng rồi mới làm kiểm tra nhé! 😊');return}stopSpeak();vLesson.querySelectorAll('.ltab').forEach(x=>x.classList.remove('active'));vLesson.querySelectorAll('.lpane').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('pane-'+t.dataset.pane).classList.add('active')});
   initLearnPane(idx);
   initAskPane(idx);
   initTestPane(idx);
@@ -1720,6 +1725,7 @@ function initLearnPane(idx){
   const les=CUR.lessons[idx];
   const steps=(STEPS[activeGrade]&&STEPS[activeGrade][idx])||null;
   if(steps&&steps.length){buildStepPlayer(pane,idx,steps);return}
+  learnGateUnlocked=true;/* nhanh khong co buoc audio: khong khoa */
   const learnHTML=(RICH[activeGrade]&&RICH[activeGrade][idx])||les.visual;
   pane.innerHTML='<div class="card"><div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:10px;flex-wrap:wrap"><button class="btn ghost sm" id="replayBtn">🔁 Nghe lại từ đầu</button><button class="btn ghost sm" id="speakBtn">🔊 Nghe giảng bài</button></div>'+learnHTML+'<div style="margin-top:16px;text-align:center"><button class="btn big" id="goTest">Mình hiểu rồi, làm kiểm tra ✅</button></div></div>';
   document.getElementById('speakBtn').onclick=function(){speakLesson(this)};
@@ -1738,7 +1744,7 @@ function buildStepPlayer(pane,idx,steps){
       +'<button class="btn ghost sm" id="spReplay" style="display:none">🔁 Từ đầu</button>'
       +'<span class="hint" id="spProg" style="margin-left:auto"></span>'
     +'</div><div id="stepHost"></div>'
-    +'<div style="margin-top:16px;text-align:center"><button class="btn big" id="goTest">Mình hiểu rồi, làm kiểm tra ✅</button></div></div>';
+    +'<div style="margin-top:16px;text-align:center"><div class="hint" id="goTestHint"'+(learnGateUnlocked?' style="display:none"':'')+'>👂 Hãy nghe hết bài cô giảng rồi mới làm kiểm tra nhé!</div><button class="btn big" id="goTest"'+(learnGateUnlocked?'':' style="display:none"')+'>Mình hiểu rồi, làm kiểm tra ✅</button></div></div>';
   const host=document.getElementById('stepHost');
   const bStart=document.getElementById('spStart'),bPause=document.getElementById('spPause'),bReplay=document.getElementById('spReplay'),prog=document.getElementById('spProg');
   let cur=-1,paused=false;
@@ -1756,7 +1762,7 @@ function buildStepPlayer(pane,idx,steps){
     a.onerror=function(){if(audioEl===a)audioEl=null;ttsStep(steps[n].n,function(){if(!paused)play(n+1)})};
     const p=a.play();if(p&&p.catch)p.catch(function(){if(audioEl===a){audioEl=null;ttsStep(steps[n].n,function(){if(!paused)play(n+1)})}});
   }
-  function finish(){cur=steps.length;paused=false;bPause.style.display='none';bStart.style.display='inline-flex';bStart.textContent='✅ Đã giảng xong — nghe lại?';prog.textContent='Xong';}
+  function finish(){cur=steps.length;paused=false;bPause.style.display='none';bStart.style.display='inline-flex';bStart.textContent='✅ Đã giảng xong — nghe lại?';prog.textContent='Xong';learnGateUnlocked=true;var g=document.getElementById('goTest');if(g)g.style.display='inline-flex';var gh=document.getElementById('goTestHint');if(gh)gh.style.display='none';}
   function startPlay(){paused=false;bStart.style.display='none';bStart.textContent='▶ Nghe cô giảng';bPause.style.display='inline-flex';bPause.textContent='⏸ Tạm dừng';bReplay.style.display='inline-flex';play(cur<0||cur>=steps.length?0:cur)}
   bStart.onclick=function(){startPlay()};
   bPause.onclick=function(){if(paused){paused=false;bPause.textContent='⏸ Tạm dừng';play(cur)}else{paused=true;bPause.textContent='▶ Tiếp tục';audioStop();try{if('speechSynthesis' in window)speechSynthesis.cancel()}catch(e){}}};
@@ -1905,7 +1911,7 @@ function fillSettings(){
 }
 document.getElementById('saveSettings').addEventListener('click',()=>{settings.apiKey=document.getElementById('apiKey').value.trim();settings.model=document.getElementById('modelSel').value;const _vs=document.getElementById('voiceSel');if(_vs)settings.voiceName=_vs.value;saveSettings();const m=document.getElementById('saveMsg');m.style.display='inline';setTimeout(()=>m.style.display='none',2000)});
 document.getElementById('editProfile').addEventListener('click',()=>{ob.phone.value=profile.parentPhone;ob.name.value=profile.name||'';ob.year.value=profile.birthYear;ob.year.dispatchEvent(new Event('input'));ob.gsel.value=profile.grade;ob.wrap.classList.add('show');document.getElementById('appRoot').style.display='none'});
-document.getElementById('resetProg').addEventListener('click',()=>{if(confirm('Xóa tiến độ và sao thưởng? Bắt đầu học lại từ bài 1.')){progress={currentIndex:0,results:{},totalStars:0};saveProg();updateTop();showView('curriculum')}});
+document.getElementById('resetProg').addEventListener('click',()=>{if(confirm('Xóa tiến độ và sao thưởng? Bắt đầu học lại từ bài 1.')){progress={currentIndex:0,results:{},totalStars:0,v:2,learns:{}};saveProg();updateTop();showView('curriculum')}});
 document.getElementById('clearAll').addEventListener('click',()=>{if(confirm('Xóa TẤT CẢ dữ liệu? Không thể hoàn tác.')){memStore={};try{localStorage.clear()}catch(e){}location.reload()}});
 
 /* ===== CỔNG MẬT KHẨU ===== */
