@@ -197,7 +197,7 @@
     <div style="font-size:46px">🔒</div>
     <h2 style="margin:6px 0;color:#1f2a44">Khu vực thử nghiệm</h2>
     <p style="color:#6b7794;font-size:14px;margin:4px 0 16px">Nhập mật khẩu để vào học.</p>
-    <input id="gatePass" type="password" placeholder="Mật khẩu" autocomplete="off" style="width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box" />
+    <input id="gatePass" type="password" placeholder="Mật khẩu" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" style="width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box" />
     <div id="gateErr" style="display:none;color:#dc2626;font-size:14px;margin-top:8px">Sai mật khẩu, thử lại nhé.</div>
     <button id="gateBtn" style="margin-top:14px;width:100%;background:#4f6ef7;color:#fff;border:none;padding:12px;border-radius:10px;font-weight:700;font-size:16px;cursor:pointer">Vào học →</button>
   </div>
@@ -2017,7 +2017,7 @@ async function gateInit(){
   const pass=document.getElementById('gatePass'),btn=document.getElementById('gateBtn'),err=document.getElementById('gateErr');
   async function tryUnlock(){
     err.style.display='none';
-    let h='';try{h=await sha256hex(pass.value)}catch(e){h=''}
+    let h='';try{h=await sha256hex(pass.value.trim().toLowerCase())}catch(e){h=''}
     if(h===PASS_HASH){try{localStorage.setItem('gsai_gate',PASS_HASH)}catch(e){}g.style.display='none';boot()}
     else{err.style.display='block';pass.value='';pass.focus()}
   }
