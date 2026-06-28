@@ -2,8 +2,17 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Gia Sư AI — Toán Lớp 2</title>
+<!-- PWA: cài như ứng dụng, mở toàn màn hình -->
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#4f6ef7" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Gia Sư AI" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
 <style>
   :root{
     --bg:#f4f6fb;--card:#fff;--ink:#1f2a44;--muted:#6b7794;--line:#e4e8f1;
@@ -97,6 +106,20 @@
   .ltab{padding:10px 14px;border:none;background:none;font-weight:600;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
   .ltab.active{color:var(--brand-dark);border-bottom-color:var(--brand)}
   .lpane{display:none}.lpane.active{display:block}
+
+  /* Video bài học (chống thoát ra YouTube) */
+  .vidwrap{position:relative;width:100%;max-width:720px;margin:0 auto;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:16/9}
+  .vidwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .vid-block{position:absolute;inset:0;z-index:3;cursor:pointer;background:transparent}
+  .vid-center{position:absolute;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;pointer-events:none;transition:opacity .2s}
+  .vid-center.hide{opacity:0}
+  .vid-center .pbtn{width:76px;height:76px;border-radius:50%;background:rgba(79,110,247,.92);color:#fff;font-size:30px;display:grid;place-items:center;box-shadow:0 6px 22px rgba(0,0,0,.4)}
+  .vid-done{position:absolute;inset:0;z-index:5;display:none;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:rgba(15,20,40,.94);color:#fff;text-align:center;padding:20px}
+  .vid-done.show{display:flex}
+  .vid-controls{display:flex;align-items:center;gap:12px;margin-top:12px;max-width:720px;margin-left:auto;margin-right:auto}
+  .vid-bar{flex:1;height:9px;background:var(--line);border-radius:99px;overflow:hidden}
+  .vid-bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--brand),#8b5cf6);transition:width .25s linear}
+  .vid-time{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:84px;text-align:right}
 
   /* Visual lesson */
   .viz{font-size:16px;line-height:1.85}
@@ -260,6 +283,18 @@
       <section class="view" id="view-progress"></section>
 
       <section class="view" id="view-settings">
+        <div class="card" id="installCard">
+          <h2>📲 Cài như ứng dụng</h2>
+          <div class="sub">Cài app vào màn hình chính để mở <strong>toàn màn hình như một ứng dụng</strong> — không còn thanh địa chỉ, học sinh tập trung hơn.</div>
+          <button class="btn" id="installBtn" style="display:none">⬇️ Cài vào màn hình chính</button>
+          <div id="installState" class="hint" style="margin-top:6px"></div>
+          <details class="try" style="margin-top:12px"><summary>Hướng dẫn cài trên iPhone / iPad (Safari)</summary>
+            <div class="ans" style="color:var(--ink);font-weight:500">Mở app bằng <strong>Safari</strong> → bấm nút <strong>Chia sẻ</strong> (hình vuông có mũi tên) → chọn <strong>“Thêm vào MH chính”</strong> (Add to Home Screen) → <strong>Thêm</strong>.</div>
+          </details>
+          <details class="try"><summary>Hướng dẫn cài trên Android (Chrome)</summary>
+            <div class="ans" style="color:var(--ink);font-weight:500">Bấm nút <strong>⬇️ Cài</strong> ở trên. Nếu không thấy: mở menu <strong>⋮</strong> của Chrome → <strong>“Cài đặt ứng dụng”</strong> / “Thêm vào MH chính”.</div>
+          </details>
+        </div>
         <div class="card">
           <h2>⚙️ Cài đặt AI</h2>
           <div class="sub">Chỉ cần cho "Hỏi bài AI" và "Chấm bài nhanh". Học bài + kiểm tra không cần.</div>
@@ -1726,6 +1761,7 @@ const TITLES={curriculum:'Lộ trình Toán',lesson:'Bài học',grade:'Chấm b
 const navBtns=document.querySelectorAll('.nav-btn');
 function showView(v){
   stopSpeak();
+  if(v!=='lesson')pauseLessonVideo();
   document.querySelectorAll('.view').forEach(e=>e.classList.remove('active'));
   document.getElementById('view-'+v).classList.add('active');
   navBtns.forEach(b=>b.classList.toggle('active',(v==='lesson'?b.dataset.view==='curriculum':b.dataset.view===v)));
@@ -1797,22 +1833,104 @@ function renderCurriculum(){
 /* ===== LESSON ===== */
 const vLesson=document.getElementById('view-lesson');
 let curIdx=null;
+
+/* ===== VIDEO BÀI HỌC (YouTube nhúng, chống thoát) =====
+   Khai báo video cho từng bài: VIDEOS[lớp][số thứ tự bài, bắt đầu từ 0] = 'mã video YouTube'.
+   Mã video lấy trong link: youtube.com/watch?v=<MÃ>  hoặc youtu.be/<MÃ>. */
+const VIDEOS={
+  2:{ 0:'2MgXjp2Iei8' }
+};
+function videoFor(grade,idx){const g=VIDEOS[grade];return (g&&g[idx])||null}
+
+let _ytReadyP=null;
+function loadYTApi(){
+  if(window.YT&&window.YT.Player)return Promise.resolve();
+  if(_ytReadyP)return _ytReadyP;
+  _ytReadyP=new Promise(function(res){
+    const prev=window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady=function(){if(prev)try{prev()}catch(e){}res()};
+    const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';document.head.appendChild(s);
+  });
+  return _ytReadyP;
+}
+let lessonPlayer=null,_vidPoll=null;
+function pauseLessonVideo(){try{if(lessonPlayer&&lessonPlayer.pauseVideo)lessonPlayer.pauseVideo()}catch(e){}clearInterval(_vidPoll)}
+function fmtTime(s){s=Math.max(0,Math.floor(s||0));const m=Math.floor(s/60);return m+':'+('0'+(s%60)).slice(-2)}
+function initVideoPane(idx){
+  const pane=document.getElementById('pane-video');if(!pane)return;
+  const vid=videoFor(activeGrade,idx);if(!vid){pane.innerHTML='';return}
+  if(!progress.vids)progress.vids={};
+  const key=activeGrade+'_'+idx, watched=!!progress.vids[key];
+  pane.innerHTML='<div class="card">'
+    +'<div class="vidwrap">'
+      +'<div id="ytmount"></div>'
+      +'<div class="vid-center" id="vidCenter"><div class="pbtn">▶</div></div>'
+      +'<div class="vid-block" id="vidBlock" title="Bấm để phát/dừng"></div>'
+      +'<div class="vid-done" id="vidDone"><div style="font-size:48px">✅</div><div style="font-weight:800;font-size:18px">Đã xem xong video bài học!</div>'
+        +'<button class="btn ghost sm" id="vidReplay">🔁 Xem lại từ đầu</button></div>'
+    +'</div>'
+    +'<div class="vid-controls"><button class="btn ghost sm" id="vidToggle" style="min-width:96px">▶ Phát</button>'
+      +'<div class="vid-bar"><i id="vidProg"></i></div><span class="vid-time" id="vidTime">0:00 / 0:00</span></div>'
+    +'<div style="margin-top:14px;text-align:center">'
+      +'<div class="hint" id="vidHint"'+(watched?' style="display:none"':'')+'>👀 Xem hết video rồi mới mở được phần Kiểm tra nhé!</div>'
+      +'<button class="btn big" id="vidGoTest"'+(watched?'':' style="display:none"')+'>Xem xong rồi, làm kiểm tra ✅</button>'
+    +'</div></div>';
+
+  const center=document.getElementById('vidCenter'),block=document.getElementById('vidBlock'),
+        toggle=document.getElementById('vidToggle'),bar=document.getElementById('vidProg'),
+        timeEl=document.getElementById('vidTime'),done=document.getElementById('vidDone');
+
+  function startPoll(){clearInterval(_vidPoll);_vidPoll=setInterval(function(){
+    if(!lessonPlayer||!lessonPlayer.getDuration)return;
+    const d=lessonPlayer.getDuration()||0,c=lessonPlayer.getCurrentTime()||0;
+    bar.style.width=(d?Math.min(100,c/d*100):0)+'%';timeEl.textContent=fmtTime(c)+' / '+fmtTime(d);
+  },300)}
+  function markWatched(){progress.vids[key]=true;saveProg();learnGateUnlocked=true;
+    const h=document.getElementById('vidHint'),g=document.getElementById('vidGoTest');
+    if(h)h.style.display='none';if(g)g.style.display='inline-flex';}
+  function showDone(){done.classList.add('show');center.classList.remove('hide');toggle.textContent='▶ Phát';clearInterval(_vidPoll);bar.style.width='100%';markWatched()}
+
+  loadYTApi().then(function(){
+    if(!document.getElementById('ytmount'))return; /* đã rời bài */
+    lessonPlayer=new YT.Player('ytmount',{
+      videoId:vid,
+      playerVars:{controls:0,rel:0,modestbranding:1,disablekb:1,fs:0,playsinline:1,iv_load_policy:3,origin:location.origin},
+      events:{
+        onStateChange:function(e){
+          const S=YT.PlayerState;
+          if(e.data===S.PLAYING){center.classList.add('hide');toggle.textContent='⏸ Dừng';done.classList.remove('show');startPoll()}
+          else if(e.data===S.PAUSED){center.classList.remove('hide');toggle.textContent='▶ Phát';clearInterval(_vidPoll)}
+          else if(e.data===S.ENDED){showDone()}
+        }
+      }
+    });
+  });
+
+  function togggle(){if(!lessonPlayer||!lessonPlayer.getPlayerState)return;
+    const st=lessonPlayer.getPlayerState();
+    if(st===YT.PlayerState.PLAYING)lessonPlayer.pauseVideo();else lessonPlayer.playVideo();}
+  block.onclick=togggle;toggle.onclick=togggle;
+  document.getElementById('vidReplay').onclick=function(){if(lessonPlayer){done.classList.remove('show');lessonPlayer.seekTo(0,true);lessonPlayer.playVideo()}};
+}
+
 function lessonCtx(i){const l=CUR.lessons[i];return 'Môn Toán, '+gradeName(activeGrade)+' (chương trình Việt Nam). Bài học: "'+l.title+'". '+(l.desc||'')}
 function openLesson(idx){
   curIdx=idx;const les=CUR.lessons[idx];const r=progress.results[idx];
+  const hasVid=!!videoFor(activeGrade,idx);
   const learnCount=(progress.learns[idx]||0)+1;progress.learns[idx]=learnCount;saveProg();
   learnGateUnlocked=learnCount>=SKIP_AFTER;
   showView('lesson');
   document.getElementById('pageTitle').textContent='Bài '+(idx+1)+': '+les.title;
   vLesson.innerHTML='<div class="crumb" id="backCurr">← Quay lại lộ trình</div>'
     +'<div class="card" style="margin-bottom:14px"><h2>Bài '+(idx+1)+': '+esc(les.title)+'</h2><div class="sub" style="margin-bottom:0">'+esc(les.desc||'')+(r&&r.passed?' · <strong style="color:var(--gold)">'+starStr(r.stars||0)+'</strong>':'')+'</div></div>'
-    +'<div class="ltabs"><button class="ltab active" data-pane="learn">📖 Học bài</button><button class="ltab" data-pane="ask">💬 Hỏi bài AI</button><button class="ltab" data-pane="test">✅ Kiểm tra</button></div>'
-    +'<div class="lpane active" id="pane-learn"></div><div class="lpane" id="pane-ask"></div><div class="lpane" id="pane-test"></div>';
-  document.getElementById('backCurr').onclick=()=>showView('curriculum');
-  vLesson.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{if(t.dataset.pane==='test'&&!learnGateUnlocked){alert('Con nghe hết bài giảng rồi mới làm kiểm tra nhé! 😊');return}stopSpeak();vLesson.querySelectorAll('.ltab').forEach(x=>x.classList.remove('active'));vLesson.querySelectorAll('.lpane').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('pane-'+t.dataset.pane).classList.add('active')});
+    +'<div class="ltabs"><button class="ltab active" data-pane="learn">📖 Học bài</button>'+(hasVid?'<button class="ltab" data-pane="video">📹 Video</button>':'')+'<button class="ltab" data-pane="ask">💬 Hỏi bài AI</button><button class="ltab" data-pane="test">✅ Kiểm tra</button></div>'
+    +'<div class="lpane active" id="pane-learn"></div>'+(hasVid?'<div class="lpane" id="pane-video"></div>':'')+'<div class="lpane" id="pane-ask"></div><div class="lpane" id="pane-test"></div>';
+  document.getElementById('backCurr').onclick=()=>{pauseLessonVideo();showView('curriculum')};
+  vLesson.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{if(t.dataset.pane==='test'&&!learnGateUnlocked){alert('Con nghe hết bài giảng (hoặc xem hết video) rồi mới làm kiểm tra nhé! 😊');return}stopSpeak();pauseLessonVideo();vLesson.querySelectorAll('.ltab').forEach(x=>x.classList.remove('active'));vLesson.querySelectorAll('.lpane').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('pane-'+t.dataset.pane).classList.add('active')});
   initLearnPane(idx);
   initAskPane(idx);
   initTestPane(idx);
+  if(hasVid)initVideoPane(idx);
 }
 function initLearnPane(idx){
   const pane=document.getElementById('pane-learn');
@@ -1951,6 +2069,8 @@ function finishTest(idx,correct,total){
   if(deltaStars>0)progress.totalStars=(progress.totalStars||0)+deltaStars;
   if(passed&&idx>=progress.currentIndex)progress.currentIndex=Math.min(idx+1,CUR.lessons.length-1);
   saveProg();updateTop();
+  /* Cầu nối với app Android khóa màn hình: đạt bài -> mở khóa cho thoát */
+  if(passed){try{if(window.AndroidLock&&AndroidLock.onTestPassed)AndroidLock.onTestPassed(idx,stars)}catch(e){}}
   showReward(idx,correct,total,passed,stars);
 }
 function showReward(idx,correct,total,passed,stars){
@@ -2047,6 +2167,47 @@ async function gateInit(){
 
 /* ===== START ===== */
 gateInit();
+</script>
+
+<!-- ===== PWA: service worker + nút cài app ===== -->
+<script>
+(function(){
+  // Đăng ký service worker (cache offline). Chỉ chạy khi mở qua http/https.
+  if('serviceWorker' in navigator && location.protocol.indexOf('http')===0){
+    window.addEventListener('load',function(){
+      navigator.serviceWorker.register('sw.js').catch(function(){});
+    });
+  }
+
+  var deferred=null;
+  function isStandalone(){
+    return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone===true;
+  }
+  function refreshUI(){
+    var btn=document.getElementById('installBtn');
+    var st=document.getElementById('installState');
+    if(!btn||!st)return;
+    if(isStandalone()){ btn.style.display='none'; st.textContent='✓ App đang chạy ở chế độ ứng dụng.'; st.style.color='#16a34a'; }
+    else if(deferred){ btn.style.display='inline-flex'; st.textContent=''; }
+    else{ btn.style.display='none'; st.textContent='Mở app bằng Chrome (Android) hoặc Safari (iPhone) để cài. Xem hướng dẫn bên dưới.'; st.style.color=''; }
+  }
+  window.addEventListener('beforeinstallprompt',function(e){
+    e.preventDefault(); deferred=e; refreshUI();
+  });
+  window.addEventListener('appinstalled',function(){ deferred=null; refreshUI(); });
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('#installBtn');
+    if(!b||!deferred)return;
+    deferred.prompt();
+    deferred.userChoice.finally(function(){ deferred=null; refreshUI(); });
+  });
+  // cập nhật khi vào trang Cài đặt
+  document.addEventListener('click',function(e){
+    var n=e.target.closest&&e.target.closest('[data-view="settings"]');
+    if(n)setTimeout(refreshUI,50);
+  });
+  window.addEventListener('load',refreshUI);
+})();
 </script>
 </body>
 </html>

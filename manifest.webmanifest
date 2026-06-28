@@ -1,0 +1,19 @@
+{
+  "name": "Gia Sư AI — Học Thêm",
+  "short_name": "Gia Sư AI",
+  "description": "Học thêm Toán cùng Gia Sư AI — lộ trình theo lớp, học bài và kiểm tra.",
+  "start_url": ".",
+  "scope": ".",
+  "id": "/gia-su-ai",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f6fb",
+  "theme_color": "#4f6ef7",
+  "lang": "vi",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
