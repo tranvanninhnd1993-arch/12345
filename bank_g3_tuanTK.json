@@ -1,0 +1,2136 @@
+{
+ "grade": 3,
+ "week": "TK",
+ "lessons": [
+  {
+   "type": 1,
+   "title": "Bảng số liệu thống kê",
+   "exercises": [
+    {
+     "q": "Bảng số huy chương — Bình: 10, Khôi: 9, An: 13. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "9",
+      "13",
+      "33",
+      "32"
+     ],
+     "correct": 3,
+     "explain": "10 + 9 + 13 = 32."
+    },
+    {
+     "q": "Bảng số quyển sách — Hoa: 6, An: 7, Cường: 11. Hỏi ai có nhiều quyển sách nhất?",
+     "options": [
+      "Hoa",
+      "An",
+      "Cường"
+     ],
+     "correct": 2,
+     "explain": "Cường nhiều nhất (11 quyển sách)."
+    },
+    {
+     "q": "Bảng số huy chương — Dung: 5, Bình: 3, Hoa: 13. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "22",
+      "13",
+      "21",
+      "3"
+     ],
+     "correct": 2,
+     "explain": "5 + 3 + 13 = 21."
+    },
+    {
+     "q": "Bảng số cái kẹo — Dung: 14, An: 3, Hoa: 4. Hỏi Dung nhiều hơn (hoặc ít hơn) An bao nhiêu cái kẹo?",
+     "options": [
+      "11",
+      "17",
+      "14",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "|14 − 3| = 11."
+    },
+    {
+     "q": "Bảng số điểm 10 — An: 9, Hoa: 4, Bình: 9. Hỏi ai có nhiều điểm 10 nhất?",
+     "options": [
+      "Hoa",
+      "Bình",
+      "An"
+     ],
+     "correct": 2,
+     "explain": "An nhiều nhất (9 điểm 10)."
+    },
+    {
+     "q": "Bảng số cái kẹo — Dung: 7, Khôi: 8, Cường: 12. Hỏi ai có nhiều cái kẹo nhất?",
+     "options": [
+      "Cường",
+      "Khôi",
+      "Dung"
+     ],
+     "correct": 0,
+     "explain": "Cường nhiều nhất (12 cái kẹo)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Dung: 11, Cường: 3, Khôi: 3. Hỏi Dung nhiều hơn (hoặc ít hơn) Cường bao nhiêu điểm 10?",
+     "options": [
+      "8",
+      "11",
+      "3",
+      "14"
+     ],
+     "correct": 0,
+     "explain": "|11 − 3| = 8."
+    },
+    {
+     "q": "Bảng số huy chương — Dung: 7, Bình: 14, Khôi: 2. Hỏi Dung nhiều hơn (hoặc ít hơn) Bình bao nhiêu huy chương?",
+     "options": [
+      "8",
+      "21",
+      "7",
+      "14"
+     ],
+     "correct": 2,
+     "explain": "|7 − 14| = 7."
+    },
+    {
+     "q": "Bảng số huy chương — Khôi: 9, An: 14, Hoa: 8. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "8",
+      "14",
+      "31",
+      "32"
+     ],
+     "correct": 2,
+     "explain": "9 + 14 + 8 = 31."
+    },
+    {
+     "q": "Bảng số huy chương — Bình: 2, Dung: 4, Cường: 4. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "10",
+      "11",
+      "4",
+      "2"
+     ],
+     "correct": 0,
+     "explain": "2 + 4 + 4 = 10."
+    },
+    {
+     "q": "Bảng số quyển sách — An: 13, Bình: 15, Dung: 15. Hỏi cả ba bạn có tất cả bao nhiêu quyển sách?",
+     "options": [
+      "44",
+      "15",
+      "43",
+      "13"
+     ],
+     "correct": 2,
+     "explain": "13 + 15 + 15 = 43."
+    },
+    {
+     "q": "Bảng số huy chương — Khôi: 6, Bình: 10, Cường: 5. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "10",
+      "5",
+      "22",
+      "21"
+     ],
+     "correct": 3,
+     "explain": "6 + 10 + 5 = 21."
+    },
+    {
+     "q": "Bảng số huy chương — An: 3, Hoa: 11, Khôi: 5. Hỏi An nhiều hơn (hoặc ít hơn) Hoa bao nhiêu huy chương?",
+     "options": [
+      "11",
+      "3",
+      "14",
+      "8"
+     ],
+     "correct": 3,
+     "explain": "|3 − 11| = 8."
+    },
+    {
+     "q": "Bảng số điểm 10 — An: 3, Dung: 9, Cường: 4. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "9",
+      "17",
+      "3",
+      "16"
+     ],
+     "correct": 3,
+     "explain": "3 + 9 + 4 = 16."
+    },
+    {
+     "q": "Bảng số quyển sách — Cường: 12, Hoa: 3, Dung: 11. Hỏi ai có nhiều quyển sách nhất?",
+     "options": [
+      "Cường",
+      "Dung",
+      "Hoa"
+     ],
+     "correct": 0,
+     "explain": "Cường nhiều nhất (12 quyển sách)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Cường: 5, Hoa: 9, Bình: 2. Hỏi ai có nhiều điểm 10 nhất?",
+     "options": [
+      "Cường",
+      "Hoa",
+      "Bình"
+     ],
+     "correct": 1,
+     "explain": "Hoa nhiều nhất (9 điểm 10)."
+    },
+    {
+     "q": "Bảng số cái kẹo — Cường: 14, Bình: 6, Hoa: 13. Hỏi ai có nhiều cái kẹo nhất?",
+     "options": [
+      "Cường",
+      "Hoa",
+      "Bình"
+     ],
+     "correct": 0,
+     "explain": "Cường nhiều nhất (14 cái kẹo)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Bình: 15, Khôi: 13, Hoa: 15. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "44",
+      "13",
+      "15",
+      "43"
+     ],
+     "correct": 3,
+     "explain": "15 + 13 + 15 = 43."
+    },
+    {
+     "q": "Bảng số quyển sách — Bình: 5, An: 9, Dung: 5. Hỏi ai có nhiều quyển sách nhất?",
+     "options": [
+      "Bình",
+      "Dung",
+      "An"
+     ],
+     "correct": 2,
+     "explain": "An nhiều nhất (9 quyển sách)."
+    },
+    {
+     "q": "Bảng số bông hoa — Bình: 3, Khôi: 5, An: 6. Hỏi ai có nhiều bông hoa nhất?",
+     "options": [
+      "Bình",
+      "Khôi",
+      "An"
+     ],
+     "correct": 2,
+     "explain": "An nhiều nhất (6 bông hoa)."
+    },
+    {
+     "q": "Bảng số quyển sách — Hoa: 5, An: 14, Khôi: 7. Hỏi cả ba bạn có tất cả bao nhiêu quyển sách?",
+     "options": [
+      "26",
+      "14",
+      "27",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "5 + 14 + 7 = 26."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 4, An: 15, Dung: 9. Hỏi ai có nhiều cái kẹo nhất?",
+     "options": [
+      "Bình",
+      "An",
+      "Dung"
+     ],
+     "correct": 1,
+     "explain": "An nhiều nhất (15 cái kẹo)."
+    },
+    {
+     "q": "Bảng số quyển sách — An: 13, Dung: 15, Hoa: 2. Hỏi cả ba bạn có tất cả bao nhiêu quyển sách?",
+     "options": [
+      "2",
+      "15",
+      "31",
+      "30"
+     ],
+     "correct": 3,
+     "explain": "13 + 15 + 2 = 30."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 12, Hoa: 15, Khôi: 6. Hỏi cả ba bạn có tất cả bao nhiêu cái kẹo?",
+     "options": [
+      "15",
+      "33",
+      "6",
+      "34"
+     ],
+     "correct": 1,
+     "explain": "12 + 15 + 6 = 33."
+    },
+    {
+     "q": "Bảng số quyển sách — An: 6, Khôi: 14, Cường: 2. Hỏi An nhiều hơn (hoặc ít hơn) Khôi bao nhiêu quyển sách?",
+     "options": [
+      "8",
+      "14",
+      "6",
+      "20"
+     ],
+     "correct": 0,
+     "explain": "|6 − 14| = 8."
+    },
+    {
+     "q": "Bảng số bông hoa — Khôi: 13, Hoa: 13, Dung: 7. Hỏi Khôi nhiều hơn (hoặc ít hơn) Hoa bao nhiêu bông hoa?",
+     "options": [
+      "0",
+      "13",
+      "26",
+      "1"
+     ],
+     "correct": 0,
+     "explain": "|13 − 13| = 0."
+    },
+    {
+     "q": "Bảng số cái kẹo — Khôi: 6, An: 11, Hoa: 11. Hỏi ai có nhiều cái kẹo nhất?",
+     "options": [
+      "An",
+      "Khôi",
+      "Hoa"
+     ],
+     "correct": 0,
+     "explain": "An nhiều nhất (11 cái kẹo)."
+    },
+    {
+     "q": "Bảng số bông hoa — Bình: 13, Dung: 14, Hoa: 8. Hỏi cả ba bạn có tất cả bao nhiêu bông hoa?",
+     "options": [
+      "36",
+      "8",
+      "35",
+      "14"
+     ],
+     "correct": 2,
+     "explain": "13 + 14 + 8 = 35."
+    },
+    {
+     "q": "Bảng số điểm 10 — Cường: 14, Khôi: 10, Hoa: 5. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "14",
+      "5",
+      "30",
+      "29"
+     ],
+     "correct": 3,
+     "explain": "14 + 10 + 5 = 29."
+    },
+    {
+     "q": "Bảng số điểm 10 — Cường: 3, Dung: 7, An: 10. Hỏi Cường nhiều hơn (hoặc ít hơn) Dung bao nhiêu điểm 10?",
+     "options": [
+      "7",
+      "4",
+      "3",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "|3 − 7| = 4."
+    },
+    {
+     "q": "Bảng số điểm 10 — Dung: 13, Bình: 13, Cường: 10. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "10",
+      "13",
+      "36",
+      "37"
+     ],
+     "correct": 2,
+     "explain": "13 + 13 + 10 = 36."
+    },
+    {
+     "q": "Bảng số bông hoa — Khôi: 11, Bình: 8, Hoa: 9. Hỏi Khôi nhiều hơn (hoặc ít hơn) Bình bao nhiêu bông hoa?",
+     "options": [
+      "19",
+      "3",
+      "11",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "|11 − 8| = 3."
+    },
+    {
+     "q": "Bảng số bông hoa — Dung: 4, An: 13, Hoa: 2. Hỏi ai có nhiều bông hoa nhất?",
+     "options": [
+      "Hoa",
+      "Dung",
+      "An"
+     ],
+     "correct": 2,
+     "explain": "An nhiều nhất (13 bông hoa)."
+    },
+    {
+     "q": "Bảng số huy chương — Cường: 2, Khôi: 2, Bình: 4. Hỏi Cường nhiều hơn (hoặc ít hơn) Khôi bao nhiêu huy chương?",
+     "options": [
+      "1",
+      "4",
+      "2",
+      "0"
+     ],
+     "correct": 3,
+     "explain": "|2 − 2| = 0."
+    },
+    {
+     "q": "Bảng số cái kẹo — Hoa: 6, Khôi: 7, Bình: 11. Hỏi cả ba bạn có tất cả bao nhiêu cái kẹo?",
+     "options": [
+      "11",
+      "6",
+      "25",
+      "24"
+     ],
+     "correct": 3,
+     "explain": "6 + 7 + 11 = 24."
+    },
+    {
+     "q": "Bảng số bông hoa — Khôi: 13, Cường: 7, Hoa: 2. Hỏi cả ba bạn có tất cả bao nhiêu bông hoa?",
+     "options": [
+      "23",
+      "2",
+      "13",
+      "22"
+     ],
+     "correct": 3,
+     "explain": "13 + 7 + 2 = 22."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 10, Cường: 8, Dung: 3. Hỏi Bình nhiều hơn (hoặc ít hơn) Cường bao nhiêu cái kẹo?",
+     "options": [
+      "18",
+      "2",
+      "8",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "|10 − 8| = 2."
+    },
+    {
+     "q": "Bảng số điểm 10 — Bình: 14, Cường: 10, Dung: 7. Hỏi ai có nhiều điểm 10 nhất?",
+     "options": [
+      "Dung",
+      "Cường",
+      "Bình"
+     ],
+     "correct": 2,
+     "explain": "Bình nhiều nhất (14 điểm 10)."
+    },
+    {
+     "q": "Bảng số bông hoa — An: 13, Cường: 8, Dung: 2. Hỏi ai có nhiều bông hoa nhất?",
+     "options": [
+      "Cường",
+      "Dung",
+      "An"
+     ],
+     "correct": 2,
+     "explain": "An nhiều nhất (13 bông hoa)."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 15, Dung: 5, Hoa: 12. Hỏi cả ba bạn có tất cả bao nhiêu cái kẹo?",
+     "options": [
+      "5",
+      "15",
+      "33",
+      "32"
+     ],
+     "correct": 3,
+     "explain": "15 + 5 + 12 = 32."
+    },
+    {
+     "q": "Bảng số bông hoa — Bình: 4, Dung: 6, Hoa: 7. Hỏi ai có nhiều bông hoa nhất?",
+     "options": [
+      "Bình",
+      "Hoa",
+      "Dung"
+     ],
+     "correct": 1,
+     "explain": "Hoa nhiều nhất (7 bông hoa)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Bình: 12, Khôi: 14, An: 13. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "40",
+      "39",
+      "12",
+      "14"
+     ],
+     "correct": 1,
+     "explain": "12 + 14 + 13 = 39."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 2, Hoa: 8, An: 4. Hỏi ai có nhiều cái kẹo nhất?",
+     "options": [
+      "Hoa",
+      "Bình",
+      "An"
+     ],
+     "correct": 0,
+     "explain": "Hoa nhiều nhất (8 cái kẹo)."
+    },
+    {
+     "q": "Bảng số cái kẹo — Cường: 6, An: 3, Bình: 2. Hỏi cả ba bạn có tất cả bao nhiêu cái kẹo?",
+     "options": [
+      "12",
+      "2",
+      "11",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "6 + 3 + 2 = 11."
+    },
+    {
+     "q": "Bảng số huy chương — Bình: 14, Cường: 8, Dung: 13. Hỏi ai có nhiều huy chương nhất?",
+     "options": [
+      "Dung",
+      "Bình",
+      "Cường"
+     ],
+     "correct": 1,
+     "explain": "Bình nhiều nhất (14 huy chương)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Cường: 9, Hoa: 7, Bình: 10. Hỏi Cường nhiều hơn (hoặc ít hơn) Hoa bao nhiêu điểm 10?",
+     "options": [
+      "2",
+      "16",
+      "9",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "|9 − 7| = 2."
+    },
+    {
+     "q": "Bảng số huy chương — Dung: 6, Cường: 6, An: 10. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "6",
+      "23",
+      "22",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "6 + 6 + 10 = 22."
+    },
+    {
+     "q": "Bảng số bông hoa — An: 4, Dung: 4, Hoa: 5. Hỏi An nhiều hơn (hoặc ít hơn) Dung bao nhiêu bông hoa?",
+     "options": [
+      "1",
+      "8",
+      "0",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "|4 − 4| = 0."
+    },
+    {
+     "q": "Bảng số huy chương — Cường: 13, Dung: 7, An: 13. Hỏi ai có nhiều huy chương nhất?",
+     "options": [
+      "Cường",
+      "Dung",
+      "An"
+     ],
+     "correct": 0,
+     "explain": "Cường nhiều nhất (13 huy chương)."
+    },
+    {
+     "q": "Bảng số quyển sách — Bình: 6, Hoa: 10, Dung: 7. Hỏi ai có nhiều quyển sách nhất?",
+     "options": [
+      "Hoa",
+      "Dung",
+      "Bình"
+     ],
+     "correct": 0,
+     "explain": "Hoa nhiều nhất (10 quyển sách)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Khôi: 15, Hoa: 4, Dung: 10. Hỏi Khôi nhiều hơn (hoặc ít hơn) Hoa bao nhiêu điểm 10?",
+     "options": [
+      "4",
+      "15",
+      "19",
+      "11"
+     ],
+     "correct": 3,
+     "explain": "|15 − 4| = 11."
+    },
+    {
+     "q": "Bảng số điểm 10 — Dung: 10, Bình: 9, Cường: 2. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "21",
+      "22",
+      "2",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "10 + 9 + 2 = 21."
+    },
+    {
+     "q": "Bảng số cái kẹo — Khôi: 2, Bình: 13, An: 11. Hỏi Khôi nhiều hơn (hoặc ít hơn) Bình bao nhiêu cái kẹo?",
+     "options": [
+      "2",
+      "15",
+      "11",
+      "13"
+     ],
+     "correct": 2,
+     "explain": "|2 − 13| = 11."
+    },
+    {
+     "q": "Bảng số quyển sách — Dung: 13, Hoa: 11, Cường: 7. Hỏi ai có nhiều quyển sách nhất?",
+     "options": [
+      "Hoa",
+      "Dung",
+      "Cường"
+     ],
+     "correct": 1,
+     "explain": "Dung nhiều nhất (13 quyển sách)."
+    },
+    {
+     "q": "Bảng số bông hoa — Dung: 13, Cường: 10, An: 11. Hỏi Dung nhiều hơn (hoặc ít hơn) Cường bao nhiêu bông hoa?",
+     "options": [
+      "10",
+      "23",
+      "3",
+      "13"
+     ],
+     "correct": 2,
+     "explain": "|13 − 10| = 3."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 4, Hoa: 4, An: 5. Hỏi Bình nhiều hơn (hoặc ít hơn) Hoa bao nhiêu cái kẹo?",
+     "options": [
+      "1",
+      "8",
+      "4",
+      "0"
+     ],
+     "correct": 3,
+     "explain": "|4 − 4| = 0."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 3, Cường: 10, Dung: 13. Hỏi Bình nhiều hơn (hoặc ít hơn) Cường bao nhiêu cái kẹo?",
+     "options": [
+      "7",
+      "3",
+      "13",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "|3 − 10| = 7."
+    },
+    {
+     "q": "Bảng số quyển sách — An: 10, Cường: 10, Hoa: 3. Hỏi An nhiều hơn (hoặc ít hơn) Cường bao nhiêu quyển sách?",
+     "options": [
+      "20",
+      "1",
+      "0",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "|10 − 10| = 0."
+    },
+    {
+     "q": "Bảng số bông hoa — Dung: 7, Hoa: 6, An: 3. Hỏi ai có nhiều bông hoa nhất?",
+     "options": [
+      "An",
+      "Hoa",
+      "Dung"
+     ],
+     "correct": 2,
+     "explain": "Dung nhiều nhất (7 bông hoa)."
+    },
+    {
+     "q": "Bảng số điểm 10 — Bình: 8, Khôi: 5, An: 12. Hỏi ai có nhiều điểm 10 nhất?",
+     "options": [
+      "An",
+      "Khôi",
+      "Bình"
+     ],
+     "correct": 0,
+     "explain": "An nhiều nhất (12 điểm 10)."
+    },
+    {
+     "q": "Bảng số bông hoa — Cường: 4, Bình: 6, Hoa: 12. Hỏi Cường nhiều hơn (hoặc ít hơn) Bình bao nhiêu bông hoa?",
+     "options": [
+      "2",
+      "6",
+      "4",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "|4 − 6| = 2."
+    },
+    {
+     "q": "Bảng số điểm 10 — Cường: 9, An: 8, Hoa: 8. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "26",
+      "8",
+      "9",
+      "25"
+     ],
+     "correct": 3,
+     "explain": "9 + 8 + 8 = 25."
+    },
+    {
+     "q": "Bảng số huy chương — An: 7, Dung: 5, Bình: 15. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "27",
+      "5",
+      "15",
+      "28"
+     ],
+     "correct": 0,
+     "explain": "7 + 5 + 15 = 27."
+    },
+    {
+     "q": "Bảng số điểm 10 — An: 10, Hoa: 7, Khôi: 11. Hỏi cả ba bạn có tất cả bao nhiêu điểm 10?",
+     "options": [
+      "29",
+      "7",
+      "11",
+      "28"
+     ],
+     "correct": 3,
+     "explain": "10 + 7 + 11 = 28."
+    },
+    {
+     "q": "Bảng số cái kẹo — Bình: 5, Dung: 7, Khôi: 14. Hỏi cả ba bạn có tất cả bao nhiêu cái kẹo?",
+     "options": [
+      "27",
+      "14",
+      "5",
+      "26"
+     ],
+     "correct": 3,
+     "explain": "5 + 7 + 14 = 26."
+    },
+    {
+     "q": "Bảng số huy chương — Khôi: 3, Dung: 8, Cường: 9. Hỏi cả ba bạn có tất cả bao nhiêu huy chương?",
+     "options": [
+      "20",
+      "9",
+      "21",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "3 + 8 + 9 = 20."
+    },
+    {
+     "q": "Bảng số bông hoa — Bình: 7, Hoa: 4, Cường: 12. Hỏi Bình nhiều hơn (hoặc ít hơn) Hoa bao nhiêu bông hoa?",
+     "options": [
+      "7",
+      "11",
+      "3",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "|7 − 4| = 3."
+    }
+   ]
+  },
+  {
+   "type": 2,
+   "title": "Khả năng xảy ra (chắc chắn, có thể, không thể)",
+   "exercises": [
+    {
+     "q": "Một hộp chỉ có 9 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp có 4 bóng đỏ và 2 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 4 bóng xanh và 6 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 4 bóng xanh và 3 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 2 bóng xanh và 5 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 5 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp chỉ có 9 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp chỉ có 7 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp chỉ có 7 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp chỉ có 4 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 3 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 4 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp có 6 bóng đỏ và 3 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 2 bóng đỏ và 2 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 2 bóng xanh và 3 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 4 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp chỉ có 5 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 2 bóng vàng và 3 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng vàng là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng vàng (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp không có bóng vàng → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 5 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng vàng → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 3 bóng xanh và 5 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 3 bóng đỏ và 4 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 5 bóng xanh và 3 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 2 bóng xanh và 3 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 4 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp chỉ có 5 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 5 bóng xanh và 4 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 5 bóng vàng và 5 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng vàng là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng vàng (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 6 bóng đỏ và 5 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 2 bóng vàng và 2 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng vàng là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng vàng (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 4 bóng xanh và 4 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng xanh → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 3 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp có 6 bóng xanh và 5 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 6 bóng đỏ và 5 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 3 bóng xanh và 5 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 3 bóng đỏ và 5 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 6 bóng đỏ và 6 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 6 bóng xanh và 3 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 2 bóng xanh và 6 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 7 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Không thể",
+      "Có thể",
+      "Chắc chắn"
+     ],
+     "correct": 0,
+     "explain": "Hộp không có bóng vàng → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 8 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp có 6 bóng vàng và 5 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng vàng là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng vàng (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 3 bóng đỏ và 2 bóng xanh. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 3 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp chỉ có 4 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp có 6 bóng xanh và 4 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 9 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp có 2 bóng đỏ và 6 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 7 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng đỏ → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 3 quả bóng màu vàng. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng vàng → chắc chắn lấy được bóng vàng."
+    },
+    {
+     "q": "Một hộp có 4 bóng xanh và 3 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 6 bóng xanh và 6 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng xanh là gì?",
+     "options": [
+      "Không thể",
+      "Chắc chắn",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng xanh (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp có 2 bóng vàng và 2 bóng đỏ. Lấy ra 1 quả. Khả năng lấy được bóng vàng là gì?",
+     "options": [
+      "Có thể",
+      "Chắc chắn",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng vàng (không chắc chắn)."
+    },
+    {
+     "q": "Một hộp chỉ có 9 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu vàng là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 1,
+     "explain": "Hộp không có bóng vàng → không thể lấy được."
+    },
+    {
+     "q": "Một hộp chỉ có 6 quả bóng màu đỏ. Lấy ra 1 quả. Khả năng lấy được bóng màu đỏ là gì?",
+     "options": [
+      "Có thể",
+      "Không thể",
+      "Chắc chắn"
+     ],
+     "correct": 2,
+     "explain": "Hộp chỉ có bóng đỏ → chắc chắn lấy được bóng đỏ."
+    },
+    {
+     "q": "Một hộp chỉ có 7 quả bóng màu xanh. Lấy ra 1 quả. Khả năng lấy được bóng màu xanh là gì?",
+     "options": [
+      "Chắc chắn",
+      "Có thể",
+      "Không thể"
+     ],
+     "correct": 0,
+     "explain": "Hộp chỉ có bóng xanh → chắc chắn lấy được bóng xanh."
+    },
+    {
+     "q": "Một hộp có 6 bóng đỏ và 6 bóng vàng. Lấy ra 1 quả. Khả năng lấy được bóng đỏ là gì?",
+     "options": [
+      "Chắc chắn",
+      "Không thể",
+      "Có thể"
+     ],
+     "correct": 2,
+     "explain": "Hộp có cả 2 màu → có thể lấy được bóng đỏ (không chắc chắn)."
+    }
+   ]
+  },
+  {
+   "type": 3,
+   "title": "Tìm thành phần chưa biết (tìm x)",
+   "exercises": [
+    {
+     "q": "Tìm x:  x × 6 = 48",
+     "options": [
+      "8",
+      "6",
+      "48",
+      "288"
+     ],
+     "correct": 0,
+     "explain": "x = 48 ÷ 6 = 8."
+    },
+    {
+     "q": "Tìm x:  26 − x = 20",
+     "options": [
+      "46",
+      "20",
+      "26",
+      "6"
+     ],
+     "correct": 3,
+     "explain": "x = 26 − 20 = 6."
+    },
+    {
+     "q": "Tìm x:  x : 3 = 8",
+     "options": [
+      "3",
+      "11",
+      "24",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "x = 8 × 3 = 24."
+    },
+    {
+     "q": "Tìm x:  36 − x = 30",
+     "options": [
+      "36",
+      "6",
+      "66",
+      "30"
+     ],
+     "correct": 1,
+     "explain": "x = 36 − 30 = 6."
+    },
+    {
+     "q": "Tìm x:  21 : x = 3",
+     "options": [
+      "21",
+      "18",
+      "7",
+      "3"
+     ],
+     "correct": 2,
+     "explain": "x = 21 ÷ 3 = 7."
+    },
+    {
+     "q": "Tìm x:  x × 7 = 56",
+     "options": [
+      "56",
+      "8",
+      "7",
+      "392"
+     ],
+     "correct": 1,
+     "explain": "x = 56 ÷ 7 = 8."
+    },
+    {
+     "q": "Tìm x:  17 − x = 13",
+     "options": [
+      "4",
+      "13",
+      "30",
+      "17"
+     ],
+     "correct": 0,
+     "explain": "x = 17 − 13 = 4."
+    },
+    {
+     "q": "Tìm x:  40 : x = 5",
+     "options": [
+      "8",
+      "35",
+      "40",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "x = 40 ÷ 5 = 8."
+    },
+    {
+     "q": "Tìm x:  x : 3 = 9",
+     "options": [
+      "12",
+      "3",
+      "27",
+      "9"
+     ],
+     "correct": 2,
+     "explain": "x = 9 × 3 = 27."
+    },
+    {
+     "q": "Tìm x:  x : 4 = 4",
+     "options": [
+      "4",
+      "8",
+      "16",
+      "17"
+     ],
+     "correct": 2,
+     "explain": "x = 4 × 4 = 16."
+    },
+    {
+     "q": "Tìm x:  x : 4 = 6",
+     "options": [
+      "24",
+      "10",
+      "6",
+      "4"
+     ],
+     "correct": 0,
+     "explain": "x = 6 × 4 = 24."
+    },
+    {
+     "q": "Tìm x:  x + 3 = 19",
+     "options": [
+      "16",
+      "3",
+      "19",
+      "22"
+     ],
+     "correct": 0,
+     "explain": "x = 19 − 3 = 16."
+    },
+    {
+     "q": "Tìm x:  x × 9 = 54",
+     "options": [
+      "6",
+      "486",
+      "54",
+      "9"
+     ],
+     "correct": 0,
+     "explain": "x = 54 ÷ 9 = 6."
+    },
+    {
+     "q": "Tìm x:  x × 6 = 54",
+     "options": [
+      "324",
+      "9",
+      "54",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "x = 54 ÷ 6 = 9."
+    },
+    {
+     "q": "Tìm x:  x − 3 = 6",
+     "options": [
+      "10",
+      "3",
+      "6",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "x = 6 + 3 = 9."
+    },
+    {
+     "q": "Tìm x:  14 − x = 11",
+     "options": [
+      "11",
+      "3",
+      "25",
+      "14"
+     ],
+     "correct": 1,
+     "explain": "x = 14 − 11 = 3."
+    },
+    {
+     "q": "Tìm x:  x : 7 = 7",
+     "options": [
+      "7",
+      "49",
+      "14",
+      "50"
+     ],
+     "correct": 1,
+     "explain": "x = 7 × 7 = 49."
+    },
+    {
+     "q": "Tìm x:  x − 5 = 7",
+     "options": [
+      "7",
+      "2",
+      "12",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "x = 7 + 5 = 12."
+    },
+    {
+     "q": "Tìm x:  12 : x = 3",
+     "options": [
+      "3",
+      "4",
+      "12",
+      "9"
+     ],
+     "correct": 1,
+     "explain": "x = 12 ÷ 3 = 4."
+    },
+    {
+     "q": "Tìm x:  x × 4 = 36",
+     "options": [
+      "9",
+      "36",
+      "144",
+      "4"
+     ],
+     "correct": 0,
+     "explain": "x = 36 ÷ 4 = 9."
+    },
+    {
+     "q": "Tìm x:  x × 5 = 15",
+     "options": [
+      "3",
+      "75",
+      "15",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "x = 15 ÷ 5 = 3."
+    },
+    {
+     "q": "Tìm x:  x + 4 = 48",
+     "options": [
+      "52",
+      "48",
+      "44",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "x = 48 − 4 = 44."
+    },
+    {
+     "q": "Tìm x:  x : 6 = 6",
+     "options": [
+      "36",
+      "6",
+      "37",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "x = 6 × 6 = 36."
+    },
+    {
+     "q": "Tìm x:  9 : x = 3",
+     "options": [
+      "6",
+      "3",
+      "9",
+      "4"
+     ],
+     "correct": 1,
+     "explain": "x = 9 ÷ 3 = 3."
+    },
+    {
+     "q": "Tìm x:  x : 5 = 4",
+     "options": [
+      "5",
+      "20",
+      "4",
+      "9"
+     ],
+     "correct": 1,
+     "explain": "x = 4 × 5 = 20."
+    },
+    {
+     "q": "Tìm x:  8 : x = 4",
+     "options": [
+      "2",
+      "4",
+      "3",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "x = 8 ÷ 4 = 2."
+    },
+    {
+     "q": "Tìm x:  x + 7 = 9",
+     "options": [
+      "7",
+      "16",
+      "9",
+      "2"
+     ],
+     "correct": 3,
+     "explain": "x = 9 − 7 = 2."
+    },
+    {
+     "q": "Tìm x:  x + 9 = 32",
+     "options": [
+      "9",
+      "32",
+      "23",
+      "41"
+     ],
+     "correct": 2,
+     "explain": "x = 32 − 9 = 23."
+    },
+    {
+     "q": "Tìm x:  x : 6 = 9",
+     "options": [
+      "9",
+      "6",
+      "54",
+      "15"
+     ],
+     "correct": 2,
+     "explain": "x = 9 × 6 = 54."
+    },
+    {
+     "q": "Tìm x:  x − 3 = 27",
+     "options": [
+      "30",
+      "24",
+      "27",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "x = 27 + 3 = 30."
+    },
+    {
+     "q": "Tìm x:  x − 6 = 2",
+     "options": [
+      "-4",
+      "8",
+      "6",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "x = 2 + 6 = 8."
+    },
+    {
+     "q": "Tìm x:  x : 8 = 8",
+     "options": [
+      "64",
+      "8",
+      "65",
+      "16"
+     ],
+     "correct": 0,
+     "explain": "x = 8 × 8 = 64."
+    },
+    {
+     "q": "Tìm x:  26 − x = 18",
+     "options": [
+      "26",
+      "18",
+      "8",
+      "44"
+     ],
+     "correct": 2,
+     "explain": "x = 26 − 18 = 8."
+    },
+    {
+     "q": "Tìm x:  x − 5 = 46",
+     "options": [
+      "51",
+      "41",
+      "46",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "x = 46 + 5 = 51."
+    },
+    {
+     "q": "Tìm x:  x + 4 = 32",
+     "options": [
+      "36",
+      "28",
+      "32",
+      "4"
+     ],
+     "correct": 1,
+     "explain": "x = 32 − 4 = 28."
+    },
+    {
+     "q": "Tìm x:  x + 3 = 25",
+     "options": [
+      "28",
+      "25",
+      "22",
+      "3"
+     ],
+     "correct": 2,
+     "explain": "x = 25 − 3 = 22."
+    },
+    {
+     "q": "Tìm x:  20 : x = 5",
+     "options": [
+      "15",
+      "5",
+      "20",
+      "4"
+     ],
+     "correct": 3,
+     "explain": "x = 20 ÷ 5 = 4."
+    },
+    {
+     "q": "Tìm x:  x : 2 = 9",
+     "options": [
+      "2",
+      "11",
+      "9",
+      "18"
+     ],
+     "correct": 3,
+     "explain": "x = 9 × 2 = 18."
+    },
+    {
+     "q": "Tìm x:  x : 6 = 3",
+     "options": [
+      "9",
+      "18",
+      "6",
+      "3"
+     ],
+     "correct": 1,
+     "explain": "x = 3 × 6 = 18."
+    },
+    {
+     "q": "Tìm x:  6 : x = 3",
+     "options": [
+      "1",
+      "3",
+      "2",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "x = 6 ÷ 3 = 2."
+    },
+    {
+     "q": "Tìm x:  21 − x = 15",
+     "options": [
+      "6",
+      "21",
+      "15",
+      "36"
+     ],
+     "correct": 0,
+     "explain": "x = 21 − 15 = 6."
+    },
+    {
+     "q": "Tìm x:  x − 6 = 33",
+     "options": [
+      "39",
+      "6",
+      "33",
+      "27"
+     ],
+     "correct": 0,
+     "explain": "x = 33 + 6 = 39."
+    },
+    {
+     "q": "Tìm x:  x : 3 = 4",
+     "options": [
+      "3",
+      "7",
+      "4",
+      "12"
+     ],
+     "correct": 3,
+     "explain": "x = 4 × 3 = 12."
+    },
+    {
+     "q": "Tìm x:  30 : x = 5",
+     "options": [
+      "25",
+      "30",
+      "6",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "x = 30 ÷ 5 = 6."
+    },
+    {
+     "q": "Tìm x:  x − 7 = 18",
+     "options": [
+      "11",
+      "18",
+      "25",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "x = 18 + 7 = 25."
+    },
+    {
+     "q": "Tìm x:  x × 4 = 20",
+     "options": [
+      "20",
+      "4",
+      "80",
+      "5"
+     ],
+     "correct": 3,
+     "explain": "x = 20 ÷ 4 = 5."
+    },
+    {
+     "q": "Tìm x:  x : 7 = 5",
+     "options": [
+      "35",
+      "7",
+      "5",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "x = 5 × 7 = 35."
+    },
+    {
+     "q": "Tìm x:  x : 8 = 5",
+     "options": [
+      "40",
+      "8",
+      "5",
+      "13"
+     ],
+     "correct": 0,
+     "explain": "x = 5 × 8 = 40."
+    },
+    {
+     "q": "Tìm x:  x : 3 = 7",
+     "options": [
+      "21",
+      "10",
+      "3",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "x = 7 × 3 = 21."
+    },
+    {
+     "q": "Tìm x:  54 : x = 6",
+     "options": [
+      "6",
+      "48",
+      "54",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "x = 54 ÷ 6 = 9."
+    },
+    {
+     "q": "Tìm x:  x + 3 = 28",
+     "options": [
+      "31",
+      "28",
+      "25",
+      "3"
+     ],
+     "correct": 2,
+     "explain": "x = 28 − 3 = 25."
+    },
+    {
+     "q": "Tìm x:  18 − x = 15",
+     "options": [
+      "33",
+      "3",
+      "18",
+      "15"
+     ],
+     "correct": 1,
+     "explain": "x = 18 − 15 = 3."
+    },
+    {
+     "q": "Tìm x:  x : 7 = 2",
+     "options": [
+      "9",
+      "14",
+      "2",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "x = 2 × 7 = 14."
+    },
+    {
+     "q": "Tìm x:  x − 4 = 29",
+     "options": [
+      "33",
+      "4",
+      "29",
+      "25"
+     ],
+     "correct": 0,
+     "explain": "x = 29 + 4 = 33."
+    },
+    {
+     "q": "Tìm x:  x − 4 = 8",
+     "options": [
+      "13",
+      "4",
+      "12",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "x = 8 + 4 = 12."
+    },
+    {
+     "q": "Tìm x:  x × 6 = 42",
+     "options": [
+      "6",
+      "7",
+      "42",
+      "252"
+     ],
+     "correct": 1,
+     "explain": "x = 42 ÷ 6 = 7."
+    },
+    {
+     "q": "Tìm x:  x × 7 = 49",
+     "options": [
+      "7",
+      "343",
+      "8",
+      "49"
+     ],
+     "correct": 0,
+     "explain": "x = 49 ÷ 7 = 7."
+    },
+    {
+     "q": "Tìm x:  x − 8 = 7",
+     "options": [
+      "8",
+      "-1",
+      "15",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "x = 7 + 8 = 15."
+    },
+    {
+     "q": "Tìm x:  x : 7 = 8",
+     "options": [
+      "15",
+      "7",
+      "8",
+      "56"
+     ],
+     "correct": 3,
+     "explain": "x = 8 × 7 = 56."
+    },
+    {
+     "q": "Tìm x:  x : 7 = 6",
+     "options": [
+      "6",
+      "13",
+      "7",
+      "42"
+     ],
+     "correct": 3,
+     "explain": "x = 6 × 7 = 42."
+    },
+    {
+     "q": "Tìm x:  x × 4 = 8",
+     "options": [
+      "4",
+      "2",
+      "32",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "x = 8 ÷ 4 = 2."
+    },
+    {
+     "q": "Tìm x:  56 − x = 48",
+     "options": [
+      "48",
+      "56",
+      "8",
+      "104"
+     ],
+     "correct": 2,
+     "explain": "x = 56 − 48 = 8."
+    },
+    {
+     "q": "Tìm x:  17 − x = 10",
+     "options": [
+      "27",
+      "7",
+      "17",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "x = 17 − 10 = 7."
+    },
+    {
+     "q": "Tìm x:  x : 5 = 8",
+     "options": [
+      "40",
+      "8",
+      "5",
+      "13"
+     ],
+     "correct": 0,
+     "explain": "x = 8 × 5 = 40."
+    },
+    {
+     "q": "Tìm x:  x + 2 = 8",
+     "options": [
+      "8",
+      "6",
+      "2",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "x = 8 − 2 = 6."
+    },
+    {
+     "q": "Tìm x:  63 : x = 7",
+     "options": [
+      "9",
+      "7",
+      "56",
+      "63"
+     ],
+     "correct": 0,
+     "explain": "x = 63 ÷ 7 = 9."
+    }
+   ]
+  }
+ ]
+}

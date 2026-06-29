@@ -1,5 +1,5 @@
 /* Service worker cho Gia Sư AI (PWA) */
-const VERSION = 'gsai-v3';
+const VERSION = 'gsai-v4';
 const CORE = [
   './',
   'index.html',

@@ -1,0 +1,2242 @@
+{
+ "grade": 3,
+ "week": "DL",
+ "lessons": [
+  {
+   "type": 1,
+   "title": "Đơn vị đo độ dài (mm, cm, m, km)",
+   "exercises": [
+    {
+     "q": "Đổi: 2000 m = ... km ?",
+     "options": [
+      "3",
+      "2000",
+      "20",
+      "2"
+     ],
+     "correct": 3,
+     "explain": "2000 m ÷ 1000 = 2 km."
+    },
+    {
+     "q": "Đổi: 60 cm = ... dm ?",
+     "options": [
+      "7",
+      "60",
+      "6",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "60 cm ÷ 10 = 6 dm."
+    },
+    {
+     "q": "Đổi: 7 km = ... m ?",
+     "options": [
+      "7",
+      "7000",
+      "70000",
+      "700"
+     ],
+     "correct": 1,
+     "explain": "1 km = 1000 m → 7 km = 7000 m."
+    },
+    {
+     "q": "Đổi: 3 dm = ... cm ?",
+     "options": [
+      "30",
+      "3",
+      "40",
+      "300"
+     ],
+     "correct": 0,
+     "explain": "1 dm = 10 cm → 3 dm = 30 cm."
+    },
+    {
+     "q": "Đổi: 30 dm = ... m ?",
+     "options": [
+      "30",
+      "4",
+      "2",
+      "3"
+     ],
+     "correct": 3,
+     "explain": "30 dm ÷ 10 = 3 m."
+    },
+    {
+     "q": "Đổi: 8 dm = ... cm ?",
+     "options": [
+      "80",
+      "90",
+      "800",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "1 dm = 10 cm → 8 dm = 80 cm."
+    },
+    {
+     "q": "Đổi: 7 m = ... cm ?",
+     "options": [
+      "70",
+      "700",
+      "7",
+      "7000"
+     ],
+     "correct": 1,
+     "explain": "1 m = 100 cm → 7 m = 700 cm."
+    },
+    {
+     "q": "Đổi: 6 dm = ... mm ?",
+     "options": [
+      "6",
+      "60",
+      "600",
+      "6000"
+     ],
+     "correct": 2,
+     "explain": "1 dm = 100 mm → 6 dm = 600 mm."
+    },
+    {
+     "q": "Đổi: 50 cm = ... dm ?",
+     "options": [
+      "50",
+      "4",
+      "5",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "50 cm ÷ 10 = 5 dm."
+    },
+    {
+     "q": "Đổi: 4 dm = ... mm ?",
+     "options": [
+      "40",
+      "4000",
+      "400",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "1 dm = 100 mm → 4 dm = 400 mm."
+    },
+    {
+     "q": "Đổi: 90 cm = ... dm ?",
+     "options": [
+      "9",
+      "10",
+      "90",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "90 cm ÷ 10 = 9 dm."
+    },
+    {
+     "q": "Đổi: 4000 mm = ... m ?",
+     "options": [
+      "40",
+      "4000",
+      "4",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "4000 mm ÷ 1000 = 4 m."
+    },
+    {
+     "q": "Đổi: 4 cm = ... mm ?",
+     "options": [
+      "400",
+      "4",
+      "50",
+      "40"
+     ],
+     "correct": 3,
+     "explain": "1 cm = 10 mm → 4 cm = 40 mm."
+    },
+    {
+     "q": "Đổi: 2 km = ... m ?",
+     "options": [
+      "20000",
+      "200",
+      "2000",
+      "2"
+     ],
+     "correct": 2,
+     "explain": "1 km = 1000 m → 2 km = 2000 m."
+    },
+    {
+     "q": "Đổi: 9 km = ... m ?",
+     "options": [
+      "900",
+      "9000",
+      "90000",
+      "9"
+     ],
+     "correct": 1,
+     "explain": "1 km = 1000 m → 9 km = 9000 m."
+    },
+    {
+     "q": "Đổi: 20 dm = ... m ?",
+     "options": [
+      "2",
+      "3",
+      "20",
+      "1"
+     ],
+     "correct": 0,
+     "explain": "20 dm ÷ 10 = 2 m."
+    },
+    {
+     "q": "Đổi: 90 dm = ... m ?",
+     "options": [
+      "90",
+      "10",
+      "9",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "90 dm ÷ 10 = 9 m."
+    },
+    {
+     "q": "Đổi: 2 dm = ... mm ?",
+     "options": [
+      "2000",
+      "2",
+      "20",
+      "200"
+     ],
+     "correct": 3,
+     "explain": "1 dm = 100 mm → 2 dm = 200 mm."
+    },
+    {
+     "q": "Đổi: 60 mm = ... cm ?",
+     "options": [
+      "7",
+      "6",
+      "60",
+      "5"
+     ],
+     "correct": 1,
+     "explain": "60 mm ÷ 10 = 6 cm."
+    },
+    {
+     "q": "Đổi: 4 m = ... cm ?",
+     "options": [
+      "4000",
+      "400",
+      "4",
+      "40"
+     ],
+     "correct": 1,
+     "explain": "1 m = 100 cm → 4 m = 400 cm."
+    },
+    {
+     "q": "Đổi: 20 cm = ... dm ?",
+     "options": [
+      "1",
+      "3",
+      "2",
+      "20"
+     ],
+     "correct": 2,
+     "explain": "20 cm ÷ 10 = 2 dm."
+    },
+    {
+     "q": "Đổi: 40 dm = ... m ?",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "40"
+     ],
+     "correct": 1,
+     "explain": "40 dm ÷ 10 = 4 m."
+    },
+    {
+     "q": "Đổi: 60 dm = ... m ?",
+     "options": [
+      "60",
+      "5",
+      "6",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "60 dm ÷ 10 = 6 m."
+    },
+    {
+     "q": "Đổi: 6 cm = ... mm ?",
+     "options": [
+      "600",
+      "60",
+      "6",
+      "70"
+     ],
+     "correct": 1,
+     "explain": "1 cm = 10 mm → 6 cm = 60 mm."
+    },
+    {
+     "q": "Đổi: 900 cm = ... m ?",
+     "options": [
+      "10",
+      "90",
+      "900",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "900 cm ÷ 100 = 9 m."
+    },
+    {
+     "q": "Đổi: 3 cm = ... mm ?",
+     "options": [
+      "30",
+      "300",
+      "40",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "1 cm = 10 mm → 3 cm = 30 mm."
+    },
+    {
+     "q": "Đổi: 50 dm = ... m ?",
+     "options": [
+      "6",
+      "5",
+      "4",
+      "50"
+     ],
+     "correct": 1,
+     "explain": "50 dm ÷ 10 = 5 m."
+    },
+    {
+     "q": "Đổi: 40 cm = ... dm ?",
+     "options": [
+      "3",
+      "40",
+      "4",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "40 cm ÷ 10 = 4 dm."
+    },
+    {
+     "q": "Đổi: 9 m = ... cm ?",
+     "options": [
+      "9000",
+      "900",
+      "90",
+      "9"
+     ],
+     "correct": 1,
+     "explain": "1 m = 100 cm → 9 m = 900 cm."
+    },
+    {
+     "q": "Đổi: 9 cm = ... mm ?",
+     "options": [
+      "900",
+      "100",
+      "90",
+      "9"
+     ],
+     "correct": 2,
+     "explain": "1 cm = 10 mm → 9 cm = 90 mm."
+    },
+    {
+     "q": "Đổi: 6000 m = ... km ?",
+     "options": [
+      "6",
+      "6000",
+      "7",
+      "60"
+     ],
+     "correct": 0,
+     "explain": "6000 m ÷ 1000 = 6 km."
+    },
+    {
+     "q": "Đổi: 7 cm = ... mm ?",
+     "options": [
+      "7",
+      "70",
+      "80",
+      "700"
+     ],
+     "correct": 1,
+     "explain": "1 cm = 10 mm → 7 cm = 70 mm."
+    },
+    {
+     "q": "Đổi: 6 m = ... mm ?",
+     "options": [
+      "600",
+      "6",
+      "60000",
+      "6000"
+     ],
+     "correct": 3,
+     "explain": "1 m = 1000 mm → 6 m = 6000 mm."
+    },
+    {
+     "q": "Đổi: 6 m = ... cm ?",
+     "options": [
+      "60",
+      "600",
+      "6000",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "1 m = 100 cm → 6 m = 600 cm."
+    },
+    {
+     "q": "Đổi: 500 mm = ... dm ?",
+     "options": [
+      "50",
+      "6",
+      "5",
+      "500"
+     ],
+     "correct": 2,
+     "explain": "500 mm ÷ 100 = 5 dm."
+    },
+    {
+     "q": "Đổi: 3 km = ... m ?",
+     "options": [
+      "30000",
+      "3",
+      "300",
+      "3000"
+     ],
+     "correct": 3,
+     "explain": "1 km = 1000 m → 3 km = 3000 m."
+    },
+    {
+     "q": "Đổi: 7 m = ... mm ?",
+     "options": [
+      "7000",
+      "700",
+      "70000",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "1 m = 1000 mm → 7 m = 7000 mm."
+    },
+    {
+     "q": "Đổi: 20 mm = ... cm ?",
+     "options": [
+      "2",
+      "1",
+      "20",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "20 mm ÷ 10 = 2 cm."
+    },
+    {
+     "q": "Đổi: 7 m = ... dm ?",
+     "options": [
+      "70",
+      "7",
+      "80",
+      "700"
+     ],
+     "correct": 0,
+     "explain": "1 m = 10 dm → 7 m = 70 dm."
+    },
+    {
+     "q": "Đổi: 9 m = ... mm ?",
+     "options": [
+      "9000",
+      "900",
+      "9",
+      "90000"
+     ],
+     "correct": 0,
+     "explain": "1 m = 1000 mm → 9 m = 9000 mm."
+    },
+    {
+     "q": "Đổi: 70 cm = ... dm ?",
+     "options": [
+      "70",
+      "7",
+      "8",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "70 cm ÷ 10 = 7 dm."
+    },
+    {
+     "q": "Đổi: 8 m = ... cm ?",
+     "options": [
+      "80",
+      "8",
+      "8000",
+      "800"
+     ],
+     "correct": 3,
+     "explain": "1 m = 100 cm → 8 m = 800 cm."
+    },
+    {
+     "q": "Đổi: 200 cm = ... m ?",
+     "options": [
+      "3",
+      "2",
+      "20",
+      "200"
+     ],
+     "correct": 1,
+     "explain": "200 cm ÷ 100 = 2 m."
+    },
+    {
+     "q": "Đổi: 40 mm = ... cm ?",
+     "options": [
+      "4",
+      "3",
+      "5",
+      "40"
+     ],
+     "correct": 0,
+     "explain": "40 mm ÷ 10 = 4 cm."
+    },
+    {
+     "q": "Đổi: 9 dm = ... mm ?",
+     "options": [
+      "9000",
+      "90",
+      "900",
+      "9"
+     ],
+     "correct": 2,
+     "explain": "1 dm = 100 mm → 9 dm = 900 mm."
+    },
+    {
+     "q": "Đổi: 5 dm = ... cm ?",
+     "options": [
+      "500",
+      "5",
+      "50",
+      "60"
+     ],
+     "correct": 2,
+     "explain": "1 dm = 10 cm → 5 dm = 50 cm."
+    },
+    {
+     "q": "Đổi: 2 m = ... mm ?",
+     "options": [
+      "20000",
+      "2",
+      "2000",
+      "3000"
+     ],
+     "correct": 2,
+     "explain": "1 m = 1000 mm → 2 m = 2000 mm."
+    },
+    {
+     "q": "Đổi: 6 dm = ... cm ?",
+     "options": [
+      "600",
+      "60",
+      "70",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "1 dm = 10 cm → 6 dm = 60 cm."
+    },
+    {
+     "q": "Đổi: 9 m = ... dm ?",
+     "options": [
+      "100",
+      "9",
+      "900",
+      "90"
+     ],
+     "correct": 3,
+     "explain": "1 m = 10 dm → 9 m = 90 dm."
+    },
+    {
+     "q": "Đổi: 5 m = ... mm ?",
+     "options": [
+      "5000",
+      "6000",
+      "50000",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "1 m = 1000 mm → 5 m = 5000 mm."
+    },
+    {
+     "q": "Đổi: 7 dm = ... cm ?",
+     "options": [
+      "700",
+      "80",
+      "70",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "1 dm = 10 cm → 7 dm = 70 cm."
+    },
+    {
+     "q": "Đổi: 3 m = ... mm ?",
+     "options": [
+      "3",
+      "30000",
+      "3000",
+      "4000"
+     ],
+     "correct": 2,
+     "explain": "1 m = 1000 mm → 3 m = 3000 mm."
+    },
+    {
+     "q": "Đổi: 5 dm = ... mm ?",
+     "options": [
+      "500",
+      "5000",
+      "5",
+      "600"
+     ],
+     "correct": 0,
+     "explain": "1 dm = 100 mm → 5 dm = 500 mm."
+    },
+    {
+     "q": "Đổi: 4 km = ... m ?",
+     "options": [
+      "4",
+      "5000",
+      "40000",
+      "4000"
+     ],
+     "correct": 3,
+     "explain": "1 km = 1000 m → 4 km = 4000 m."
+    },
+    {
+     "q": "Đổi: 9 dm = ... cm ?",
+     "options": [
+      "900",
+      "100",
+      "9",
+      "90"
+     ],
+     "correct": 3,
+     "explain": "1 dm = 10 cm → 9 dm = 90 cm."
+    },
+    {
+     "q": "Đổi: 3 m = ... cm ?",
+     "options": [
+      "3",
+      "400",
+      "3000",
+      "300"
+     ],
+     "correct": 3,
+     "explain": "1 m = 100 cm → 3 m = 300 cm."
+    },
+    {
+     "q": "Đổi: 8 km = ... m ?",
+     "options": [
+      "8000",
+      "9000",
+      "80000",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "1 km = 1000 m → 8 km = 8000 m."
+    },
+    {
+     "q": "Đổi: 8 m = ... dm ?",
+     "options": [
+      "8",
+      "90",
+      "800",
+      "80"
+     ],
+     "correct": 3,
+     "explain": "1 m = 10 dm → 8 m = 80 dm."
+    },
+    {
+     "q": "Đổi: 7 dm = ... mm ?",
+     "options": [
+      "800",
+      "700",
+      "7000",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "1 dm = 100 mm → 7 dm = 700 mm."
+    },
+    {
+     "q": "Đổi: 6 m = ... dm ?",
+     "options": [
+      "6",
+      "60",
+      "70",
+      "600"
+     ],
+     "correct": 1,
+     "explain": "1 m = 10 dm → 6 m = 60 dm."
+    },
+    {
+     "q": "Đổi: 2 cm = ... mm ?",
+     "options": [
+      "30",
+      "2",
+      "20",
+      "200"
+     ],
+     "correct": 2,
+     "explain": "1 cm = 10 mm → 2 cm = 20 mm."
+    },
+    {
+     "q": "Đổi: 8 dm = ... mm ?",
+     "options": [
+      "900",
+      "800",
+      "8000",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "1 dm = 100 mm → 8 dm = 800 mm."
+    },
+    {
+     "q": "Đổi: 5 km = ... m ?",
+     "options": [
+      "50000",
+      "5000",
+      "6000",
+      "5"
+     ],
+     "correct": 1,
+     "explain": "1 km = 1000 m → 5 km = 5000 m."
+    },
+    {
+     "q": "Đổi: 8 m = ... mm ?",
+     "options": [
+      "8000",
+      "9000",
+      "80000",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "1 m = 1000 mm → 8 m = 8000 mm."
+    },
+    {
+     "q": "Đổi: 2 dm = ... cm ?",
+     "options": [
+      "200",
+      "20",
+      "30",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "1 dm = 10 cm → 2 dm = 20 cm."
+    },
+    {
+     "q": "Đổi: 5 m = ... cm ?",
+     "options": [
+      "5",
+      "600",
+      "5000",
+      "500"
+     ],
+     "correct": 3,
+     "explain": "1 m = 100 cm → 5 m = 500 cm."
+    },
+    {
+     "q": "Đổi: 4 dm = ... cm ?",
+     "options": [
+      "40",
+      "4",
+      "50",
+      "400"
+     ],
+     "correct": 0,
+     "explain": "1 dm = 10 cm → 4 dm = 40 cm."
+    },
+    {
+     "q": "Đổi: 4 m = ... dm ?",
+     "options": [
+      "400",
+      "50",
+      "40",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "1 m = 10 dm → 4 m = 40 dm."
+    },
+    {
+     "q": "Đổi: 6 km = ... m ?",
+     "options": [
+      "7000",
+      "60000",
+      "6",
+      "6000"
+     ],
+     "correct": 3,
+     "explain": "1 km = 1000 m → 6 km = 6000 m."
+    },
+    {
+     "q": "Đổi: 5 cm = ... mm ?",
+     "options": [
+      "60",
+      "500",
+      "50",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "1 cm = 10 mm → 5 cm = 50 mm."
+    },
+    {
+     "q": "Đổi: 4 m = ... mm ?",
+     "options": [
+      "4",
+      "5000",
+      "4000",
+      "40000"
+     ],
+     "correct": 2,
+     "explain": "1 m = 1000 mm → 4 m = 4000 mm."
+    },
+    {
+     "q": "Đổi: 2 m = ... cm ?",
+     "options": [
+      "2",
+      "300",
+      "200",
+      "2000"
+     ],
+     "correct": 2,
+     "explain": "1 m = 100 cm → 2 m = 200 cm."
+    },
+    {
+     "q": "Đổi: 8 cm = ... mm ?",
+     "options": [
+      "90",
+      "800",
+      "8",
+      "80"
+     ],
+     "correct": 3,
+     "explain": "1 cm = 10 mm → 8 cm = 80 mm."
+    }
+   ]
+  },
+  {
+   "type": 2,
+   "title": "Đơn vị đo khối lượng (gam, kg)",
+   "exercises": [
+    {
+     "q": "Đổi: 8 kg 395 g = ... g ?",
+     "options": [
+      "9395",
+      "8395",
+      "8000",
+      "395"
+     ],
+     "correct": 1,
+     "explain": "8 kg 395 g = 8000 + 395 = 8395 g."
+    },
+    {
+     "q": "Đổi: 5000 g = ... kg ?",
+     "options": [
+      "6",
+      "50",
+      "5",
+      "5000"
+     ],
+     "correct": 2,
+     "explain": "5000 g ÷ 1000 = 5 kg."
+    },
+    {
+     "q": "Đổi: 5 kg 80 g = ... g ?",
+     "options": [
+      "5080",
+      "6080",
+      "80",
+      "5000"
+     ],
+     "correct": 0,
+     "explain": "5 kg 80 g = 5000 + 80 = 5080 g."
+    },
+    {
+     "q": "Đổi: 5 kg = ... g ?",
+     "options": [
+      "5",
+      "500",
+      "5100",
+      "5000"
+     ],
+     "correct": 3,
+     "explain": "1 kg = 1000 g → 5 kg = 5000 g."
+    },
+    {
+     "q": "Đổi: 9 kg 208 g = ... g ?",
+     "options": [
+      "208",
+      "9208",
+      "9000",
+      "10208"
+     ],
+     "correct": 1,
+     "explain": "9 kg 208 g = 9000 + 208 = 9208 g."
+    },
+    {
+     "q": "Đổi: 7 kg = ... g ?",
+     "options": [
+      "7",
+      "7100",
+      "7000",
+      "700"
+     ],
+     "correct": 2,
+     "explain": "1 kg = 1000 g → 7 kg = 7000 g."
+    },
+    {
+     "q": "Đổi: 3 kg = ... g ?",
+     "options": [
+      "3000",
+      "300",
+      "3",
+      "3100"
+     ],
+     "correct": 0,
+     "explain": "1 kg = 1000 g → 3 kg = 3000 g."
+    },
+    {
+     "q": "Đổi: 8000 g = ... kg ?",
+     "options": [
+      "8000",
+      "80",
+      "9",
+      "8"
+     ],
+     "correct": 3,
+     "explain": "8000 g ÷ 1000 = 8 kg."
+    },
+    {
+     "q": "Đổi: 8 kg 831 g = ... g ?",
+     "options": [
+      "831",
+      "8831",
+      "8000",
+      "9831"
+     ],
+     "correct": 1,
+     "explain": "8 kg 831 g = 8000 + 831 = 8831 g."
+    },
+    {
+     "q": "Đổi: 9 kg = ... g ?",
+     "options": [
+      "900",
+      "9",
+      "9100",
+      "9000"
+     ],
+     "correct": 3,
+     "explain": "1 kg = 1000 g → 9 kg = 9000 g."
+    },
+    {
+     "q": "Đổi: 9000 g = ... kg ?",
+     "options": [
+      "9",
+      "90",
+      "10",
+      "9000"
+     ],
+     "correct": 0,
+     "explain": "9000 g ÷ 1000 = 9 kg."
+    },
+    {
+     "q": "Đổi: 6 kg = ... g ?",
+     "options": [
+      "6",
+      "6100",
+      "600",
+      "6000"
+     ],
+     "correct": 3,
+     "explain": "1 kg = 1000 g → 6 kg = 6000 g."
+    },
+    {
+     "q": "Đổi: 8 kg = ... g ?",
+     "options": [
+      "8000",
+      "8100",
+      "8",
+      "800"
+     ],
+     "correct": 0,
+     "explain": "1 kg = 1000 g → 8 kg = 8000 g."
+    },
+    {
+     "q": "Đổi: 6 kg 479 g = ... g ?",
+     "options": [
+      "6479",
+      "6000",
+      "7479",
+      "479"
+     ],
+     "correct": 0,
+     "explain": "6 kg 479 g = 6000 + 479 = 6479 g."
+    },
+    {
+     "q": "Đổi: 8 kg 272 g = ... g ?",
+     "options": [
+      "272",
+      "8000",
+      "8272",
+      "9272"
+     ],
+     "correct": 2,
+     "explain": "8 kg 272 g = 8000 + 272 = 8272 g."
+    },
+    {
+     "q": "Đổi: 2000 g = ... kg ?",
+     "options": [
+      "2",
+      "2000",
+      "20",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "2000 g ÷ 1000 = 2 kg."
+    },
+    {
+     "q": "Đổi: 2 kg = ... g ?",
+     "options": [
+      "2",
+      "2000",
+      "2100",
+      "200"
+     ],
+     "correct": 1,
+     "explain": "1 kg = 1000 g → 2 kg = 2000 g."
+    },
+    {
+     "q": "Đổi: 6 kg 474 g = ... g ?",
+     "options": [
+      "6474",
+      "474",
+      "6000",
+      "7474"
+     ],
+     "correct": 0,
+     "explain": "6 kg 474 g = 6000 + 474 = 6474 g."
+    },
+    {
+     "q": "Đổi: 6000 g = ... kg ?",
+     "options": [
+      "6",
+      "60",
+      "7",
+      "6000"
+     ],
+     "correct": 0,
+     "explain": "6000 g ÷ 1000 = 6 kg."
+    },
+    {
+     "q": "Đổi: 7000 g = ... kg ?",
+     "options": [
+      "7000",
+      "8",
+      "7",
+      "70"
+     ],
+     "correct": 2,
+     "explain": "7000 g ÷ 1000 = 7 kg."
+    },
+    {
+     "q": "Đổi: 7 kg 813 g = ... g ?",
+     "options": [
+      "7813",
+      "8813",
+      "7000",
+      "813"
+     ],
+     "correct": 0,
+     "explain": "7 kg 813 g = 7000 + 813 = 7813 g."
+    },
+    {
+     "q": "Đổi: 9 kg 645 g = ... g ?",
+     "options": [
+      "9000",
+      "645",
+      "9645",
+      "10645"
+     ],
+     "correct": 2,
+     "explain": "9 kg 645 g = 9000 + 645 = 9645 g."
+    },
+    {
+     "q": "Đổi: 4 kg 620 g = ... g ?",
+     "options": [
+      "5620",
+      "4000",
+      "620",
+      "4620"
+     ],
+     "correct": 3,
+     "explain": "4 kg 620 g = 4000 + 620 = 4620 g."
+    },
+    {
+     "q": "Đổi: 5 kg 553 g = ... g ?",
+     "options": [
+      "6553",
+      "553",
+      "5553",
+      "5000"
+     ],
+     "correct": 2,
+     "explain": "5 kg 553 g = 5000 + 553 = 5553 g."
+    },
+    {
+     "q": "Đổi: 5 kg 476 g = ... g ?",
+     "options": [
+      "476",
+      "6476",
+      "5000",
+      "5476"
+     ],
+     "correct": 3,
+     "explain": "5 kg 476 g = 5000 + 476 = 5476 g."
+    },
+    {
+     "q": "Đổi: 2 kg 814 g = ... g ?",
+     "options": [
+      "3814",
+      "2000",
+      "2814",
+      "814"
+     ],
+     "correct": 2,
+     "explain": "2 kg 814 g = 2000 + 814 = 2814 g."
+    },
+    {
+     "q": "Đổi: 5 kg 722 g = ... g ?",
+     "options": [
+      "5000",
+      "722",
+      "6722",
+      "5722"
+     ],
+     "correct": 3,
+     "explain": "5 kg 722 g = 5000 + 722 = 5722 g."
+    },
+    {
+     "q": "Đổi: 6 kg 187 g = ... g ?",
+     "options": [
+      "187",
+      "6000",
+      "6187",
+      "7187"
+     ],
+     "correct": 2,
+     "explain": "6 kg 187 g = 6000 + 187 = 6187 g."
+    },
+    {
+     "q": "Đổi: 3 kg 438 g = ... g ?",
+     "options": [
+      "438",
+      "3000",
+      "4438",
+      "3438"
+     ],
+     "correct": 3,
+     "explain": "3 kg 438 g = 3000 + 438 = 3438 g."
+    },
+    {
+     "q": "Đổi: 7 kg 300 g = ... g ?",
+     "options": [
+      "8300",
+      "300",
+      "7300",
+      "7000"
+     ],
+     "correct": 2,
+     "explain": "7 kg 300 g = 7000 + 300 = 7300 g."
+    },
+    {
+     "q": "Đổi: 5 kg 864 g = ... g ?",
+     "options": [
+      "6864",
+      "864",
+      "5000",
+      "5864"
+     ],
+     "correct": 3,
+     "explain": "5 kg 864 g = 5000 + 864 = 5864 g."
+    },
+    {
+     "q": "Đổi: 4000 g = ... kg ?",
+     "options": [
+      "4000",
+      "5",
+      "4",
+      "40"
+     ],
+     "correct": 2,
+     "explain": "4000 g ÷ 1000 = 4 kg."
+    },
+    {
+     "q": "Đổi: 6 kg 117 g = ... g ?",
+     "options": [
+      "6000",
+      "6117",
+      "7117",
+      "117"
+     ],
+     "correct": 1,
+     "explain": "6 kg 117 g = 6000 + 117 = 6117 g."
+    },
+    {
+     "q": "Đổi: 8 kg 304 g = ... g ?",
+     "options": [
+      "9304",
+      "8304",
+      "8000",
+      "304"
+     ],
+     "correct": 1,
+     "explain": "8 kg 304 g = 8000 + 304 = 8304 g."
+    },
+    {
+     "q": "Đổi: 7 kg 895 g = ... g ?",
+     "options": [
+      "895",
+      "8895",
+      "7000",
+      "7895"
+     ],
+     "correct": 3,
+     "explain": "7 kg 895 g = 7000 + 895 = 7895 g."
+    },
+    {
+     "q": "Đổi: 4 kg 783 g = ... g ?",
+     "options": [
+      "783",
+      "4000",
+      "4783",
+      "5783"
+     ],
+     "correct": 2,
+     "explain": "4 kg 783 g = 4000 + 783 = 4783 g."
+    },
+    {
+     "q": "Đổi: 4 kg = ... g ?",
+     "options": [
+      "400",
+      "4100",
+      "4",
+      "4000"
+     ],
+     "correct": 3,
+     "explain": "1 kg = 1000 g → 4 kg = 4000 g."
+    },
+    {
+     "q": "Đổi: 8 kg 551 g = ... g ?",
+     "options": [
+      "551",
+      "9551",
+      "8551",
+      "8000"
+     ],
+     "correct": 2,
+     "explain": "8 kg 551 g = 8000 + 551 = 8551 g."
+    },
+    {
+     "q": "Đổi: 3000 g = ... kg ?",
+     "options": [
+      "3",
+      "3000",
+      "4",
+      "30"
+     ],
+     "correct": 0,
+     "explain": "3000 g ÷ 1000 = 3 kg."
+    },
+    {
+     "q": "Đổi: 2 kg 73 g = ... g ?",
+     "options": [
+      "2073",
+      "3073",
+      "2000",
+      "73"
+     ],
+     "correct": 0,
+     "explain": "2 kg 73 g = 2000 + 73 = 2073 g."
+    }
+   ]
+  },
+  {
+   "type": 3,
+   "title": "Đơn vị đo dung tích (ml, lít)",
+   "exercises": [
+    {
+     "q": "Đổi: 6 l 300 ml = ... ml ?",
+     "options": [
+      "7300",
+      "6000",
+      "300",
+      "6300"
+     ],
+     "correct": 3,
+     "explain": "6 l 300 ml = 6000 + 300 = 6300 ml."
+    },
+    {
+     "q": "Đổi: 7 l 500 ml = ... ml ?",
+     "options": [
+      "7000",
+      "500",
+      "8500",
+      "7500"
+     ],
+     "correct": 3,
+     "explain": "7 l 500 ml = 7000 + 500 = 7500 ml."
+    },
+    {
+     "q": "Đổi: 5 l = ... ml ?",
+     "options": [
+      "5000",
+      "5",
+      "5100",
+      "500"
+     ],
+     "correct": 0,
+     "explain": "1 l = 1000 ml → 5 l = 5000 ml."
+    },
+    {
+     "q": "Đổi: 2 l 300 ml = ... ml ?",
+     "options": [
+      "3300",
+      "300",
+      "2300",
+      "2000"
+     ],
+     "correct": 2,
+     "explain": "2 l 300 ml = 2000 + 300 = 2300 ml."
+    },
+    {
+     "q": "Đổi: 5000 ml = ... l ?",
+     "options": [
+      "50",
+      "5000",
+      "6",
+      "5"
+     ],
+     "correct": 3,
+     "explain": "5000 ml ÷ 1000 = 5 l."
+    },
+    {
+     "q": "Đổi: 10 l = ... ml ?",
+     "options": [
+      "10",
+      "10100",
+      "1000",
+      "10000"
+     ],
+     "correct": 3,
+     "explain": "1 l = 1000 ml → 10 l = 10000 ml."
+    },
+    {
+     "q": "Đổi: 7 l = ... ml ?",
+     "options": [
+      "7",
+      "700",
+      "7100",
+      "7000"
+     ],
+     "correct": 3,
+     "explain": "1 l = 1000 ml → 7 l = 7000 ml."
+    },
+    {
+     "q": "Đổi: 14 l = ... ml ?",
+     "options": [
+      "14",
+      "14000",
+      "14100",
+      "1400"
+     ],
+     "correct": 1,
+     "explain": "1 l = 1000 ml → 14 l = 14000 ml."
+    },
+    {
+     "q": "Đổi: 9000 ml = ... l ?",
+     "options": [
+      "10",
+      "9000",
+      "9",
+      "90"
+     ],
+     "correct": 2,
+     "explain": "9000 ml ÷ 1000 = 9 l."
+    },
+    {
+     "q": "Đổi: 10000 ml = ... l ?",
+     "options": [
+      "11",
+      "10",
+      "10000",
+      "100"
+     ],
+     "correct": 1,
+     "explain": "10000 ml ÷ 1000 = 10 l."
+    },
+    {
+     "q": "Đổi: 11 l = ... ml ?",
+     "options": [
+      "11100",
+      "1100",
+      "11",
+      "11000"
+     ],
+     "correct": 3,
+     "explain": "1 l = 1000 ml → 11 l = 11000 ml."
+    },
+    {
+     "q": "Đổi: 9 l = ... ml ?",
+     "options": [
+      "9000",
+      "9",
+      "9100",
+      "900"
+     ],
+     "correct": 0,
+     "explain": "1 l = 1000 ml → 9 l = 9000 ml."
+    },
+    {
+     "q": "Đổi: 15000 ml = ... l ?",
+     "options": [
+      "150",
+      "16",
+      "15",
+      "15000"
+     ],
+     "correct": 2,
+     "explain": "15000 ml ÷ 1000 = 15 l."
+    },
+    {
+     "q": "Đổi: 3000 ml = ... l ?",
+     "options": [
+      "3",
+      "3000",
+      "4",
+      "30"
+     ],
+     "correct": 0,
+     "explain": "3000 ml ÷ 1000 = 3 l."
+    },
+    {
+     "q": "Đổi: 14000 ml = ... l ?",
+     "options": [
+      "140",
+      "14",
+      "15",
+      "14000"
+     ],
+     "correct": 1,
+     "explain": "14000 ml ÷ 1000 = 14 l."
+    },
+    {
+     "q": "Đổi: 6 l = ... ml ?",
+     "options": [
+      "6100",
+      "600",
+      "6000",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "1 l = 1000 ml → 6 l = 6000 ml."
+    },
+    {
+     "q": "Đổi: 7 l 100 ml = ... ml ?",
+     "options": [
+      "8100",
+      "7100",
+      "7000",
+      "100"
+     ],
+     "correct": 1,
+     "explain": "7 l 100 ml = 7000 + 100 = 7100 ml."
+    },
+    {
+     "q": "Đổi: 2 l = ... ml ?",
+     "options": [
+      "2000",
+      "2",
+      "200",
+      "2100"
+     ],
+     "correct": 0,
+     "explain": "1 l = 1000 ml → 2 l = 2000 ml."
+    },
+    {
+     "q": "Đổi: 9 l 750 ml = ... ml ?",
+     "options": [
+      "10750",
+      "750",
+      "9750",
+      "9000"
+     ],
+     "correct": 2,
+     "explain": "9 l 750 ml = 9000 + 750 = 9750 ml."
+    },
+    {
+     "q": "Đổi: 7000 ml = ... l ?",
+     "options": [
+      "7000",
+      "70",
+      "8",
+      "7"
+     ],
+     "correct": 3,
+     "explain": "7000 ml ÷ 1000 = 7 l."
+    },
+    {
+     "q": "Đổi: 8 l 250 ml = ... ml ?",
+     "options": [
+      "9250",
+      "8000",
+      "250",
+      "8250"
+     ],
+     "correct": 3,
+     "explain": "8 l 250 ml = 8000 + 250 = 8250 ml."
+    },
+    {
+     "q": "Đổi: 8 l 500 ml = ... ml ?",
+     "options": [
+      "9500",
+      "8000",
+      "500",
+      "8500"
+     ],
+     "correct": 3,
+     "explain": "8 l 500 ml = 8000 + 500 = 8500 ml."
+    },
+    {
+     "q": "Đổi: 12 l = ... ml ?",
+     "options": [
+      "12100",
+      "1200",
+      "12",
+      "12000"
+     ],
+     "correct": 3,
+     "explain": "1 l = 1000 ml → 12 l = 12000 ml."
+    },
+    {
+     "q": "Đổi: 4 l = ... ml ?",
+     "options": [
+      "4100",
+      "4",
+      "4000",
+      "400"
+     ],
+     "correct": 2,
+     "explain": "1 l = 1000 ml → 4 l = 4000 ml."
+    },
+    {
+     "q": "Đổi: 8000 ml = ... l ?",
+     "options": [
+      "9",
+      "8000",
+      "8",
+      "80"
+     ],
+     "correct": 2,
+     "explain": "8000 ml ÷ 1000 = 8 l."
+    },
+    {
+     "q": "Đổi: 4 l 250 ml = ... ml ?",
+     "options": [
+      "250",
+      "4000",
+      "5250",
+      "4250"
+     ],
+     "correct": 3,
+     "explain": "4 l 250 ml = 4000 + 250 = 4250 ml."
+    },
+    {
+     "q": "Đổi: 13000 ml = ... l ?",
+     "options": [
+      "13",
+      "14",
+      "13000",
+      "130"
+     ],
+     "correct": 0,
+     "explain": "13000 ml ÷ 1000 = 13 l."
+    },
+    {
+     "q": "Đổi: 6000 ml = ... l ?",
+     "options": [
+      "6000",
+      "7",
+      "60",
+      "6"
+     ],
+     "correct": 3,
+     "explain": "6000 ml ÷ 1000 = 6 l."
+    },
+    {
+     "q": "Đổi: 2000 ml = ... l ?",
+     "options": [
+      "3",
+      "2",
+      "2000",
+      "20"
+     ],
+     "correct": 1,
+     "explain": "2000 ml ÷ 1000 = 2 l."
+    },
+    {
+     "q": "Đổi: 4000 ml = ... l ?",
+     "options": [
+      "4",
+      "40",
+      "5",
+      "4000"
+     ],
+     "correct": 0,
+     "explain": "4000 ml ÷ 1000 = 4 l."
+    },
+    {
+     "q": "Đổi: 6 l 250 ml = ... ml ?",
+     "options": [
+      "6250",
+      "250",
+      "6000",
+      "7250"
+     ],
+     "correct": 0,
+     "explain": "6 l 250 ml = 6000 + 250 = 6250 ml."
+    },
+    {
+     "q": "Đổi: 2 l 750 ml = ... ml ?",
+     "options": [
+      "3750",
+      "2750",
+      "750",
+      "2000"
+     ],
+     "correct": 1,
+     "explain": "2 l 750 ml = 2000 + 750 = 2750 ml."
+    },
+    {
+     "q": "Đổi: 3 l 100 ml = ... ml ?",
+     "options": [
+      "3000",
+      "3100",
+      "100",
+      "4100"
+     ],
+     "correct": 1,
+     "explain": "3 l 100 ml = 3000 + 100 = 3100 ml."
+    },
+    {
+     "q": "Đổi: 9 l 300 ml = ... ml ?",
+     "options": [
+      "9300",
+      "10300",
+      "300",
+      "9000"
+     ],
+     "correct": 0,
+     "explain": "9 l 300 ml = 9000 + 300 = 9300 ml."
+    },
+    {
+     "q": "Đổi: 6 l 750 ml = ... ml ?",
+     "options": [
+      "750",
+      "6750",
+      "7750",
+      "6000"
+     ],
+     "correct": 1,
+     "explain": "6 l 750 ml = 6000 + 750 = 6750 ml."
+    }
+   ]
+  },
+  {
+   "type": 4,
+   "title": "Nhiệt độ",
+   "exercises": [
+    {
+     "q": "Buổi trưa nhiệt độ 38°C, buổi tối 18°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "18",
+      "38",
+      "20",
+      "56"
+     ],
+     "correct": 2,
+     "explain": "38 − 18 = 20 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 31°C, buổi tối 21°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "52",
+      "21",
+      "31",
+      "10"
+     ],
+     "correct": 3,
+     "explain": "31 − 21 = 10 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 20°C, buổi tối 8°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "20",
+      "28",
+      "12",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "20 − 8 = 12 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 34°C, buổi tối 28°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "62",
+      "28",
+      "6",
+      "34"
+     ],
+     "correct": 2,
+     "explain": "34 − 28 = 6 (°C)."
+    },
+    {
+     "q": "Nước đang sôi có nhiệt độ khoảng bao nhiêu?",
+     "options": [
+      "50°C",
+      "0°C",
+      "100°C",
+      "37°C"
+     ],
+     "correct": 2,
+     "explain": "Ghi nhớ: 100°C."
+    },
+    {
+     "q": "Nước đá đang tan có nhiệt độ bao nhiêu?",
+     "options": [
+      "50°C",
+      "0°C",
+      "37°C",
+      "100°C"
+     ],
+     "correct": 1,
+     "explain": "Ghi nhớ: 0°C."
+    },
+    {
+     "q": "Đơn vị đo nhiệt độ thường dùng là gì?",
+     "options": [
+      "lít (l)",
+      "độ dài (cm)",
+      "độ C (°C)",
+      "gam (g)"
+     ],
+     "correct": 2,
+     "explain": "Ghi nhớ: độ C (°C)."
+    },
+    {
+     "q": "Nhiệt độ cơ thể người bình thường khoảng?",
+     "options": [
+      "25°C",
+      "100°C",
+      "0°C",
+      "37°C"
+     ],
+     "correct": 3,
+     "explain": "Ghi nhớ: 37°C."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 32°C, buổi tối 28°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "32",
+      "4",
+      "28",
+      "60"
+     ],
+     "correct": 1,
+     "explain": "32 − 28 = 4 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 23°C, buổi tối 8°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "15",
+      "23",
+      "31",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "23 − 8 = 15 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 24°C, buổi tối 15°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "39",
+      "15",
+      "24",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "24 − 15 = 9 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 31°C, buổi tối 28°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "31",
+      "28",
+      "3",
+      "59"
+     ],
+     "correct": 2,
+     "explain": "31 − 28 = 3 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 38°C, buổi tối 29°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "38",
+      "29",
+      "9",
+      "67"
+     ],
+     "correct": 2,
+     "explain": "38 − 29 = 9 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 33°C, buổi tối 22°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "11",
+      "33",
+      "22",
+      "55"
+     ],
+     "correct": 0,
+     "explain": "33 − 22 = 11 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 21°C, buổi tối 14°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "35",
+      "21",
+      "14",
+      "7"
+     ],
+     "correct": 3,
+     "explain": "21 − 14 = 7 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 22°C, buổi tối 10°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "10",
+      "12",
+      "32",
+      "22"
+     ],
+     "correct": 1,
+     "explain": "22 − 10 = 12 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 31°C, buổi tối 23°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "8",
+      "23",
+      "31",
+      "54"
+     ],
+     "correct": 0,
+     "explain": "31 − 23 = 8 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 30°C, buổi tối 26°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "4",
+      "30",
+      "56",
+      "26"
+     ],
+     "correct": 0,
+     "explain": "30 − 26 = 4 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 34°C, buổi tối 9°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "9",
+      "43",
+      "25",
+      "34"
+     ],
+     "correct": 2,
+     "explain": "34 − 9 = 25 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 36°C, buổi tối 29°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "36",
+      "65",
+      "7",
+      "29"
+     ],
+     "correct": 2,
+     "explain": "36 − 29 = 7 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 21°C, buổi tối 18°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "3",
+      "21",
+      "39",
+      "18"
+     ],
+     "correct": 0,
+     "explain": "21 − 18 = 3 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 30°C, buổi tối 17°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "30",
+      "47",
+      "13",
+      "17"
+     ],
+     "correct": 2,
+     "explain": "30 − 17 = 13 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 33°C, buổi tối 5°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "28",
+      "33",
+      "38",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "33 − 5 = 28 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 29°C, buổi tối 13°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "13",
+      "42",
+      "29",
+      "16"
+     ],
+     "correct": 3,
+     "explain": "29 − 13 = 16 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 34°C, buổi tối 22°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "22",
+      "34",
+      "12",
+      "56"
+     ],
+     "correct": 2,
+     "explain": "34 − 22 = 12 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 27°C, buổi tối 6°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "33",
+      "21",
+      "27",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "27 − 6 = 21 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 33°C, buổi tối 6°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "6",
+      "27",
+      "33",
+      "39"
+     ],
+     "correct": 1,
+     "explain": "33 − 6 = 27 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 28°C, buổi tối 12°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "40",
+      "16",
+      "28",
+      "12"
+     ],
+     "correct": 1,
+     "explain": "28 − 12 = 16 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 28°C, buổi tối 17°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "11",
+      "17",
+      "28",
+      "45"
+     ],
+     "correct": 0,
+     "explain": "28 − 17 = 11 (°C)."
+    },
+    {
+     "q": "Buổi trưa nhiệt độ 24°C, buổi tối 13°C. Hỏi buổi trưa nóng hơn buổi tối bao nhiêu độ?",
+     "options": [
+      "37",
+      "24",
+      "11",
+      "13"
+     ],
+     "correct": 2,
+     "explain": "24 − 13 = 11 (°C)."
+    }
+   ]
+  },
+  {
+   "type": 5,
+   "title": "Góc vuông, góc không vuông",
+   "exercises": [
+    {
+     "q": "Lúc 9 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Không có góc",
+      "Góc vuông",
+      "Góc bẹt",
+      "Góc không vuông"
+     ],
+     "correct": 1,
+     "explain": "Lúc 9 giờ, hai kim tạo thành góc vuông."
+    },
+    {
+     "q": "Lúc 1 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Không có góc",
+      "Góc bẹt",
+      "Góc vuông",
+      "Góc không vuông"
+     ],
+     "correct": 3,
+     "explain": "Lúc 1 giờ, hai kim KHÔNG tạo thành góc vuông."
+    },
+    {
+     "q": "Dùng dụng cụ nào để kiểm tra góc vuông (ví dụ góc của viên gạch hoa)?",
+     "options": [
+      "Cái cân",
+      "Com-pa",
+      "Ê ke",
+      "Thước dây"
+     ],
+     "correct": 2,
+     "explain": "Dùng ê ke để kiểm tra góc vuông."
+    },
+    {
+     "q": "Lúc 2 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Góc không vuông",
+      "Góc bẹt",
+      "Góc vuông",
+      "Không có góc"
+     ],
+     "correct": 0,
+     "explain": "Lúc 2 giờ, hai kim KHÔNG tạo thành góc vuông."
+    },
+    {
+     "q": "Lúc 3 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Góc bẹt",
+      "Góc vuông",
+      "Góc không vuông",
+      "Không có góc"
+     ],
+     "correct": 1,
+     "explain": "Lúc 3 giờ, hai kim tạo thành góc vuông."
+    },
+    {
+     "q": "Hình chữ nhật có mấy góc vuông?",
+     "options": [
+      "1",
+      "3",
+      "4",
+      "2"
+     ],
+     "correct": 2,
+     "explain": "Hình chữ nhật có 4 góc vuông."
+    },
+    {
+     "q": "Lúc 4 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Góc bẹt",
+      "Góc vuông",
+      "Không có góc",
+      "Góc không vuông"
+     ],
+     "correct": 3,
+     "explain": "Lúc 4 giờ, hai kim KHÔNG tạo thành góc vuông."
+    },
+    {
+     "q": "Dùng dụng cụ nào để kiểm tra góc vuông (ví dụ góc của quyển sách)?",
+     "options": [
+      "Com-pa",
+      "Cái cân",
+      "Thước dây",
+      "Ê ke"
+     ],
+     "correct": 3,
+     "explain": "Dùng ê ke để kiểm tra góc vuông."
+    },
+    {
+     "q": "Dùng dụng cụ nào để kiểm tra góc vuông (ví dụ góc của cái bảng)?",
+     "options": [
+      "Ê ke",
+      "Com-pa",
+      "Cái cân",
+      "Thước dây"
+     ],
+     "correct": 0,
+     "explain": "Dùng ê ke để kiểm tra góc vuông."
+    },
+    {
+     "q": "Lúc 5 giờ đúng, hai kim đồng hồ tạo thành góc gì?",
+     "options": [
+      "Góc không vuông",
+      "Không có góc",
+      "Góc vuông",
+      "Góc bẹt"
+     ],
+     "correct": 0,
+     "explain": "Lúc 5 giờ, hai kim KHÔNG tạo thành góc vuông."
+    },
+    {
+     "q": "Hình vuông có mấy góc vuông?",
+     "options": [
+      "1",
+      "4",
+      "3",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "Hình vuông có 4 góc vuông."
+    },
+    {
+     "q": "Dùng dụng cụ nào để kiểm tra góc vuông (ví dụ góc của tờ giấy)?",
+     "options": [
+      "Cái cân",
+      "Com-pa",
+      "Ê ke",
+      "Thước dây"
+     ],
+     "correct": 2,
+     "explain": "Dùng ê ke để kiểm tra góc vuông."
+    },
+    {
+     "q": "Dùng dụng cụ nào để kiểm tra góc vuông (ví dụ góc của mặt bàn)?",
+     "options": [
+      "Thước dây",
+      "Cái cân",
+      "Com-pa",
+      "Ê ke"
+     ],
+     "correct": 3,
+     "explain": "Dùng ê ke để kiểm tra góc vuông."
+    }
+   ]
+  },
+  {
+   "type": 6,
+   "title": "Khối lập phương, khối hộp chữ nhật",
+   "exercises": [
+    {
+     "q": "Khối lập phương có mấy đỉnh?",
+     "options": [
+      "8",
+      "6",
+      "4",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "Khối lập phương có 8 đỉnh."
+    },
+    {
+     "q": "Khối lập phương có mấy mặt?",
+     "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+     ],
+     "correct": 2,
+     "explain": "Khối lập phương có 6 mặt."
+    },
+    {
+     "q": "Khối hộp chữ nhật có mấy mặt?",
+     "options": [
+      "8",
+      "6",
+      "4",
+      "12"
+     ],
+     "correct": 1,
+     "explain": "Khối hộp chữ nhật có 6 mặt."
+    },
+    {
+     "q": "Khối lập phương có mấy cạnh?",
+     "options": [
+      "12",
+      "6",
+      "8",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "Khối lập phương có 12 cạnh."
+    },
+    {
+     "q": "Các mặt của khối lập phương đều là hình gì?",
+     "options": [
+      "Hình tròn",
+      "Hình tam giác",
+      "Hình chữ nhật",
+      "Hình vuông"
+     ],
+     "correct": 3,
+     "explain": "Các mặt khối lập phương đều là hình vuông."
+    },
+    {
+     "q": "Bao diêm thường có dạng khối gì?",
+     "options": [
+      "khối lập phương",
+      "hình vuông",
+      "khối hộp chữ nhật",
+      "hình tròn"
+     ],
+     "correct": 2,
+     "explain": "Bao diêm có dạng khối hộp chữ nhật."
+    },
+    {
+     "q": "Hộp bánh hình chữ nhật thường có dạng khối gì?",
+     "options": [
+      "khối hộp chữ nhật",
+      "hình tròn",
+      "hình vuông",
+      "khối lập phương"
+     ],
+     "correct": 0,
+     "explain": "Hộp bánh hình chữ nhật có dạng khối hộp chữ nhật."
+    },
+    {
+     "q": "Quân súc sắc thường có dạng khối gì?",
+     "options": [
+      "khối hộp chữ nhật",
+      "hình tròn",
+      "hình vuông",
+      "khối lập phương"
+     ],
+     "correct": 3,
+     "explain": "Quân súc sắc có dạng khối lập phương."
+    },
+    {
+     "q": "Viên xúc xắc thường có dạng khối gì?",
+     "options": [
+      "hình tròn",
+      "khối hộp chữ nhật",
+      "hình vuông",
+      "khối lập phương"
+     ],
+     "correct": 3,
+     "explain": "Viên xúc xắc có dạng khối lập phương."
+    }
+   ]
+  }
+ ]
+}

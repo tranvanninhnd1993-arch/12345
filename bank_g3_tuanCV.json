@@ -1,0 +1,2218 @@
+{
+ "grade": 3,
+ "week": "CV",
+ "lessons": [
+  {
+   "type": 1,
+   "title": "Chu vi hình (tam giác, tứ giác, chữ nhật, vuông)",
+   "exercises": [
+    {
+     "q": "Tính chu vi hình vuông có cạnh 4 cm.",
+     "options": [
+      "20",
+      "17",
+      "16",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 4 × 4 = 16 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 8 cm.",
+     "options": [
+      "32",
+      "12",
+      "64",
+      "16"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 8 × 4 = 32 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 5 cm.",
+     "options": [
+      "20",
+      "10",
+      "25",
+      "9"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 5 × 4 = 20 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 19 cm, chiều rộng 13 cm.",
+     "options": [
+      "66",
+      "32",
+      "247",
+      "64"
+     ],
+     "correct": 3,
+     "explain": "Chu vi = (19 + 13) × 2 = 64 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 19 cm, 7 cm, 17 cm.",
+     "options": [
+      "62",
+      "36",
+      "133",
+      "43"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 19 + 7 + 17 = 43 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 6 cm.",
+     "options": [
+      "36",
+      "10",
+      "12",
+      "24"
+     ],
+     "correct": 3,
+     "explain": "Chu vi hình vuông = 6 × 4 = 24 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 6 cm, 16 cm, 20 cm.",
+     "options": [
+      "42",
+      "26",
+      "48",
+      "96"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 6 + 16 + 20 = 42 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 9 cm, chiều rộng 7 cm.",
+     "options": [
+      "32",
+      "34",
+      "63",
+      "16"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (9 + 7) × 2 = 32 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 13 cm.",
+     "options": [
+      "17",
+      "169",
+      "52",
+      "26"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 13 × 4 = 52 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 24 cm.",
+     "options": [
+      "96",
+      "48",
+      "28",
+      "576"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 24 × 4 = 96 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 22 cm, chiều rộng 14 cm.",
+     "options": [
+      "308",
+      "74",
+      "72",
+      "36"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (22 + 14) × 2 = 72 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 14 cm.",
+     "options": [
+      "28",
+      "196",
+      "18",
+      "56"
+     ],
+     "correct": 3,
+     "explain": "Chu vi hình vuông = 14 × 4 = 56 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 20 cm.",
+     "options": [
+      "24",
+      "400",
+      "40",
+      "80"
+     ],
+     "correct": 3,
+     "explain": "Chu vi hình vuông = 20 × 4 = 80 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 14 cm, chiều rộng 7 cm.",
+     "options": [
+      "44",
+      "21",
+      "42",
+      "98"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (14 + 7) × 2 = 42 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 5 cm, chiều rộng 3 cm.",
+     "options": [
+      "18",
+      "16",
+      "8",
+      "15"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (5 + 3) × 2 = 16 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 6 cm, 15 cm, 10 cm.",
+     "options": [
+      "16",
+      "37",
+      "90",
+      "31"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 6 + 15 + 10 = 31 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 19 cm, 20 cm, 15 cm.",
+     "options": [
+      "380",
+      "34",
+      "54",
+      "73"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 19 + 20 + 15 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 18 cm.",
+     "options": [
+      "324",
+      "22",
+      "72",
+      "36"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 18 × 4 = 72 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 14 cm, chiều rộng 10 cm.",
+     "options": [
+      "24",
+      "50",
+      "48",
+      "140"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (14 + 10) × 2 = 48 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 25 cm, chiều rộng 15 cm.",
+     "options": [
+      "375",
+      "40",
+      "82",
+      "80"
+     ],
+     "correct": 3,
+     "explain": "Chu vi = (25 + 15) × 2 = 80 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 5 cm, 5 cm, 7 cm.",
+     "options": [
+      "12",
+      "25",
+      "22",
+      "17"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 5 + 5 + 7 = 17 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 12 cm, 16 cm, 3 cm.",
+     "options": [
+      "15",
+      "192",
+      "43",
+      "31"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 12 + 16 + 3 = 31 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 19 cm, chiều rộng 14 cm.",
+     "options": [
+      "66",
+      "33",
+      "68",
+      "266"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (19 + 14) × 2 = 66 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 18 cm, chiều rộng 2 cm.",
+     "options": [
+      "36",
+      "40",
+      "42",
+      "20"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (18 + 2) × 2 = 40 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 29 cm.",
+     "options": [
+      "841",
+      "116",
+      "58",
+      "33"
+     ],
+     "correct": 1,
+     "explain": "Chu vi hình vuông = 29 × 4 = 116 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 23 cm.",
+     "options": [
+      "27",
+      "529",
+      "46",
+      "92"
+     ],
+     "correct": 3,
+     "explain": "Chu vi hình vuông = 23 × 4 = 92 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 4 cm, 3 cm, 11 cm.",
+     "options": [
+      "22",
+      "18",
+      "12",
+      "15"
+     ],
+     "correct": 1,
+     "explain": "Chu vi tam giác = 4 + 3 + 11 = 18 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 25 cm, chiều rộng 7 cm.",
+     "options": [
+      "64",
+      "175",
+      "32",
+      "66"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (25 + 7) × 2 = 64 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 21 cm, chiều rộng 17 cm.",
+     "options": [
+      "357",
+      "78",
+      "76",
+      "38"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (21 + 17) × 2 = 76 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 18 cm, 14 cm, 13 cm.",
+     "options": [
+      "45",
+      "63",
+      "252",
+      "31"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 18 + 14 + 13 = 45 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 16 cm, 11 cm.",
+     "options": [
+      "272",
+      "28",
+      "61",
+      "44"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 17 + 16 + 11 = 44 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 8 cm, chiều rộng 7 cm.",
+     "options": [
+      "15",
+      "30",
+      "56",
+      "32"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (8 + 7) × 2 = 30 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 7 cm, 3 cm, 13 cm.",
+     "options": [
+      "23",
+      "30",
+      "20",
+      "21"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 7 + 3 + 13 = 23 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 15 cm, 15 cm, 12 cm.",
+     "options": [
+      "42",
+      "225",
+      "57",
+      "27"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 15 + 15 + 12 = 42 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 7 cm.",
+     "options": [
+      "11",
+      "28",
+      "14",
+      "49"
+     ],
+     "correct": 1,
+     "explain": "Chu vi hình vuông = 7 × 4 = 28 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 28 cm, chiều rộng 5 cm.",
+     "options": [
+      "33",
+      "66",
+      "68",
+      "140"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (28 + 5) × 2 = 66 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 16 cm, 10 cm.",
+     "options": [
+      "272",
+      "60",
+      "43",
+      "27"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 17 + 16 + 10 = 43 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 19 cm, 9 cm, 18 cm.",
+     "options": [
+      "65",
+      "171",
+      "37",
+      "46"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 19 + 9 + 18 = 46 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 15 cm, 8 cm, 20 cm.",
+     "options": [
+      "120",
+      "43",
+      "58",
+      "35"
+     ],
+     "correct": 1,
+     "explain": "Chu vi tam giác = 15 + 8 + 20 = 43 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 16 cm, 3 cm, 5 cm.",
+     "options": [
+      "40",
+      "21",
+      "48",
+      "24"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 16 + 3 + 5 = 24 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 25 cm.",
+     "options": [
+      "29",
+      "100",
+      "50",
+      "625"
+     ],
+     "correct": 1,
+     "explain": "Chu vi hình vuông = 25 × 4 = 100 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 3 cm.",
+     "options": [
+      "12",
+      "6",
+      "7",
+      "9"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 3 × 4 = 12 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 6 cm, chiều rộng 4 cm.",
+     "options": [
+      "22",
+      "20",
+      "24",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (6 + 4) × 2 = 20 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 12 cm.",
+     "options": [
+      "144",
+      "16",
+      "48",
+      "24"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 12 × 4 = 48 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 11 cm, 16 cm, 12 cm.",
+     "options": [
+      "50",
+      "176",
+      "39",
+      "23"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 11 + 16 + 12 = 39 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 27 cm.",
+     "options": [
+      "108",
+      "31",
+      "729",
+      "54"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 27 × 4 = 108 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 11 cm, 6 cm, 11 cm.",
+     "options": [
+      "22",
+      "66",
+      "28",
+      "39"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 11 + 6 + 11 = 28 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 27 cm, chiều rộng 22 cm.",
+     "options": [
+      "100",
+      "98",
+      "49",
+      "594"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (27 + 22) × 2 = 98 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 24 cm, chiều rộng 3 cm.",
+     "options": [
+      "54",
+      "27",
+      "56",
+      "72"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (24 + 3) × 2 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 9 cm, 11 cm, 6 cm.",
+     "options": [
+      "26",
+      "35",
+      "15",
+      "99"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 9 + 11 + 6 = 26 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 28 cm.",
+     "options": [
+      "32",
+      "56",
+      "784",
+      "112"
+     ],
+     "correct": 3,
+     "explain": "Chu vi hình vuông = 28 × 4 = 112 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 26 cm.",
+     "options": [
+      "104",
+      "52",
+      "30",
+      "676"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 26 × 4 = 104 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 5 cm, 16 cm, 3 cm.",
+     "options": [
+      "24",
+      "8",
+      "29",
+      "80"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 5 + 16 + 3 = 24 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 5 cm, 8 cm, 5 cm.",
+     "options": [
+      "40",
+      "18",
+      "10",
+      "23"
+     ],
+     "correct": 1,
+     "explain": "Chu vi tam giác = 5 + 8 + 5 = 18 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 5 cm, chiều rộng 2 cm.",
+     "options": [
+      "10",
+      "14",
+      "16",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (5 + 2) × 2 = 14 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 16 cm.",
+     "options": [
+      "64",
+      "256",
+      "32",
+      "20"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 16 × 4 = 64 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 15 cm, chiều rộng 13 cm.",
+     "options": [
+      "58",
+      "195",
+      "56",
+      "28"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (15 + 13) × 2 = 56 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 12 cm, 7 cm, 15 cm.",
+     "options": [
+      "84",
+      "34",
+      "46",
+      "27"
+     ],
+     "correct": 1,
+     "explain": "Chu vi tam giác = 12 + 7 + 15 = 34 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 23 cm, chiều rộng 5 cm.",
+     "options": [
+      "115",
+      "28",
+      "56",
+      "58"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (23 + 5) × 2 = 56 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 13 cm, chiều rộng 7 cm.",
+     "options": [
+      "42",
+      "91",
+      "20",
+      "40"
+     ],
+     "correct": 3,
+     "explain": "Chu vi = (13 + 7) × 2 = 40 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 17 cm, chiều rộng 15 cm.",
+     "options": [
+      "255",
+      "66",
+      "64",
+      "32"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (17 + 15) × 2 = 64 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 22 cm.",
+     "options": [
+      "88",
+      "26",
+      "484",
+      "44"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 22 × 4 = 88 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 11 cm, 18 cm, 4 cm.",
+     "options": [
+      "198",
+      "15",
+      "44",
+      "33"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 11 + 18 + 4 = 33 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 8 cm, chiều rộng 6 cm.",
+     "options": [
+      "48",
+      "14",
+      "30",
+      "28"
+     ],
+     "correct": 3,
+     "explain": "Chu vi = (8 + 6) × 2 = 28 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 18 cm, chiều rộng 8 cm.",
+     "options": [
+      "52",
+      "54",
+      "26",
+      "144"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (18 + 8) × 2 = 52 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 3 cm, chiều rộng 2 cm.",
+     "options": [
+      "12",
+      "6",
+      "10",
+      "5"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (3 + 2) × 2 = 10 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 10 cm, chiều rộng 7 cm.",
+     "options": [
+      "17",
+      "34",
+      "36",
+      "70"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (10 + 7) × 2 = 34 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 10 cm.",
+     "options": [
+      "100",
+      "20",
+      "40",
+      "14"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 10 × 4 = 40 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 13 cm, 7 cm, 15 cm.",
+     "options": [
+      "35",
+      "91",
+      "48",
+      "28"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 13 + 7 + 15 = 35 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 20 cm, 14 cm, 14 cm.",
+     "options": [
+      "34",
+      "280",
+      "68",
+      "48"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 20 + 14 + 14 = 48 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 4 cm, 6 cm.",
+     "options": [
+      "23",
+      "68",
+      "27",
+      "44"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 17 + 4 + 6 = 27 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 14 cm, chiều rộng 13 cm.",
+     "options": [
+      "56",
+      "27",
+      "54",
+      "182"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (14 + 13) × 2 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 13 cm, 5 cm, 3 cm.",
+     "options": [
+      "21",
+      "34",
+      "65",
+      "16"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 13 + 5 + 3 = 21 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 26 cm, chiều rộng 20 cm.",
+     "options": [
+      "92",
+      "520",
+      "94",
+      "46"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (26 + 20) × 2 = 92 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 17 cm.",
+     "options": [
+      "68",
+      "21",
+      "34",
+      "289"
+     ],
+     "correct": 0,
+     "explain": "Chu vi hình vuông = 17 × 4 = 68 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 19 cm.",
+     "options": [
+      "38",
+      "361",
+      "76",
+      "23"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 19 × 4 = 76 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 18 cm, chiều rộng 6 cm.",
+     "options": [
+      "24",
+      "50",
+      "108",
+      "48"
+     ],
+     "correct": 3,
+     "explain": "Chu vi = (18 + 6) × 2 = 48 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 22 cm, chiều rộng 15 cm.",
+     "options": [
+      "330",
+      "37",
+      "74",
+      "76"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (22 + 15) × 2 = 74 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 17 cm, chiều rộng 5 cm.",
+     "options": [
+      "22",
+      "85",
+      "44",
+      "46"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (17 + 5) × 2 = 44 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 6 cm, 9 cm, 6 cm.",
+     "options": [
+      "21",
+      "54",
+      "27",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 6 + 9 + 6 = 21 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 17 cm, 9 cm.",
+     "options": [
+      "60",
+      "289",
+      "26",
+      "43"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 17 + 17 + 9 = 43 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 13 cm, chiều rộng 10 cm.",
+     "options": [
+      "23",
+      "130",
+      "46",
+      "48"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (13 + 10) × 2 = 46 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 14 cm, 7 cm, 3 cm.",
+     "options": [
+      "24",
+      "98",
+      "38",
+      "17"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 14 + 7 + 3 = 24 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 16 cm, 5 cm, 20 cm.",
+     "options": [
+      "57",
+      "36",
+      "80",
+      "41"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 16 + 5 + 20 = 41 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 14 cm, chiều rộng 5 cm.",
+     "options": [
+      "19",
+      "38",
+      "70",
+      "40"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (14 + 5) × 2 = 38 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 19 cm, chiều rộng 8 cm.",
+     "options": [
+      "54",
+      "152",
+      "27",
+      "56"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (19 + 8) × 2 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 20 cm, chiều rộng 7 cm.",
+     "options": [
+      "140",
+      "27",
+      "54",
+      "56"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (20 + 7) × 2 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 10 cm, chiều rộng 6 cm.",
+     "options": [
+      "60",
+      "16",
+      "32",
+      "34"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (10 + 6) × 2 = 32 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 30 cm, chiều rộng 19 cm.",
+     "options": [
+      "570",
+      "49",
+      "98",
+      "100"
+     ],
+     "correct": 2,
+     "explain": "Chu vi = (30 + 19) × 2 = 98 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 12 cm, 7 cm, 11 cm.",
+     "options": [
+      "30",
+      "23",
+      "42",
+      "84"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 12 + 7 + 11 = 30 cm."
+    },
+    {
+     "q": "Tính chu vi hình vuông có cạnh 9 cm.",
+     "options": [
+      "18",
+      "13",
+      "36",
+      "81"
+     ],
+     "correct": 2,
+     "explain": "Chu vi hình vuông = 9 × 4 = 36 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 4 cm, 4 cm, 20 cm.",
+     "options": [
+      "24",
+      "28",
+      "32",
+      "16"
+     ],
+     "correct": 1,
+     "explain": "Chu vi tam giác = 4 + 4 + 20 = 28 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 18 cm, 10 cm, 20 cm.",
+     "options": [
+      "66",
+      "180",
+      "48",
+      "38"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 18 + 10 + 20 = 48 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 12 cm, chiều rộng 4 cm.",
+     "options": [
+      "34",
+      "32",
+      "48",
+      "16"
+     ],
+     "correct": 1,
+     "explain": "Chu vi = (12 + 4) × 2 = 32 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 7 cm, 18 cm, 7 cm.",
+     "options": [
+      "126",
+      "14",
+      "39",
+      "32"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 7 + 18 + 7 = 32 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 15 cm, 19 cm.",
+     "options": [
+      "255",
+      "68",
+      "51",
+      "36"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 17 + 15 + 19 = 51 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 16 cm, 20 cm, 19 cm.",
+     "options": [
+      "55",
+      "71",
+      "35",
+      "320"
+     ],
+     "correct": 0,
+     "explain": "Chu vi tam giác = 16 + 20 + 19 = 55 cm."
+    },
+    {
+     "q": "Tính chu vi hình chữ nhật có chiều dài 25 cm, chiều rộng 2 cm.",
+     "options": [
+      "54",
+      "50",
+      "56",
+      "27"
+     ],
+     "correct": 0,
+     "explain": "Chu vi = (25 + 2) × 2 = 54 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 17 cm, 5 cm, 19 cm.",
+     "options": [
+      "36",
+      "58",
+      "85",
+      "41"
+     ],
+     "correct": 3,
+     "explain": "Chu vi tam giác = 17 + 5 + 19 = 41 cm."
+    },
+    {
+     "q": "Tính chu vi hình tam giác có ba cạnh 8 cm, 5 cm, 15 cm.",
+     "options": [
+      "40",
+      "23",
+      "28",
+      "36"
+     ],
+     "correct": 2,
+     "explain": "Chu vi tam giác = 8 + 5 + 15 = 28 cm."
+    }
+   ]
+  },
+  {
+   "type": 2,
+   "title": "Diện tích hình chữ nhật, hình vuông (cm²)",
+   "exercises": [
+    {
+     "q": "Tính diện tích hình vuông có cạnh 19 cm.",
+     "options": [
+      "361",
+      "380",
+      "76",
+      "38"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 19 × 19 = 361 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 12 cm, chiều rộng 15 cm.",
+     "options": [
+      "27",
+      "54",
+      "180",
+      "192"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 12 × 15 = 180 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 19 cm, chiều rộng 6 cm.",
+     "options": [
+      "114",
+      "133",
+      "25",
+      "50"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 19 × 6 = 114 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 6 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "30",
+      "24",
+      "20",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "6 × 4 = 24 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 20 cm.",
+     "options": [
+      "400",
+      "420",
+      "80",
+      "40"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 20 × 20 = 400 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 8 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "12",
+      "24",
+      "32",
+      "40"
+     ],
+     "correct": 2,
+     "explain": "8 × 4 = 32 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 4 cm, chiều rộng 13 cm.",
+     "options": [
+      "34",
+      "17",
+      "56",
+      "52"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 4 × 13 = 52 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 12 cm.",
+     "options": [
+      "48",
+      "144",
+      "156",
+      "24"
+     ],
+     "correct": 1,
+     "explain": "Diện tích hình vuông = 12 × 12 = 144 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 3 cm.",
+     "options": [
+      "10",
+      "9",
+      "12",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "Diện tích hình vuông = 3 × 3 = 9 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 10 cm.",
+     "options": [
+      "110",
+      "20",
+      "100",
+      "40"
+     ],
+     "correct": 2,
+     "explain": "Diện tích hình vuông = 10 × 10 = 100 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 2 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "6",
+      "5",
+      "4",
+      "8"
+     ],
+     "correct": 2,
+     "explain": "2 × 2 = 4 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 5 cm.",
+     "options": [
+      "25",
+      "10",
+      "30",
+      "20"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 5 × 5 = 25 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 2 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "5",
+      "8",
+      "6",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "2 × 3 = 6 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 4 cm, chiều rộng 12 cm.",
+     "options": [
+      "52",
+      "32",
+      "16",
+      "48"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 4 × 12 = 48 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 6 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "12",
+      "18",
+      "16",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "6 × 2 = 12 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 7 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "9",
+      "18",
+      "21",
+      "14"
+     ],
+     "correct": 3,
+     "explain": "7 × 2 = 14 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 11 cm.",
+     "options": [
+      "44",
+      "22",
+      "132",
+      "121"
+     ],
+     "correct": 3,
+     "explain": "Diện tích hình vuông = 11 × 11 = 121 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 3 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "5",
+      "10",
+      "9",
+      "6"
+     ],
+     "correct": 3,
+     "explain": "3 × 2 = 6 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 6 cm, chiều rộng 8 cm.",
+     "options": [
+      "14",
+      "28",
+      "54",
+      "48"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 6 × 8 = 48 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 7 cm, chiều rộng 15 cm.",
+     "options": [
+      "105",
+      "112",
+      "22",
+      "44"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 7 × 15 = 105 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 4 cm, chiều rộng 2 cm.",
+     "options": [
+      "8",
+      "6",
+      "9",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 4 × 2 = 8 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 5 cm, chiều rộng 12 cm.",
+     "options": [
+      "34",
+      "60",
+      "17",
+      "65"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 5 × 12 = 60 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 17 cm.",
+     "options": [
+      "306",
+      "289",
+      "68",
+      "34"
+     ],
+     "correct": 1,
+     "explain": "Diện tích hình vuông = 17 × 17 = 289 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 7 cm.",
+     "options": [
+      "49",
+      "56",
+      "28",
+      "14"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 7 × 7 = 49 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 6 cm, chiều rộng 9 cm.",
+     "options": [
+      "30",
+      "60",
+      "15",
+      "54"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 6 × 9 = 54 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 3 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "15",
+      "14",
+      "7",
+      "12"
+     ],
+     "correct": 3,
+     "explain": "3 × 4 = 12 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 8 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "20",
+      "24",
+      "16",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "8 × 2 = 16 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 6 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "24",
+      "19",
+      "18",
+      "9"
+     ],
+     "correct": 2,
+     "explain": "6 × 3 = 18 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 15 cm.",
+     "options": [
+      "46",
+      "23",
+      "128",
+      "120"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 8 × 15 = 120 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 13 cm.",
+     "options": [
+      "182",
+      "26",
+      "52",
+      "169"
+     ],
+     "correct": 3,
+     "explain": "Diện tích hình vuông = 13 × 13 = 169 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 8 cm.",
+     "options": [
+      "72",
+      "32",
+      "64",
+      "16"
+     ],
+     "correct": 2,
+     "explain": "Diện tích hình vuông = 8 × 8 = 64 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 14 cm, chiều rộng 10 cm.",
+     "options": [
+      "48",
+      "24",
+      "140",
+      "154"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 14 × 10 = 140 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 6 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "11",
+      "36",
+      "22",
+      "30"
+     ],
+     "correct": 3,
+     "explain": "6 × 5 = 30 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 4 cm.",
+     "options": [
+      "12",
+      "32",
+      "24",
+      "40"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 8 × 4 = 32 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 16 cm.",
+     "options": [
+      "256",
+      "272",
+      "64",
+      "32"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 16 × 16 = 256 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 3 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "9",
+      "6",
+      "10",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "3 × 3 = 9 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 2 ô ngang và 6 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "14",
+      "8",
+      "12",
+      "16"
+     ],
+     "correct": 2,
+     "explain": "2 × 6 = 12 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 2 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "14",
+      "10",
+      "12",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "2 × 5 = 10 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 14 cm.",
+     "options": [
+      "210",
+      "28",
+      "56",
+      "196"
+     ],
+     "correct": 3,
+     "explain": "Diện tích hình vuông = 14 × 14 = 196 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 12 cm, chiều rộng 10 cm.",
+     "options": [
+      "44",
+      "22",
+      "132",
+      "120"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 12 × 10 = 120 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 4 cm, chiều rộng 5 cm.",
+     "options": [
+      "24",
+      "20",
+      "9",
+      "18"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 4 × 5 = 20 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 7 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "11",
+      "28",
+      "35",
+      "22"
+     ],
+     "correct": 1,
+     "explain": "7 × 4 = 28 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 15 cm, chiều rộng 9 cm.",
+     "options": [
+      "150",
+      "24",
+      "48",
+      "135"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 15 × 9 = 135 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 5 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "18",
+      "25",
+      "20",
+      "9"
+     ],
+     "correct": 2,
+     "explain": "5 × 4 = 20 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 15 cm.",
+     "options": [
+      "60",
+      "30",
+      "240",
+      "225"
+     ],
+     "correct": 3,
+     "explain": "Diện tích hình vuông = 15 × 15 = 225 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 4 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "20",
+      "9",
+      "18",
+      "24"
+     ],
+     "correct": 0,
+     "explain": "4 × 5 = 20 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 18 cm.",
+     "options": [
+      "324",
+      "36",
+      "72",
+      "342"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 18 × 18 = 324 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 2 cm.",
+     "options": [
+      "5",
+      "4",
+      "6",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "Diện tích hình vuông = 2 × 2 = 4 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 6 cm.",
+     "options": [
+      "36",
+      "12",
+      "42",
+      "24"
+     ],
+     "correct": 0,
+     "explain": "Diện tích hình vuông = 6 × 6 = 36 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 11 cm, chiều rộng 5 cm.",
+     "options": [
+      "55",
+      "32",
+      "66",
+      "16"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 11 × 5 = 55 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 5 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "10",
+      "14",
+      "15",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "5 × 2 = 10 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 7 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "42",
+      "35",
+      "24",
+      "12"
+     ],
+     "correct": 1,
+     "explain": "7 × 5 = 35 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 8 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "22",
+      "11",
+      "24",
+      "32"
+     ],
+     "correct": 2,
+     "explain": "8 × 3 = 24 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 6 cm.",
+     "options": [
+      "14",
+      "28",
+      "48",
+      "56"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 8 × 6 = 48 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 4 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "16",
+      "12",
+      "7",
+      "14"
+     ],
+     "correct": 1,
+     "explain": "4 × 3 = 12 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 6 ô ngang và 6 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "24",
+      "12",
+      "36",
+      "42"
+     ],
+     "correct": 2,
+     "explain": "6 × 6 = 36 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 10 cm, chiều rộng 6 cm.",
+     "options": [
+      "60",
+      "70",
+      "16",
+      "32"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 10 × 6 = 60 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 4 ô ngang và 2 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "8",
+      "6",
+      "9",
+      "12"
+     ],
+     "correct": 0,
+     "explain": "4 × 2 = 8 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 5 ô ngang và 6 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "35",
+      "22",
+      "30",
+      "11"
+     ],
+     "correct": 2,
+     "explain": "5 × 6 = 30 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 16 cm, chiều rộng 3 cm.",
+     "options": [
+      "38",
+      "19",
+      "64",
+      "48"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 16 × 3 = 48 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 14 cm, chiều rộng 5 cm.",
+     "options": [
+      "84",
+      "70",
+      "38",
+      "19"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 14 × 5 = 70 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 5 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "25",
+      "10",
+      "30",
+      "20"
+     ],
+     "correct": 0,
+     "explain": "5 × 5 = 25 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 3 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "16",
+      "8",
+      "15",
+      "18"
+     ],
+     "correct": 2,
+     "explain": "3 × 5 = 15 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 20 cm, chiều rộng 3 cm.",
+     "options": [
+      "60",
+      "46",
+      "23",
+      "80"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 20 × 3 = 60 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 7 cm, chiều rộng 14 cm.",
+     "options": [
+      "105",
+      "98",
+      "21",
+      "42"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 7 × 14 = 98 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 10 cm, chiều rộng 9 cm.",
+     "options": [
+      "38",
+      "19",
+      "100",
+      "90"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 10 × 9 = 90 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 13 cm, chiều rộng 9 cm.",
+     "options": [
+      "22",
+      "130",
+      "117",
+      "44"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 13 × 9 = 117 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 12 cm, chiều rộng 11 cm.",
+     "options": [
+      "144",
+      "23",
+      "132",
+      "46"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 12 × 11 = 132 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 17 cm, chiều rộng 3 cm.",
+     "options": [
+      "20",
+      "40",
+      "51",
+      "68"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 17 × 3 = 51 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 15 cm, chiều rộng 14 cm.",
+     "options": [
+      "210",
+      "225",
+      "58",
+      "29"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 15 × 14 = 210 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 18 cm, chiều rộng 7 cm.",
+     "options": [
+      "126",
+      "50",
+      "144",
+      "25"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 18 × 7 = 126 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 3 ô ngang và 6 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "21",
+      "18",
+      "19",
+      "9"
+     ],
+     "correct": 1,
+     "explain": "3 × 6 = 18 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 2 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "8",
+      "12",
+      "6",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "2 × 4 = 8 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 17 cm, chiều rộng 7 cm.",
+     "options": [
+      "136",
+      "119",
+      "48",
+      "24"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 17 × 7 = 119 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 5 cm, chiều rộng 3 cm.",
+     "options": [
+      "8",
+      "16",
+      "15",
+      "20"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 5 × 3 = 15 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 8 ô ngang và 5 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "40",
+      "26",
+      "13",
+      "48"
+     ],
+     "correct": 0,
+     "explain": "8 × 5 = 40 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 15 cm, chiều rộng 2 cm.",
+     "options": [
+      "45",
+      "17",
+      "30",
+      "34"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 15 × 2 = 30 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 18 cm, chiều rộng 12 cm.",
+     "options": [
+      "30",
+      "60",
+      "234",
+      "216"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 18 × 12 = 216 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 7 ô ngang và 3 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "28",
+      "10",
+      "20",
+      "21"
+     ],
+     "correct": 3,
+     "explain": "7 × 3 = 21 (cm²)."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 4 ô ngang và 4 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "16",
+      "8",
+      "20",
+      "17"
+     ],
+     "correct": 0,
+     "explain": "4 × 4 = 16 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 14 cm, chiều rộng 11 cm.",
+     "options": [
+      "154",
+      "25",
+      "50",
+      "168"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 14 × 11 = 154 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 3 cm, chiều rộng 13 cm.",
+     "options": [
+      "16",
+      "39",
+      "32",
+      "42"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 3 × 13 = 39 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 20 cm, chiều rộng 14 cm.",
+     "options": [
+      "34",
+      "300",
+      "68",
+      "280"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 20 × 14 = 280 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 9 cm.",
+     "options": [
+      "72",
+      "80",
+      "17",
+      "34"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 8 × 9 = 72 cm²."
+    },
+    {
+     "q": "Một hình chữ nhật được chia thành các ô vuông 1 cm²: 4 ô ngang và 6 ô dọc. Hỏi diện tích là bao nhiêu?",
+     "options": [
+      "28",
+      "20",
+      "10",
+      "24"
+     ],
+     "correct": 3,
+     "explain": "4 × 6 = 24 (cm²)."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 5 cm, chiều rộng 2 cm.",
+     "options": [
+      "15",
+      "7",
+      "10",
+      "14"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 5 × 2 = 10 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 7 cm, chiều rộng 2 cm.",
+     "options": [
+      "9",
+      "18",
+      "21",
+      "14"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 7 × 2 = 14 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 20 cm, chiều rộng 13 cm.",
+     "options": [
+      "66",
+      "280",
+      "260",
+      "33"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 20 × 13 = 260 cm²."
+    },
+    {
+     "q": "Tính diện tích hình vuông có cạnh 9 cm.",
+     "options": [
+      "90",
+      "81",
+      "36",
+      "18"
+     ],
+     "correct": 1,
+     "explain": "Diện tích hình vuông = 9 × 9 = 81 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 16 cm, chiều rộng 4 cm.",
+     "options": [
+      "20",
+      "40",
+      "80",
+      "64"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 16 × 4 = 64 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 14 cm, chiều rộng 14 cm.",
+     "options": [
+      "210",
+      "28",
+      "196",
+      "56"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 14 × 14 = 196 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 20 cm, chiều rộng 4 cm.",
+     "options": [
+      "24",
+      "80",
+      "48",
+      "100"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 20 × 4 = 80 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 9 cm, chiều rộng 15 cm.",
+     "options": [
+      "144",
+      "48",
+      "24",
+      "135"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 9 × 15 = 135 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 10 cm, chiều rộng 14 cm.",
+     "options": [
+      "140",
+      "24",
+      "48",
+      "150"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 10 × 14 = 140 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 20 cm, chiều rộng 7 cm.",
+     "options": [
+      "54",
+      "160",
+      "27",
+      "140"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 20 × 7 = 140 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 11 cm, chiều rộng 12 cm.",
+     "options": [
+      "46",
+      "132",
+      "143",
+      "23"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 11 × 12 = 132 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 19 cm, chiều rộng 14 cm.",
+     "options": [
+      "266",
+      "285",
+      "33",
+      "66"
+     ],
+     "correct": 0,
+     "explain": "Diện tích = 19 × 14 = 266 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 18 cm, chiều rộng 6 cm.",
+     "options": [
+      "126",
+      "48",
+      "108",
+      "24"
+     ],
+     "correct": 2,
+     "explain": "Diện tích = 18 × 6 = 108 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 6 cm, chiều rộng 13 cm.",
+     "options": [
+      "19",
+      "38",
+      "84",
+      "78"
+     ],
+     "correct": 3,
+     "explain": "Diện tích = 6 × 13 = 78 cm²."
+    },
+    {
+     "q": "Tính diện tích hình chữ nhật có chiều dài 13 cm, chiều rộng 13 cm.",
+     "options": [
+      "182",
+      "169",
+      "26",
+      "52"
+     ],
+     "correct": 1,
+     "explain": "Diện tích = 13 × 13 = 169 cm²."
+    }
+   ]
+  }
+ ]
+}

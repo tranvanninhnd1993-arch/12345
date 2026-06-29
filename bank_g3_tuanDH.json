@@ -1,0 +1,2218 @@
+{
+ "grade": 3,
+ "week": "DH",
+ "lessons": [
+  {
+   "type": 1,
+   "title": "Xem đồng hồ, tháng – năm",
+   "exercises": [
+    {
+     "q": "Nửa giờ có bao nhiêu phút?",
+     "options": [
+      "60",
+      "30",
+      "45",
+      "15"
+     ],
+     "correct": 1,
+     "explain": "Nửa giờ = 30 phút."
+    },
+    {
+     "q": "1 giờ có bao nhiêu phút?",
+     "options": [
+      "100",
+      "60",
+      "30",
+      "24"
+     ],
+     "correct": 1,
+     "explain": "1 giờ = 60 phút."
+    },
+    {
+     "q": "1 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "13",
+      "14",
+      "24",
+      "1"
+     ],
+     "correct": 0,
+     "explain": "1 giờ chiều = 1 + 12 = 13 giờ."
+    },
+    {
+     "q": "3 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "15",
+      "16",
+      "3",
+      "24"
+     ],
+     "correct": 0,
+     "explain": "3 giờ chiều = 3 + 12 = 15 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "5",
+      "3",
+      "20"
+     ],
+     "correct": 0,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "2",
+      "15",
+      "3"
+     ],
+     "correct": 3,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "4",
+      "15",
+      "3"
+     ],
+     "correct": 3,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "5 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "24",
+      "5",
+      "17",
+      "18"
+     ],
+     "correct": 2,
+     "explain": "5 giờ chiều = 5 + 12 = 17 giờ."
+    },
+    {
+     "q": "1 ngày có bao nhiêu giờ?",
+     "options": [
+      "24",
+      "60",
+      "12",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "1 ngày = 24 giờ."
+    },
+    {
+     "q": "9 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "24",
+      "9",
+      "21",
+      "22"
+     ],
+     "correct": 2,
+     "explain": "9 giờ chiều = 9 + 12 = 21 giờ."
+    },
+    {
+     "q": "6 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "24",
+      "18",
+      "6",
+      "19"
+     ],
+     "correct": 1,
+     "explain": "6 giờ chiều = 6 + 12 = 18 giờ."
+    },
+    {
+     "q": "10 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "23",
+      "24",
+      "10",
+      "22"
+     ],
+     "correct": 3,
+     "explain": "10 giờ chiều = 10 + 12 = 22 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "5",
+      "3",
+      "20",
+      "4"
+     ],
+     "correct": 3,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 11 thì là bao nhiêu phút?",
+     "options": [
+      "50",
+      "55",
+      "11",
+      "60"
+     ],
+     "correct": 1,
+     "explain": "Mỗi số cách nhau 5 phút → 11 × 5 = 55 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 6 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "5",
+      "1",
+      "3",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "11",
+      "10",
+      "12",
+      "55"
+     ],
+     "correct": 0,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "8 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "20",
+      "8",
+      "21",
+      "24"
+     ],
+     "correct": 0,
+     "explain": "8 giờ chiều = 8 + 12 = 20 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "50",
+      "9",
+      "11",
+      "10"
+     ],
+     "correct": 3,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 25 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "6",
+      "5",
+      "4",
+      "25"
+     ],
+     "correct": 1,
+     "explain": "25 phút ÷ 5 = số 5 trên mặt đồng hồ."
+    },
+    {
+     "q": "2 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "15",
+      "14",
+      "2",
+      "24"
+     ],
+     "correct": 1,
+     "explain": "2 giờ chiều = 2 + 12 = 14 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "2",
+      "3",
+      "15"
+     ],
+     "correct": 2,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "11 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "22",
+      "23",
+      "11",
+      "24"
+     ],
+     "correct": 1,
+     "explain": "11 giờ chiều = 11 + 12 = 23 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 6 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "50",
+      "9",
+      "10",
+      "11"
+     ],
+     "correct": 2,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "7 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "24",
+      "20",
+      "19",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "7 giờ chiều = 7 + 12 = 19 giờ."
+    },
+    {
+     "q": "Đồng hồ chỉ 2 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "6",
+      "8",
+      "7",
+      "35"
+     ],
+     "correct": 2,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 9 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "45",
+      "8",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 8 thì là bao nhiêu phút?",
+     "options": [
+      "40",
+      "45",
+      "8",
+      "35"
+     ],
+     "correct": 0,
+     "explain": "Mỗi số cách nhau 5 phút → 8 × 5 = 40 phút."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 3 thì là bao nhiêu phút?",
+     "options": [
+      "20",
+      "3",
+      "10",
+      "15"
+     ],
+     "correct": 3,
+     "explain": "Mỗi số cách nhau 5 phút → 3 × 5 = 15 phút."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 4 thì là bao nhiêu phút?",
+     "options": [
+      "20",
+      "4",
+      "25",
+      "15"
+     ],
+     "correct": 0,
+     "explain": "Mỗi số cách nhau 5 phút → 4 × 5 = 20 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "55",
+      "11",
+      "10",
+      "12"
+     ],
+     "correct": 1,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 5 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "6",
+      "5",
+      "30",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "35",
+      "8",
+      "7",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "50",
+      "10",
+      "11"
+     ],
+     "correct": 2,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "6",
+      "30",
+      "5",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "4 giờ chiều còn được gọi là mấy giờ (theo cách nói 24 giờ)?",
+     "options": [
+      "16",
+      "4",
+      "17",
+      "24"
+     ],
+     "correct": 0,
+     "explain": "4 giờ chiều = 4 + 12 = 16 giờ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 9 thì là bao nhiêu phút?",
+     "options": [
+      "45",
+      "40",
+      "50",
+      "9"
+     ],
+     "correct": 0,
+     "explain": "Mỗi số cách nhau 5 phút → 9 × 5 = 45 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "20",
+      "4",
+      "3",
+      "5"
+     ],
+     "correct": 1,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 2 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "15",
+      "4",
+      "3"
+     ],
+     "correct": 3,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 6 thì là bao nhiêu phút?",
+     "options": [
+      "25",
+      "6",
+      "30",
+      "35"
+     ],
+     "correct": 2,
+     "explain": "Mỗi số cách nhau 5 phút → 6 × 5 = 30 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "3",
+      "2",
+      "1",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 10 thì là bao nhiêu phút?",
+     "options": [
+      "50",
+      "10",
+      "45",
+      "55"
+     ],
+     "correct": 0,
+     "explain": "Mỗi số cách nhau 5 phút → 10 × 5 = 50 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "15",
+      "4",
+      "2",
+      "3"
+     ],
+     "correct": 3,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 1 thì là bao nhiêu phút?",
+     "options": [
+      "1",
+      "0",
+      "5",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "Mỗi số cách nhau 5 phút → 1 × 5 = 5 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 8 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "10",
+      "50",
+      "11"
+     ],
+     "correct": 1,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "7",
+      "8",
+      "9",
+      "40"
+     ],
+     "correct": 1,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "2",
+      "1",
+      "3"
+     ],
+     "correct": 1,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "15",
+      "3",
+      "4",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 5 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "8",
+      "35",
+      "7",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "11",
+      "9",
+      "50",
+      "10"
+     ],
+     "correct": 3,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 25 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "5",
+      "25",
+      "6"
+     ],
+     "correct": 1,
+     "explain": "25 phút ÷ 5 = số 5 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 9 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "7",
+      "35",
+      "6",
+      "8"
+     ],
+     "correct": 0,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 7 thì là bao nhiêu phút?",
+     "options": [
+      "30",
+      "40",
+      "7",
+      "35"
+     ],
+     "correct": 3,
+     "explain": "Mỗi số cách nhau 5 phút → 7 × 5 = 35 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 6 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "20",
+      "5",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "11",
+      "50",
+      "10"
+     ],
+     "correct": 3,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 5 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "8",
+      "10",
+      "45"
+     ],
+     "correct": 0,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "7",
+      "9",
+      "40",
+      "8"
+     ],
+     "correct": 3,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 9 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "1",
+      "10",
+      "3",
+      "2"
+     ],
+     "correct": 3,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "12",
+      "11",
+      "55"
+     ],
+     "correct": 2,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "10",
+      "3",
+      "1"
+     ],
+     "correct": 0,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "11",
+      "10",
+      "12",
+      "55"
+     ],
+     "correct": 0,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "55",
+      "12",
+      "11",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 8 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "8",
+      "40",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 2 thì là bao nhiêu phút?",
+     "options": [
+      "5",
+      "15",
+      "10",
+      "2"
+     ],
+     "correct": 2,
+     "explain": "Mỗi số cách nhau 5 phút → 2 × 5 = 10 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "10",
+      "8",
+      "45"
+     ],
+     "correct": 0,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "11",
+      "50",
+      "9"
+     ],
+     "correct": 0,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 5 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "5",
+      "3",
+      "1"
+     ],
+     "correct": 3,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "35",
+      "8",
+      "7",
+      "6"
+     ],
+     "correct": 2,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 2 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "1",
+      "3",
+      "2",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 9 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "55",
+      "12",
+      "10",
+      "11"
+     ],
+     "correct": 3,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Trên đồng hồ, kim dài (kim phút) chỉ vào số 5 thì là bao nhiêu phút?",
+     "options": [
+      "5",
+      "20",
+      "25",
+      "30"
+     ],
+     "correct": 2,
+     "explain": "Mỗi số cách nhau 5 phút → 5 × 5 = 25 phút."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "12",
+      "11",
+      "55"
+     ],
+     "correct": 2,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "45",
+      "10",
+      "8",
+      "9"
+     ],
+     "correct": 3,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "3",
+      "2",
+      "1",
+      "10"
+     ],
+     "correct": 1,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "10",
+      "3",
+      "1"
+     ],
+     "correct": 0,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "20"
+     ],
+     "correct": 1,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "5",
+      "20",
+      "4",
+      "3"
+     ],
+     "correct": 2,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "7",
+      "6",
+      "30",
+      "5"
+     ],
+     "correct": 1,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 10 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "1",
+      "3",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "10 phút ÷ 5 = số 2 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 8 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "8",
+      "45",
+      "9",
+      "10"
+     ],
+     "correct": 2,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 2 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "8",
+      "9",
+      "40",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "5",
+      "7",
+      "6",
+      "30"
+     ],
+     "correct": 2,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "1",
+      "5",
+      "2",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 12 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "3",
+      "20",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 4 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "30",
+      "7",
+      "5",
+      "6"
+     ],
+     "correct": 3,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 8 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "35",
+      "7",
+      "6",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 2 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "12",
+      "55",
+      "11"
+     ],
+     "correct": 3,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 45 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "9",
+      "8",
+      "45",
+      "10"
+     ],
+     "correct": 0,
+     "explain": "45 phút ÷ 5 = số 9 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 50 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "11",
+      "9",
+      "10",
+      "50"
+     ],
+     "correct": 2,
+     "explain": "50 phút ÷ 5 = số 10 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "2",
+      "5",
+      "3",
+      "1"
+     ],
+     "correct": 3,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "7",
+      "9",
+      "8",
+      "40"
+     ],
+     "correct": 2,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 7 giờ 40 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "40",
+      "8",
+      "9",
+      "7"
+     ],
+     "correct": 1,
+     "explain": "40 phút ÷ 5 = số 8 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 5 giờ 25 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "5",
+      "6",
+      "25"
+     ],
+     "correct": 1,
+     "explain": "25 phút ÷ 5 = số 5 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 8 giờ 55 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "10",
+      "55",
+      "12",
+      "11"
+     ],
+     "correct": 3,
+     "explain": "55 phút ÷ 5 = số 11 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 3 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+     ],
+     "correct": 0,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 1 giờ 35 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "35",
+      "8",
+      "6",
+      "7"
+     ],
+     "correct": 3,
+     "explain": "35 phút ÷ 5 = số 7 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 25 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "6",
+      "5",
+      "4",
+      "25"
+     ],
+     "correct": 1,
+     "explain": "25 phút ÷ 5 = số 5 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 20 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "5",
+      "20",
+      "3"
+     ],
+     "correct": 0,
+     "explain": "20 phút ÷ 5 = số 4 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 30 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "5",
+      "30",
+      "6",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "30 phút ÷ 5 = số 6 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 11 giờ 15 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "4",
+      "3",
+      "15",
+      "2"
+     ],
+     "correct": 1,
+     "explain": "15 phút ÷ 5 = số 3 trên mặt đồng hồ."
+    },
+    {
+     "q": "Đồng hồ chỉ 10 giờ 5 phút. Kim phút (kim dài) đang chỉ vào số mấy trên mặt đồng hồ?",
+     "options": [
+      "3",
+      "5",
+      "1",
+      "2"
+     ],
+     "correct": 2,
+     "explain": "5 phút ÷ 5 = số 1 trên mặt đồng hồ."
+    }
+   ]
+  },
+  {
+   "type": 2,
+   "title": "Tiền Việt Nam",
+   "exercises": [
+    {
+     "q": "Có một tờ 5000 đồng và một tờ 1000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "6000",
+      "5000",
+      "1000",
+      "4000"
+     ],
+     "correct": 0,
+     "explain": "5000 + 1000 = 6000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 5000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "5005",
+      "5000",
+      "30000",
+      "25000"
+     ],
+     "correct": 3,
+     "explain": "5000 × 5 = 25000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 20000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "100000",
+      "20000",
+      "120000",
+      "20005"
+     ],
+     "correct": 0,
+     "explain": "20000 × 5 = 100000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "15001",
+      "5000",
+      "10000",
+      "15000"
+     ],
+     "correct": 3,
+     "explain": "10000 + 5000 = 15000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 19000 đồng, đưa người bán 24000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "19000",
+      "24000",
+      "5000",
+      "6000"
+     ],
+     "correct": 2,
+     "explain": "24000 − 19000 = 5000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 1000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "1005",
+      "5000",
+      "1000",
+      "6000"
+     ],
+     "correct": 1,
+     "explain": "1000 × 5 = 5000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 10000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "9000",
+      "1000",
+      "10000",
+      "11000"
+     ],
+     "correct": 3,
+     "explain": "1000 + 10000 = 11000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 29000 đồng, đưa người bán 32000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "3000",
+      "29000",
+      "32000"
+     ],
+     "correct": 1,
+     "explain": "32000 − 29000 = 3000 đồng."
+    },
+    {
+     "q": "6 tờ tiền loại 20000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "120000",
+      "140000",
+      "20006",
+      "20000"
+     ],
+     "correct": 0,
+     "explain": "20000 × 6 = 120000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 33000 đồng, đưa người bán 35000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "35000",
+      "3000",
+      "33000"
+     ],
+     "correct": 0,
+     "explain": "35000 − 33000 = 2000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 38000 đồng, đưa người bán 40000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "38000",
+      "2000",
+      "40000",
+      "3000"
+     ],
+     "correct": 1,
+     "explain": "40000 − 38000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 20000 đồng và một tờ 1000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "19000",
+      "21000",
+      "20000"
+     ],
+     "correct": 2,
+     "explain": "20000 + 1000 = 21000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 1000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "2001",
+      "1000",
+      "0"
+     ],
+     "correct": 0,
+     "explain": "1000 + 1000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 5000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "5000",
+      "2000",
+      "7000"
+     ],
+     "correct": 3,
+     "explain": "5000 + 2000 = 7000 đồng."
+    },
+    {
+     "q": "3 tờ tiền loại 50000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "150000",
+      "200000",
+      "50003",
+      "50000"
+     ],
+     "correct": 0,
+     "explain": "50000 × 3 = 150000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 31000 đồng, đưa người bán 35000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "31000",
+      "4000",
+      "5000",
+      "35000"
+     ],
+     "correct": 1,
+     "explain": "35000 − 31000 = 4000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "6000",
+      "5000",
+      "4000"
+     ],
+     "correct": 1,
+     "explain": "1000 + 5000 = 6000 đồng."
+    },
+    {
+     "q": "Có một tờ 50000 đồng và một tờ 10000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "10000",
+      "50000",
+      "60000",
+      "40000"
+     ],
+     "correct": 2,
+     "explain": "50000 + 10000 = 60000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 18000 đồng, đưa người bán 21000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "21000",
+      "4000",
+      "3000",
+      "18000"
+     ],
+     "correct": 2,
+     "explain": "21000 − 18000 = 3000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 50000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "10000",
+      "50000",
+      "40000",
+      "60000"
+     ],
+     "correct": 3,
+     "explain": "10000 + 50000 = 60000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 30000 đồng, đưa người bán 32000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "2000",
+      "32000",
+      "30000"
+     ],
+     "correct": 1,
+     "explain": "32000 − 30000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 2000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "2000",
+      "7000",
+      "5000"
+     ],
+     "correct": 2,
+     "explain": "2000 + 5000 = 7000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 9000 đồng, đưa người bán 15000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "7000",
+      "15000",
+      "6000",
+      "9000"
+     ],
+     "correct": 2,
+     "explain": "15000 − 9000 = 6000 đồng."
+    },
+    {
+     "q": "Có một tờ 5000 đồng và một tờ 20000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "25000",
+      "5000",
+      "20000",
+      "15000"
+     ],
+     "correct": 0,
+     "explain": "5000 + 20000 = 25000 đồng."
+    },
+    {
+     "q": "4 tờ tiền loại 1000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "5000",
+      "1004",
+      "1000",
+      "4000"
+     ],
+     "correct": 3,
+     "explain": "1000 × 4 = 4000 đồng."
+    },
+    {
+     "q": "Có một tờ 2000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "0",
+      "2000",
+      "4000",
+      "4001"
+     ],
+     "correct": 2,
+     "explain": "2000 + 2000 = 4000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 11000 đồng, đưa người bán 15000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "15000",
+      "5000",
+      "11000",
+      "4000"
+     ],
+     "correct": 3,
+     "explain": "15000 − 11000 = 4000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 2000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "12000",
+      "2000",
+      "2005",
+      "10000"
+     ],
+     "correct": 3,
+     "explain": "2000 × 5 = 10000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 8000 đồng, đưa người bán 14000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "7000",
+      "6000",
+      "8000",
+      "14000"
+     ],
+     "correct": 1,
+     "explain": "14000 − 8000 = 6000 đồng."
+    },
+    {
+     "q": "3 tờ tiền loại 10000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "10003",
+      "10000",
+      "40000",
+      "30000"
+     ],
+     "correct": 3,
+     "explain": "10000 × 3 = 30000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 5000 đồng, đưa người bán 7000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "5000",
+      "7000",
+      "3000",
+      "2000"
+     ],
+     "correct": 3,
+     "explain": "7000 − 5000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 20000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "10000",
+      "30000",
+      "20000",
+      "30001"
+     ],
+     "correct": 1,
+     "explain": "10000 + 20000 = 30000 đồng."
+    },
+    {
+     "q": "4 tờ tiền loại 20000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "100000",
+      "20004",
+      "20000",
+      "80000"
+     ],
+     "correct": 3,
+     "explain": "20000 × 4 = 80000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 50000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "49000",
+      "51000",
+      "50000"
+     ],
+     "correct": 2,
+     "explain": "1000 + 50000 = 51000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 23000 đồng, đưa người bán 28000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "23000",
+      "28000",
+      "5000",
+      "6000"
+     ],
+     "correct": 2,
+     "explain": "28000 − 23000 = 5000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 5000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "5002",
+      "5000",
+      "10000",
+      "15000"
+     ],
+     "correct": 2,
+     "explain": "5000 × 2 = 10000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 20000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "20000",
+      "20002",
+      "40000",
+      "60000"
+     ],
+     "correct": 2,
+     "explain": "20000 × 2 = 40000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 37000 đồng, đưa người bán 43000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "6000",
+      "43000",
+      "37000",
+      "7000"
+     ],
+     "correct": 0,
+     "explain": "43000 − 37000 = 6000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 20000 đồng, đưa người bán 21000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "21000",
+      "20000",
+      "2000",
+      "1000"
+     ],
+     "correct": 3,
+     "explain": "21000 − 20000 = 1000 đồng."
+    },
+    {
+     "q": "3 tờ tiền loại 20000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "80000",
+      "60000",
+      "20003",
+      "20000"
+     ],
+     "correct": 1,
+     "explain": "20000 × 3 = 60000 đồng."
+    },
+    {
+     "q": "Có một tờ 50000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "48000",
+      "2000",
+      "50000",
+      "52000"
+     ],
+     "correct": 3,
+     "explain": "50000 + 2000 = 52000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 14000 đồng, đưa người bán 20000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "14000",
+      "20000",
+      "6000",
+      "7000"
+     ],
+     "correct": 2,
+     "explain": "20000 − 14000 = 6000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 10000 đồng, đưa người bán 12000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "12000",
+      "2000",
+      "10000"
+     ],
+     "correct": 2,
+     "explain": "12000 − 10000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 1000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "9000",
+      "10000",
+      "1000",
+      "11000"
+     ],
+     "correct": 3,
+     "explain": "10000 + 1000 = 11000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 18000 đồng, đưa người bán 20000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "18000",
+      "3000",
+      "2000",
+      "20000"
+     ],
+     "correct": 2,
+     "explain": "20000 − 18000 = 2000 đồng."
+    },
+    {
+     "q": "Có một tờ 5000 đồng và một tờ 10000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "15000",
+      "15001",
+      "5000",
+      "10000"
+     ],
+     "correct": 0,
+     "explain": "5000 + 10000 = 15000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 35000 đồng, đưa người bán 37000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "35000",
+      "37000",
+      "2000"
+     ],
+     "correct": 3,
+     "explain": "37000 − 35000 = 2000 đồng."
+    },
+    {
+     "q": "4 tờ tiền loại 2000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "2004",
+      "2000",
+      "10000",
+      "8000"
+     ],
+     "correct": 3,
+     "explain": "2000 × 4 = 8000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 50000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "150000",
+      "50000",
+      "100000",
+      "50002"
+     ],
+     "correct": 2,
+     "explain": "50000 × 2 = 100000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 27000 đồng, đưa người bán 31000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "27000",
+      "5000",
+      "31000"
+     ],
+     "correct": 0,
+     "explain": "31000 − 27000 = 4000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 3000 đồng, đưa người bán 9000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "9000",
+      "3000",
+      "6000",
+      "7000"
+     ],
+     "correct": 2,
+     "explain": "9000 − 3000 = 6000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 50000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "250000",
+      "50005",
+      "50000",
+      "300000"
+     ],
+     "correct": 0,
+     "explain": "50000 × 5 = 250000 đồng."
+    },
+    {
+     "q": "6 tờ tiền loại 2000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "2006",
+      "2000",
+      "14000",
+      "12000"
+     ],
+     "correct": 3,
+     "explain": "2000 × 6 = 12000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 32000 đồng, đưa người bán 34000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "32000",
+      "3000",
+      "2000",
+      "34000"
+     ],
+     "correct": 2,
+     "explain": "34000 − 32000 = 2000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 25000 đồng, đưa người bán 26000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "1000",
+      "25000",
+      "26000"
+     ],
+     "correct": 1,
+     "explain": "26000 − 25000 = 1000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 13000 đồng, đưa người bán 14000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "13000",
+      "14000",
+      "1000",
+      "2000"
+     ],
+     "correct": 2,
+     "explain": "14000 − 13000 = 1000 đồng."
+    },
+    {
+     "q": "3 tờ tiền loại 1000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "3000",
+      "1003",
+      "4000"
+     ],
+     "correct": 1,
+     "explain": "1000 × 3 = 3000 đồng."
+    },
+    {
+     "q": "3 tờ tiền loại 2000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "8000",
+      "2003",
+      "6000",
+      "2000"
+     ],
+     "correct": 2,
+     "explain": "2000 × 3 = 6000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 21000 đồng, đưa người bán 27000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "6000",
+      "7000",
+      "21000",
+      "27000"
+     ],
+     "correct": 0,
+     "explain": "27000 − 21000 = 6000 đồng."
+    },
+    {
+     "q": "6 tờ tiền loại 50000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "350000",
+      "50000",
+      "50006",
+      "300000"
+     ],
+     "correct": 3,
+     "explain": "50000 × 6 = 300000 đồng."
+    },
+    {
+     "q": "4 tờ tiền loại 10000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "50000",
+      "10000",
+      "10004",
+      "40000"
+     ],
+     "correct": 3,
+     "explain": "10000 × 4 = 40000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 20000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "19000",
+      "21000",
+      "20000",
+      "1000"
+     ],
+     "correct": 1,
+     "explain": "1000 + 20000 = 21000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 19000 đồng, đưa người bán 25000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "19000",
+      "6000",
+      "7000",
+      "25000"
+     ],
+     "correct": 1,
+     "explain": "25000 − 19000 = 6000 đồng."
+    },
+    {
+     "q": "Có một tờ 2000 đồng và một tờ 50000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "52000",
+      "2000",
+      "50000",
+      "48000"
+     ],
+     "correct": 0,
+     "explain": "2000 + 50000 = 52000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 18000 đồng, đưa người bán 19000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "1000",
+      "18000",
+      "19000"
+     ],
+     "correct": 1,
+     "explain": "19000 − 18000 = 1000 đồng."
+    },
+    {
+     "q": "Có một tờ 1000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "3001",
+      "1000",
+      "2000"
+     ],
+     "correct": 0,
+     "explain": "1000 + 2000 = 3000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 11000 đồng, đưa người bán 12000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "12000",
+      "11000",
+      "1000"
+     ],
+     "correct": 3,
+     "explain": "12000 − 11000 = 1000 đồng."
+    },
+    {
+     "q": "Có một tờ 50000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "45000",
+      "55000",
+      "5000",
+      "50000"
+     ],
+     "correct": 1,
+     "explain": "50000 + 5000 = 55000 đồng."
+    },
+    {
+     "q": "Có một tờ 2000 đồng và một tờ 1000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "3001",
+      "3000",
+      "2000",
+      "1000"
+     ],
+     "correct": 1,
+     "explain": "2000 + 1000 = 3000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 17000 đồng, đưa người bán 20000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "17000",
+      "3000",
+      "20000"
+     ],
+     "correct": 2,
+     "explain": "20000 − 17000 = 3000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 4000 đồng, đưa người bán 9000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "6000",
+      "9000",
+      "5000"
+     ],
+     "correct": 3,
+     "explain": "9000 − 4000 = 5000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 7000 đồng, đưa người bán 13000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "7000",
+      "13000",
+      "6000",
+      "6001"
+     ],
+     "correct": 2,
+     "explain": "13000 − 7000 = 6000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "10000",
+      "8000",
+      "2000",
+      "12000"
+     ],
+     "correct": 3,
+     "explain": "10000 + 2000 = 12000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 2000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "6000",
+      "4000",
+      "2000",
+      "2002"
+     ],
+     "correct": 1,
+     "explain": "2000 × 2 = 4000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 10000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "30000",
+      "10002",
+      "20000",
+      "10000"
+     ],
+     "correct": 2,
+     "explain": "10000 × 2 = 20000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 26000 đồng, đưa người bán 30000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "26000",
+      "5000",
+      "30000"
+     ],
+     "correct": 0,
+     "explain": "30000 − 26000 = 4000 đồng."
+    },
+    {
+     "q": "6 tờ tiền loại 10000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "10006",
+      "70000",
+      "60000",
+      "10000"
+     ],
+     "correct": 2,
+     "explain": "10000 × 6 = 60000 đồng."
+    },
+    {
+     "q": "2 tờ tiền loại 1000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "2000",
+      "1002",
+      "1000"
+     ],
+     "correct": 1,
+     "explain": "1000 × 2 = 2000 đồng."
+    },
+    {
+     "q": "6 tờ tiền loại 5000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "5006",
+      "35000",
+      "30000",
+      "5000"
+     ],
+     "correct": 2,
+     "explain": "5000 × 6 = 30000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 5000 đồng, đưa người bán 6000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "6000",
+      "5000",
+      "2000"
+     ],
+     "correct": 0,
+     "explain": "6000 − 5000 = 1000 đồng."
+    },
+    {
+     "q": "Có một tờ 10000 đồng và một tờ 10000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "10000",
+      "20001",
+      "20000",
+      "0"
+     ],
+     "correct": 2,
+     "explain": "10000 + 10000 = 20000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 25000 đồng, đưa người bán 31000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "31000",
+      "6000",
+      "25000",
+      "7000"
+     ],
+     "correct": 1,
+     "explain": "31000 − 25000 = 6000 đồng."
+    },
+    {
+     "q": "4 tờ tiền loại 5000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "5004",
+      "20000",
+      "25000",
+      "5000"
+     ],
+     "correct": 1,
+     "explain": "5000 × 4 = 20000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 35000 đồng, đưa người bán 39000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "35000",
+      "5000",
+      "39000"
+     ],
+     "correct": 0,
+     "explain": "39000 − 35000 = 4000 đồng."
+    },
+    {
+     "q": "Có một tờ 20000 đồng và một tờ 20000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "40000",
+      "20000",
+      "40001",
+      "0"
+     ],
+     "correct": 0,
+     "explain": "20000 + 20000 = 40000 đồng."
+    },
+    {
+     "q": "5 tờ tiền loại 10000 đồng có tất cả bao nhiêu đồng?",
+     "options": [
+      "10005",
+      "10000",
+      "50000",
+      "60000"
+     ],
+     "correct": 2,
+     "explain": "10000 × 5 = 50000 đồng."
+    },
+    {
+     "q": "Có một tờ 20000 đồng và một tờ 2000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "18000",
+      "22000",
+      "20000",
+      "2000"
+     ],
+     "correct": 1,
+     "explain": "20000 + 2000 = 22000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 15000 đồng, đưa người bán 16000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "16000",
+      "2000",
+      "15000"
+     ],
+     "correct": 0,
+     "explain": "16000 − 15000 = 1000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 23000 đồng, đưa người bán 24000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "23000",
+      "24000",
+      "2000"
+     ],
+     "correct": 0,
+     "explain": "24000 − 23000 = 1000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 23000 đồng, đưa người bán 26000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "4000",
+      "23000",
+      "26000"
+     ],
+     "correct": 0,
+     "explain": "26000 − 23000 = 3000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 34000 đồng, đưa người bán 39000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "39000",
+      "6000",
+      "34000",
+      "5000"
+     ],
+     "correct": 3,
+     "explain": "39000 − 34000 = 5000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 23000 đồng, đưa người bán 27000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "4000",
+      "5000",
+      "27000",
+      "23000"
+     ],
+     "correct": 0,
+     "explain": "27000 − 23000 = 4000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 8000 đồng, đưa người bán 10000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "3000",
+      "8000",
+      "10000",
+      "2000"
+     ],
+     "correct": 3,
+     "explain": "10000 − 8000 = 2000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 39000 đồng, đưa người bán 41000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "2000",
+      "41000",
+      "39000",
+      "3000"
+     ],
+     "correct": 0,
+     "explain": "41000 − 39000 = 2000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 5000 đồng, đưa người bán 9000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "9000",
+      "4001",
+      "5000",
+      "4000"
+     ],
+     "correct": 3,
+     "explain": "9000 − 5000 = 4000 đồng."
+    },
+    {
+     "q": "Có một tờ 20000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "20000",
+      "5000",
+      "15000",
+      "25000"
+     ],
+     "correct": 3,
+     "explain": "20000 + 5000 = 25000 đồng."
+    },
+    {
+     "q": "Có một tờ 5000 đồng và một tờ 5000 đồng. Hỏi có tất cả bao nhiêu đồng?",
+     "options": [
+      "5000",
+      "0",
+      "10001",
+      "10000"
+     ],
+     "correct": 3,
+     "explain": "5000 + 5000 = 10000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 40000 đồng, đưa người bán 41000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "41000",
+      "1000",
+      "2000",
+      "40000"
+     ],
+     "correct": 1,
+     "explain": "41000 − 40000 = 1000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 39000 đồng, đưa người bán 45000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "7000",
+      "39000",
+      "6000",
+      "45000"
+     ],
+     "correct": 2,
+     "explain": "45000 − 39000 = 6000 đồng."
+    },
+    {
+     "q": "Mua món hàng giá 36000 đồng, đưa người bán 37000 đồng. Hỏi được thối lại bao nhiêu đồng?",
+     "options": [
+      "1000",
+      "36000",
+      "37000",
+      "2000"
+     ],
+     "correct": 0,
+     "explain": "37000 − 36000 = 1000 đồng."
+    }
+   ]
+  }
+ ]
+}

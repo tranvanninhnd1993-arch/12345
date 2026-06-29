@@ -1,0 +1,2230 @@
+{
+ "grade": 3,
+ "week": "SO",
+ "lessons": [
+  {
+   "type": 1,
+   "title": "Các số có bốn chữ số, số 10 000",
+   "exercises": [
+    {
+     "q": "Số bé nhất có bốn chữ số là số nào?",
+     "options": [
+      "1000",
+      "1111",
+      "9999",
+      "100"
+     ],
+     "correct": 0,
+     "explain": "Số bé nhất có 4 chữ số là 1000."
+    },
+    {
+     "q": "Số liền trước của 1383 là số nào?",
+     "options": [
+      "1373",
+      "1382",
+      "1384",
+      "1383"
+     ],
+     "correct": 1,
+     "explain": "1383 − 1 = 1382."
+    },
+    {
+     "q": "Số 7726 gồm:",
+     "options": [
+      "7 trăm 7 chục 2 đơn vị",
+      "7 nghìn 7 trăm",
+      "7 nghìn 7 trăm 2 chục 6 đơn vị",
+      "6 nghìn 7 trăm 2 chục 7 đơn vị"
+     ],
+     "correct": 2,
+     "explain": "7726 = 7 nghìn 7 trăm 2 chục 6 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 8130 là số nào?",
+     "options": [
+      "8129",
+      "8131",
+      "8120",
+      "8130"
+     ],
+     "correct": 0,
+     "explain": "8130 − 1 = 8129."
+    },
+    {
+     "q": "Số nào lớn hơn: 6320 hay 5936?",
+     "options": [
+      "384",
+      "5936",
+      "6320",
+      "12256"
+     ],
+     "correct": 2,
+     "explain": "6320 > 5936."
+    },
+    {
+     "q": "Số nào lớn hơn: 6507 hay 9129?",
+     "options": [
+      "9129",
+      "15636",
+      "6507",
+      "2622"
+     ],
+     "correct": 0,
+     "explain": "9129 > 6507."
+    },
+    {
+     "q": "Số 4656 gồm:",
+     "options": [
+      "4 trăm 6 chục 5 đơn vị",
+      "4 nghìn 6 trăm 5 chục 6 đơn vị",
+      "4 nghìn 6 trăm",
+      "6 nghìn 6 trăm 5 chục 4 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "4656 = 4 nghìn 6 trăm 5 chục 6 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 5708 là số nào?",
+     "options": [
+      "5698",
+      "5707",
+      "5708",
+      "5709"
+     ],
+     "correct": 1,
+     "explain": "5708 − 1 = 5707."
+    },
+    {
+     "q": "Số nào lớn hơn: 9458 hay 5425?",
+     "options": [
+      "4033",
+      "9458",
+      "14883",
+      "5425"
+     ],
+     "correct": 1,
+     "explain": "9458 > 5425."
+    },
+    {
+     "q": "Số 1976 gồm:",
+     "options": [
+      "1 nghìn 9 trăm",
+      "1 nghìn 9 trăm 7 chục 6 đơn vị",
+      "1 trăm 9 chục 7 đơn vị",
+      "6 nghìn 9 trăm 7 chục 1 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "1976 = 1 nghìn 9 trăm 7 chục 6 đơn vị."
+    },
+    {
+     "q": "Số 9298 gồm:",
+     "options": [
+      "9 trăm 2 chục 9 đơn vị",
+      "9 nghìn 2 trăm 9 chục 8 đơn vị",
+      "8 nghìn 2 trăm 9 chục 9 đơn vị",
+      "9 nghìn 2 trăm"
+     ],
+     "correct": 1,
+     "explain": "9298 = 9 nghìn 2 trăm 9 chục 8 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 2814 là số nào?",
+     "options": [
+      "2814",
+      "2813",
+      "2815",
+      "2804"
+     ],
+     "correct": 1,
+     "explain": "2814 − 1 = 2813."
+    },
+    {
+     "q": "Số 3602 gồm:",
+     "options": [
+      "3 nghìn 6 trăm",
+      "3 trăm 6 chục 0 đơn vị",
+      "2 nghìn 6 trăm 0 chục 3 đơn vị",
+      "3 nghìn 6 trăm 0 chục 2 đơn vị"
+     ],
+     "correct": 3,
+     "explain": "3602 = 3 nghìn 6 trăm 0 chục 2 đơn vị."
+    },
+    {
+     "q": "Số liền sau của 9999 là số nào?",
+     "options": [
+      "10000",
+      "9998",
+      "9990",
+      "1000"
+     ],
+     "correct": 0,
+     "explain": "9999 + 1 = 10000."
+    },
+    {
+     "q": "Số 5556 gồm:",
+     "options": [
+      "5 nghìn 5 trăm",
+      "5 trăm 5 chục 5 đơn vị",
+      "5 nghìn 5 trăm 5 chục 6 đơn vị",
+      "6 nghìn 5 trăm 5 chục 5 đơn vị"
+     ],
+     "correct": 2,
+     "explain": "5556 = 5 nghìn 5 trăm 5 chục 6 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 5885 là số nào?",
+     "options": [
+      "5875",
+      "5884",
+      "5885",
+      "5886"
+     ],
+     "correct": 1,
+     "explain": "5885 − 1 = 5884."
+    },
+    {
+     "q": "Số 4235 gồm:",
+     "options": [
+      "5 nghìn 2 trăm 3 chục 4 đơn vị",
+      "4 nghìn 2 trăm",
+      "4 trăm 2 chục 3 đơn vị",
+      "4 nghìn 2 trăm 3 chục 5 đơn vị"
+     ],
+     "correct": 3,
+     "explain": "4235 = 4 nghìn 2 trăm 3 chục 5 đơn vị."
+    },
+    {
+     "q": "Số 9557 gồm:",
+     "options": [
+      "9 nghìn 5 trăm 5 chục 7 đơn vị",
+      "9 trăm 5 chục 5 đơn vị",
+      "9 nghìn 5 trăm",
+      "7 nghìn 5 trăm 5 chục 9 đơn vị"
+     ],
+     "correct": 0,
+     "explain": "9557 = 9 nghìn 5 trăm 5 chục 7 đơn vị."
+    },
+    {
+     "q": "Số 3404 gồm:",
+     "options": [
+      "3 nghìn 4 trăm",
+      "4 nghìn 4 trăm 0 chục 3 đơn vị",
+      "3 trăm 4 chục 0 đơn vị",
+      "3 nghìn 4 trăm 0 chục 4 đơn vị"
+     ],
+     "correct": 3,
+     "explain": "3404 = 3 nghìn 4 trăm 0 chục 4 đơn vị."
+    },
+    {
+     "q": "Số 9159 gồm:",
+     "options": [
+      "9 nghìn 1 trăm",
+      "9 nghìn 1 trăm 5 chục 9 đơn vị",
+      "9 trăm 1 chục 5 đơn vị",
+      "9 nghìn 1 trăm 5 chục 9 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "9159 = 9 nghìn 1 trăm 5 chục 9 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 1289 là số nào?",
+     "options": [
+      "1279",
+      "1289",
+      "1288",
+      "1290"
+     ],
+     "correct": 2,
+     "explain": "1289 − 1 = 1288."
+    },
+    {
+     "q": "Số 3405 gồm:",
+     "options": [
+      "3 nghìn 4 trăm",
+      "3 nghìn 4 trăm 0 chục 5 đơn vị",
+      "3 trăm 4 chục 0 đơn vị",
+      "5 nghìn 4 trăm 0 chục 3 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "3405 = 3 nghìn 4 trăm 0 chục 5 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 1534 là số nào?",
+     "options": [
+      "1533",
+      "1534",
+      "1524",
+      "1535"
+     ],
+     "correct": 0,
+     "explain": "1534 − 1 = 1533."
+    },
+    {
+     "q": "Số nào lớn hơn: 5336 hay 3972?",
+     "options": [
+      "1364",
+      "5336",
+      "9308",
+      "3972"
+     ],
+     "correct": 1,
+     "explain": "5336 > 3972."
+    },
+    {
+     "q": "Số nào lớn hơn: 3794 hay 4263?",
+     "options": [
+      "3794",
+      "4263",
+      "469",
+      "8057"
+     ],
+     "correct": 1,
+     "explain": "4263 > 3794."
+    },
+    {
+     "q": "Số liền trước của 4637 là số nào?",
+     "options": [
+      "4627",
+      "4636",
+      "4637",
+      "4638"
+     ],
+     "correct": 1,
+     "explain": "4637 − 1 = 4636."
+    },
+    {
+     "q": "Số liền trước của 7640 là số nào?",
+     "options": [
+      "7630",
+      "7641",
+      "7639",
+      "7640"
+     ],
+     "correct": 2,
+     "explain": "7640 − 1 = 7639."
+    },
+    {
+     "q": "Số liền trước của 3903 là số nào?",
+     "options": [
+      "3903",
+      "3893",
+      "3902",
+      "3904"
+     ],
+     "correct": 2,
+     "explain": "3903 − 1 = 3902."
+    },
+    {
+     "q": "Số liền trước của 2448 là số nào?",
+     "options": [
+      "2448",
+      "2438",
+      "2449",
+      "2447"
+     ],
+     "correct": 3,
+     "explain": "2448 − 1 = 2447."
+    },
+    {
+     "q": "Số nào lớn hơn: 7857 hay 1939?",
+     "options": [
+      "1939",
+      "7857",
+      "5918",
+      "9796"
+     ],
+     "correct": 1,
+     "explain": "7857 > 1939."
+    },
+    {
+     "q": "Số 3416 gồm:",
+     "options": [
+      "3 nghìn 4 trăm",
+      "3 nghìn 4 trăm 1 chục 6 đơn vị",
+      "3 trăm 4 chục 1 đơn vị",
+      "6 nghìn 4 trăm 1 chục 3 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "3416 = 3 nghìn 4 trăm 1 chục 6 đơn vị."
+    },
+    {
+     "q": "Số 8918 gồm:",
+     "options": [
+      "8 trăm 9 chục 1 đơn vị",
+      "8 nghìn 9 trăm 1 chục 8 đơn vị",
+      "8 nghìn 9 trăm 1 chục 8 đơn vị",
+      "8 nghìn 9 trăm"
+     ],
+     "correct": 1,
+     "explain": "8918 = 8 nghìn 9 trăm 1 chục 8 đơn vị."
+    },
+    {
+     "q": "Số nào lớn hơn: 9898 hay 2989?",
+     "options": [
+      "2989",
+      "9898",
+      "12887",
+      "6909"
+     ],
+     "correct": 1,
+     "explain": "9898 > 2989."
+    },
+    {
+     "q": "Số nào lớn hơn: 9686 hay 2682?",
+     "options": [
+      "9686",
+      "2682",
+      "7004",
+      "12368"
+     ],
+     "correct": 0,
+     "explain": "9686 > 2682."
+    },
+    {
+     "q": "Số 5752 gồm:",
+     "options": [
+      "5 trăm 7 chục 5 đơn vị",
+      "2 nghìn 7 trăm 5 chục 5 đơn vị",
+      "5 nghìn 7 trăm 5 chục 2 đơn vị",
+      "5 nghìn 7 trăm"
+     ],
+     "correct": 2,
+     "explain": "5752 = 5 nghìn 7 trăm 5 chục 2 đơn vị."
+    },
+    {
+     "q": "Số 5178 gồm:",
+     "options": [
+      "5 trăm 1 chục 7 đơn vị",
+      "5 nghìn 1 trăm 7 chục 8 đơn vị",
+      "5 nghìn 1 trăm",
+      "8 nghìn 1 trăm 7 chục 5 đơn vị"
+     ],
+     "correct": 1,
+     "explain": "5178 = 5 nghìn 1 trăm 7 chục 8 đơn vị."
+    },
+    {
+     "q": "Số 5112 gồm:",
+     "options": [
+      "5 nghìn 1 trăm 1 chục 2 đơn vị",
+      "2 nghìn 1 trăm 1 chục 5 đơn vị",
+      "5 trăm 1 chục 1 đơn vị",
+      "5 nghìn 1 trăm"
+     ],
+     "correct": 0,
+     "explain": "5112 = 5 nghìn 1 trăm 1 chục 2 đơn vị."
+    },
+    {
+     "q": "Số liền trước của 1780 là số nào?",
+     "options": [
+      "1780",
+      "1781",
+      "1779",
+      "1770"
+     ],
+     "correct": 2,
+     "explain": "1780 − 1 = 1779."
+    },
+    {
+     "q": "Số nào lớn hơn: 2487 hay 1735?",
+     "options": [
+      "4222",
+      "1735",
+      "2487",
+      "752"
+     ],
+     "correct": 2,
+     "explain": "2487 > 1735."
+    },
+    {
+     "q": "Số 9401 gồm:",
+     "options": [
+      "9 trăm 4 chục 0 đơn vị",
+      "9 nghìn 4 trăm",
+      "1 nghìn 4 trăm 0 chục 9 đơn vị",
+      "9 nghìn 4 trăm 0 chục 1 đơn vị"
+     ],
+     "correct": 3,
+     "explain": "9401 = 9 nghìn 4 trăm 0 chục 1 đơn vị."
+    },
+    {
+     "q": "Số nào lớn hơn: 7753 hay 7794?",
+     "options": [
+      "15547",
+      "41",
+      "7753",
+      "7794"
+     ],
+     "correct": 3,
+     "explain": "7794 > 7753."
+    },
+    {
+     "q": "Số nào lớn hơn: 1290 hay 3948?",
+     "options": [
+      "5238",
+      "3948",
+      "1290",
+      "2658"
+     ],
+     "correct": 1,
+     "explain": "3948 > 1290."
+    },
+    {
+     "q": "Số liền trước của 4305 là số nào?",
+     "options": [
+      "4305",
+      "4306",
+      "4304",
+      "4295"
+     ],
+     "correct": 2,
+     "explain": "4305 − 1 = 4304."
+    },
+    {
+     "q": "Số nào lớn hơn: 4149 hay 4565?",
+     "options": [
+      "4565",
+      "416",
+      "8714",
+      "4149"
+     ],
+     "correct": 0,
+     "explain": "4565 > 4149."
+    },
+    {
+     "q": "Số nào lớn hơn: 6003 hay 5711?",
+     "options": [
+      "6003",
+      "11714",
+      "5711",
+      "292"
+     ],
+     "correct": 0,
+     "explain": "6003 > 5711."
+    },
+    {
+     "q": "Số liền trước của 8510 là số nào?",
+     "options": [
+      "8510",
+      "8500",
+      "8511",
+      "8509"
+     ],
+     "correct": 3,
+     "explain": "8510 − 1 = 8509."
+    },
+    {
+     "q": "Số liền trước của 8349 là số nào?",
+     "options": [
+      "8350",
+      "8349",
+      "8348",
+      "8339"
+     ],
+     "correct": 2,
+     "explain": "8349 − 1 = 8348."
+    },
+    {
+     "q": "Số nào lớn hơn: 9061 hay 7580?",
+     "options": [
+      "16641",
+      "1481",
+      "7580",
+      "9061"
+     ],
+     "correct": 3,
+     "explain": "9061 > 7580."
+    },
+    {
+     "q": "Số liền trước của 8449 là số nào?",
+     "options": [
+      "8448",
+      "8439",
+      "8450",
+      "8449"
+     ],
+     "correct": 0,
+     "explain": "8449 − 1 = 8448."
+    },
+    {
+     "q": "Số nào lớn hơn: 8721 hay 1902?",
+     "options": [
+      "6819",
+      "8721",
+      "10623",
+      "1902"
+     ],
+     "correct": 1,
+     "explain": "8721 > 1902."
+    }
+   ]
+  },
+  {
+   "type": 2,
+   "title": "Làm tròn số (chục, trăm)",
+   "exercises": [
+    {
+     "q": "Làm tròn số 250 đến hàng chục được số nào?",
+     "options": [
+      "260",
+      "240",
+      "250",
+      "251"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 0 → làm tròn 250 thành 250."
+    },
+    {
+     "q": "Làm tròn số 5701 đến hàng trăm được số nào?",
+     "options": [
+      "5600",
+      "5701",
+      "5700",
+      "5800"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 5701 thành 5700."
+    },
+    {
+     "q": "Làm tròn số 5065 đến hàng trăm được số nào?",
+     "options": [
+      "5000",
+      "5200",
+      "5065",
+      "5100"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 6 → làm tròn 5065 thành 5100."
+    },
+    {
+     "q": "Làm tròn số 74 đến hàng chục được số nào?",
+     "options": [
+      "60",
+      "70",
+      "80",
+      "74"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 4 → làm tròn 74 thành 70."
+    },
+    {
+     "q": "Làm tròn số 2332 đến hàng trăm được số nào?",
+     "options": [
+      "2300",
+      "2332",
+      "2200",
+      "2400"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng chục là 3 → làm tròn 2332 thành 2300."
+    },
+    {
+     "q": "Làm tròn số 6421 đến hàng trăm được số nào?",
+     "options": [
+      "6300",
+      "6400",
+      "6421",
+      "6500"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 2 → làm tròn 6421 thành 6400."
+    },
+    {
+     "q": "Làm tròn số 472 đến hàng chục được số nào?",
+     "options": [
+      "470",
+      "460",
+      "480",
+      "472"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 2 → làm tròn 472 thành 470."
+    },
+    {
+     "q": "Làm tròn số 920 đến hàng chục được số nào?",
+     "options": [
+      "930",
+      "921",
+      "920",
+      "910"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 0 → làm tròn 920 thành 920."
+    },
+    {
+     "q": "Làm tròn số 361 đến hàng chục được số nào?",
+     "options": [
+      "370",
+      "350",
+      "360",
+      "361"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 1 → làm tròn 361 thành 360."
+    },
+    {
+     "q": "Làm tròn số 4700 đến hàng trăm được số nào?",
+     "options": [
+      "4600",
+      "4700",
+      "4701",
+      "4800"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 4700 thành 4700."
+    },
+    {
+     "q": "Làm tròn số 893 đến hàng chục được số nào?",
+     "options": [
+      "890",
+      "900",
+      "880",
+      "893"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 893 thành 890."
+    },
+    {
+     "q": "Làm tròn số 535 đến hàng chục được số nào?",
+     "options": [
+      "550",
+      "540",
+      "535",
+      "530"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 5 → làm tròn 535 thành 540."
+    },
+    {
+     "q": "Làm tròn số 547 đến hàng chục được số nào?",
+     "options": [
+      "547",
+      "540",
+      "560",
+      "550"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 7 → làm tròn 547 thành 550."
+    },
+    {
+     "q": "Làm tròn số 9397 đến hàng trăm được số nào?",
+     "options": [
+      "9397",
+      "9300",
+      "9500",
+      "9400"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 9 → làm tròn 9397 thành 9400."
+    },
+    {
+     "q": "Làm tròn số 388 đến hàng chục được số nào?",
+     "options": [
+      "388",
+      "400",
+      "390",
+      "380"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 8 → làm tròn 388 thành 390."
+    },
+    {
+     "q": "Làm tròn số 129 đến hàng chục được số nào?",
+     "options": [
+      "140",
+      "129",
+      "120",
+      "130"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 9 → làm tròn 129 thành 130."
+    },
+    {
+     "q": "Làm tròn số 633 đến hàng chục được số nào?",
+     "options": [
+      "633",
+      "640",
+      "620",
+      "630"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 633 thành 630."
+    },
+    {
+     "q": "Làm tròn số 656 đến hàng chục được số nào?",
+     "options": [
+      "670",
+      "650",
+      "656",
+      "660"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 6 → làm tròn 656 thành 660."
+    },
+    {
+     "q": "Làm tròn số 1141 đến hàng trăm được số nào?",
+     "options": [
+      "1000",
+      "1200",
+      "1141",
+      "1100"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 4 → làm tròn 1141 thành 1100."
+    },
+    {
+     "q": "Làm tròn số 5207 đến hàng trăm được số nào?",
+     "options": [
+      "5207",
+      "5100",
+      "5300",
+      "5200"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 5207 thành 5200."
+    },
+    {
+     "q": "Làm tròn số 208 đến hàng chục được số nào?",
+     "options": [
+      "210",
+      "208",
+      "220",
+      "200"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 8 → làm tròn 208 thành 210."
+    },
+    {
+     "q": "Làm tròn số 1005 đến hàng trăm được số nào?",
+     "options": [
+      "1100",
+      "1005",
+      "900",
+      "1000"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 1005 thành 1000."
+    },
+    {
+     "q": "Làm tròn số 767 đến hàng chục được số nào?",
+     "options": [
+      "760",
+      "767",
+      "770",
+      "780"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 7 → làm tròn 767 thành 770."
+    },
+    {
+     "q": "Làm tròn số 763 đến hàng chục được số nào?",
+     "options": [
+      "763",
+      "750",
+      "760",
+      "770"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 763 thành 760."
+    },
+    {
+     "q": "Làm tròn số 644 đến hàng chục được số nào?",
+     "options": [
+      "630",
+      "640",
+      "650",
+      "644"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 4 → làm tròn 644 thành 640."
+    },
+    {
+     "q": "Làm tròn số 1379 đến hàng trăm được số nào?",
+     "options": [
+      "1300",
+      "1400",
+      "1379",
+      "1500"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 7 → làm tròn 1379 thành 1400."
+    },
+    {
+     "q": "Làm tròn số 23 đến hàng chục được số nào?",
+     "options": [
+      "10",
+      "20",
+      "30",
+      "23"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 23 thành 20."
+    },
+    {
+     "q": "Làm tròn số 537 đến hàng chục được số nào?",
+     "options": [
+      "540",
+      "550",
+      "537",
+      "530"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 7 → làm tròn 537 thành 540."
+    },
+    {
+     "q": "Làm tròn số 1924 đến hàng trăm được số nào?",
+     "options": [
+      "1800",
+      "2000",
+      "1900",
+      "1924"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 2 → làm tròn 1924 thành 1900."
+    },
+    {
+     "q": "Làm tròn số 98 đến hàng chục được số nào?",
+     "options": [
+      "110",
+      "90",
+      "98",
+      "100"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 8 → làm tròn 98 thành 100."
+    },
+    {
+     "q": "Làm tròn số 2431 đến hàng trăm được số nào?",
+     "options": [
+      "2431",
+      "2400",
+      "2300",
+      "2500"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 3 → làm tròn 2431 thành 2400."
+    },
+    {
+     "q": "Làm tròn số 898 đến hàng chục được số nào?",
+     "options": [
+      "910",
+      "890",
+      "898",
+      "900"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 8 → làm tròn 898 thành 900."
+    },
+    {
+     "q": "Làm tròn số 4206 đến hàng trăm được số nào?",
+     "options": [
+      "4200",
+      "4100",
+      "4206",
+      "4300"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 4206 thành 4200."
+    },
+    {
+     "q": "Làm tròn số 223 đến hàng chục được số nào?",
+     "options": [
+      "210",
+      "220",
+      "223",
+      "230"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 223 thành 220."
+    },
+    {
+     "q": "Làm tròn số 3024 đến hàng trăm được số nào?",
+     "options": [
+      "3024",
+      "2900",
+      "3000",
+      "3100"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 2 → làm tròn 3024 thành 3000."
+    },
+    {
+     "q": "Làm tròn số 252 đến hàng chục được số nào?",
+     "options": [
+      "250",
+      "240",
+      "252",
+      "260"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 2 → làm tròn 252 thành 250."
+    },
+    {
+     "q": "Làm tròn số 509 đến hàng chục được số nào?",
+     "options": [
+      "500",
+      "510",
+      "509",
+      "520"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 9 → làm tròn 509 thành 510."
+    },
+    {
+     "q": "Làm tròn số 6102 đến hàng trăm được số nào?",
+     "options": [
+      "6000",
+      "6100",
+      "6200",
+      "6102"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 6102 thành 6100."
+    },
+    {
+     "q": "Làm tròn số 5233 đến hàng trăm được số nào?",
+     "options": [
+      "5300",
+      "5233",
+      "5200",
+      "5100"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 3 → làm tròn 5233 thành 5200."
+    },
+    {
+     "q": "Làm tròn số 5129 đến hàng trăm được số nào?",
+     "options": [
+      "5129",
+      "5000",
+      "5200",
+      "5100"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 2 → làm tròn 5129 thành 5100."
+    },
+    {
+     "q": "Làm tròn số 8588 đến hàng trăm được số nào?",
+     "options": [
+      "8700",
+      "8588",
+      "8500",
+      "8600"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 8 → làm tròn 8588 thành 8600."
+    },
+    {
+     "q": "Làm tròn số 670 đến hàng chục được số nào?",
+     "options": [
+      "660",
+      "670",
+      "680",
+      "671"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 0 → làm tròn 670 thành 670."
+    },
+    {
+     "q": "Làm tròn số 707 đến hàng chục được số nào?",
+     "options": [
+      "720",
+      "710",
+      "707",
+      "700"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng đơn vị là 7 → làm tròn 707 thành 710."
+    },
+    {
+     "q": "Làm tròn số 3245 đến hàng trăm được số nào?",
+     "options": [
+      "3300",
+      "3245",
+      "3200",
+      "3100"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 4 → làm tròn 3245 thành 3200."
+    },
+    {
+     "q": "Làm tròn số 523 đến hàng chục được số nào?",
+     "options": [
+      "523",
+      "530",
+      "520",
+      "510"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng đơn vị là 3 → làm tròn 523 thành 520."
+    },
+    {
+     "q": "Làm tròn số 6769 đến hàng trăm được số nào?",
+     "options": [
+      "6700",
+      "6800",
+      "6900",
+      "6769"
+     ],
+     "correct": 1,
+     "explain": "Chữ số hàng chục là 6 → làm tròn 6769 thành 6800."
+    },
+    {
+     "q": "Làm tròn số 657 đến hàng chục được số nào?",
+     "options": [
+      "660",
+      "657",
+      "650",
+      "670"
+     ],
+     "correct": 0,
+     "explain": "Chữ số hàng đơn vị là 7 → làm tròn 657 thành 660."
+    },
+    {
+     "q": "Làm tròn số 8304 đến hàng trăm được số nào?",
+     "options": [
+      "8200",
+      "8304",
+      "8300",
+      "8400"
+     ],
+     "correct": 2,
+     "explain": "Chữ số hàng chục là 0 → làm tròn 8304 thành 8300."
+    },
+    {
+     "q": "Làm tròn số 941 đến hàng chục được số nào?",
+     "options": [
+      "930",
+      "941",
+      "950",
+      "940"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng đơn vị là 1 → làm tròn 941 thành 940."
+    },
+    {
+     "q": "Làm tròn số 1281 đến hàng trăm được số nào?",
+     "options": [
+      "1281",
+      "1400",
+      "1200",
+      "1300"
+     ],
+     "correct": 3,
+     "explain": "Chữ số hàng chục là 8 → làm tròn 1281 thành 1300."
+    }
+   ]
+  },
+  {
+   "type": 3,
+   "title": "Chữ số La Mã",
+   "exercises": [
+    {
+     "q": "Chữ số La Mã XXX là số nào?",
+     "options": [
+      "29",
+      "30",
+      "32",
+      "31"
+     ],
+     "correct": 1,
+     "explain": "XXX = 30."
+    },
+    {
+     "q": "Số 28 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXIX",
+      "XXVIII",
+      "XXVII",
+      "XXX"
+     ],
+     "correct": 1,
+     "explain": "28 = XXVIII (La Mã)."
+    },
+    {
+     "q": "Số 17 viết bằng chữ số La Mã là:",
+     "options": [
+      "XVI",
+      "XVII",
+      "XVIII",
+      "XIX"
+     ],
+     "correct": 1,
+     "explain": "17 = XVII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XXIII là số nào?",
+     "options": [
+      "25",
+      "24",
+      "23",
+      "22"
+     ],
+     "correct": 2,
+     "explain": "XXIII = 23."
+    },
+    {
+     "q": "Chữ số La Mã XIII là số nào?",
+     "options": [
+      "13",
+      "15",
+      "12",
+      "14"
+     ],
+     "correct": 0,
+     "explain": "XIII = 13."
+    },
+    {
+     "q": "Chữ số La Mã XXII là số nào?",
+     "options": [
+      "23",
+      "22",
+      "24",
+      "21"
+     ],
+     "correct": 1,
+     "explain": "XXII = 22."
+    },
+    {
+     "q": "Số 23 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXIII",
+      "XXV",
+      "XXIV",
+      "XXII"
+     ],
+     "correct": 0,
+     "explain": "23 = XXIII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XXVII là số nào?",
+     "options": [
+      "29",
+      "26",
+      "27",
+      "28"
+     ],
+     "correct": 2,
+     "explain": "XXVII = 27."
+    },
+    {
+     "q": "Số 7 viết bằng chữ số La Mã là:",
+     "options": [
+      "VII",
+      "VIII",
+      "VI",
+      "IX"
+     ],
+     "correct": 0,
+     "explain": "7 = VII (La Mã)."
+    },
+    {
+     "q": "Số 21 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXII",
+      "XXI",
+      "XXIII",
+      "XX"
+     ],
+     "correct": 1,
+     "explain": "21 = XXI (La Mã)."
+    },
+    {
+     "q": "Số 18 viết bằng chữ số La Mã là:",
+     "options": [
+      "XIX",
+      "XVIII",
+      "XX",
+      "XVII"
+     ],
+     "correct": 1,
+     "explain": "18 = XVIII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XXVI là số nào?",
+     "options": [
+      "26",
+      "25",
+      "27",
+      "28"
+     ],
+     "correct": 0,
+     "explain": "XXVI = 26."
+    },
+    {
+     "q": "Số 15 viết bằng chữ số La Mã là:",
+     "options": [
+      "XV",
+      "XVI",
+      "XVII",
+      "XIV"
+     ],
+     "correct": 0,
+     "explain": "15 = XV (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XVII là số nào?",
+     "options": [
+      "16",
+      "19",
+      "18",
+      "17"
+     ],
+     "correct": 3,
+     "explain": "XVII = 17."
+    },
+    {
+     "q": "Chữ số La Mã XXIV là số nào?",
+     "options": [
+      "25",
+      "23",
+      "26",
+      "24"
+     ],
+     "correct": 3,
+     "explain": "XXIV = 24."
+    },
+    {
+     "q": "Số 11 viết bằng chữ số La Mã là:",
+     "options": [
+      "X",
+      "XIII",
+      "XI",
+      "XII"
+     ],
+     "correct": 2,
+     "explain": "11 = XI (La Mã)."
+    },
+    {
+     "q": "Số 12 viết bằng chữ số La Mã là:",
+     "options": [
+      "XI",
+      "XIII",
+      "XII",
+      "XIV"
+     ],
+     "correct": 2,
+     "explain": "12 = XII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XIV là số nào?",
+     "options": [
+      "15",
+      "14",
+      "16",
+      "13"
+     ],
+     "correct": 1,
+     "explain": "XIV = 14."
+    },
+    {
+     "q": "Chữ số La Mã II là số nào?",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "correct": 1,
+     "explain": "II = 2."
+    },
+    {
+     "q": "Số 20 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXI",
+      "XXII",
+      "XIX",
+      "XX"
+     ],
+     "correct": 3,
+     "explain": "20 = XX (La Mã)."
+    },
+    {
+     "q": "Số 19 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXI",
+      "XIX",
+      "XX",
+      "XVIII"
+     ],
+     "correct": 1,
+     "explain": "19 = XIX (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã VI là số nào?",
+     "options": [
+      "8",
+      "5",
+      "6",
+      "7"
+     ],
+     "correct": 2,
+     "explain": "VI = 6."
+    },
+    {
+     "q": "Số 22 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXIII",
+      "XXII",
+      "XXIV",
+      "XXI"
+     ],
+     "correct": 1,
+     "explain": "22 = XXII (La Mã)."
+    },
+    {
+     "q": "Số 24 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXV",
+      "XXVI",
+      "XXIV",
+      "XXIII"
+     ],
+     "correct": 2,
+     "explain": "24 = XXIV (La Mã)."
+    },
+    {
+     "q": "Số 26 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXVI",
+      "XXV",
+      "XXVIII",
+      "XXVII"
+     ],
+     "correct": 0,
+     "explain": "26 = XXVI (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XI là số nào?",
+     "options": [
+      "12",
+      "10",
+      "13",
+      "11"
+     ],
+     "correct": 3,
+     "explain": "XI = 11."
+    },
+    {
+     "q": "Chữ số La Mã VII là số nào?",
+     "options": [
+      "9",
+      "7",
+      "6",
+      "8"
+     ],
+     "correct": 1,
+     "explain": "VII = 7."
+    },
+    {
+     "q": "Số 30 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXXII",
+      "XXIX",
+      "XXX",
+      "XXXI"
+     ],
+     "correct": 2,
+     "explain": "30 = XXX (La Mã)."
+    },
+    {
+     "q": "Số 27 viết bằng chữ số La Mã là:",
+     "options": [
+      "XXVII",
+      "XXVIII",
+      "XXIX",
+      "XXVI"
+     ],
+     "correct": 0,
+     "explain": "27 = XXVII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XXIX là số nào?",
+     "options": [
+      "30",
+      "28",
+      "31",
+      "29"
+     ],
+     "correct": 3,
+     "explain": "XXIX = 29."
+    },
+    {
+     "q": "Chữ số La Mã XX là số nào?",
+     "options": [
+      "20",
+      "19",
+      "22",
+      "21"
+     ],
+     "correct": 0,
+     "explain": "XX = 20."
+    },
+    {
+     "q": "Số 5 viết bằng chữ số La Mã là:",
+     "options": [
+      "VI",
+      "IV",
+      "V",
+      "VII"
+     ],
+     "correct": 2,
+     "explain": "5 = V (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XIX là số nào?",
+     "options": [
+      "18",
+      "19",
+      "21",
+      "20"
+     ],
+     "correct": 1,
+     "explain": "XIX = 19."
+    },
+    {
+     "q": "Số 10 viết bằng chữ số La Mã là:",
+     "options": [
+      "XI",
+      "X",
+      "IX",
+      "XII"
+     ],
+     "correct": 1,
+     "explain": "10 = X (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã IX là số nào?",
+     "options": [
+      "10",
+      "9",
+      "8",
+      "11"
+     ],
+     "correct": 1,
+     "explain": "IX = 9."
+    },
+    {
+     "q": "Chữ số La Mã XVI là số nào?",
+     "options": [
+      "18",
+      "16",
+      "15",
+      "17"
+     ],
+     "correct": 1,
+     "explain": "XVI = 16."
+    },
+    {
+     "q": "Số 8 viết bằng chữ số La Mã là:",
+     "options": [
+      "VII",
+      "X",
+      "VIII",
+      "IX"
+     ],
+     "correct": 2,
+     "explain": "8 = VIII (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XXV là số nào?",
+     "options": [
+      "24",
+      "27",
+      "25",
+      "26"
+     ],
+     "correct": 2,
+     "explain": "XXV = 25."
+    },
+    {
+     "q": "Số 3 viết bằng chữ số La Mã là:",
+     "options": [
+      "V",
+      "IV",
+      "II",
+      "III"
+     ],
+     "correct": 3,
+     "explain": "3 = III (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã III là số nào?",
+     "options": [
+      "3",
+      "2",
+      "5",
+      "4"
+     ],
+     "correct": 0,
+     "explain": "III = 3."
+    },
+    {
+     "q": "Chữ số La Mã X là số nào?",
+     "options": [
+      "12",
+      "10",
+      "9",
+      "11"
+     ],
+     "correct": 1,
+     "explain": "X = 10."
+    },
+    {
+     "q": "Số 9 viết bằng chữ số La Mã là:",
+     "options": [
+      "X",
+      "VIII",
+      "IX",
+      "XI"
+     ],
+     "correct": 2,
+     "explain": "9 = IX (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XV là số nào?",
+     "options": [
+      "16",
+      "15",
+      "14",
+      "17"
+     ],
+     "correct": 1,
+     "explain": "XV = 15."
+    },
+    {
+     "q": "Số 2 viết bằng chữ số La Mã là:",
+     "options": [
+      "IV",
+      "II",
+      "I",
+      "III"
+     ],
+     "correct": 1,
+     "explain": "2 = II (La Mã)."
+    },
+    {
+     "q": "Số 16 viết bằng chữ số La Mã là:",
+     "options": [
+      "XV",
+      "XVI",
+      "XVII",
+      "XVIII"
+     ],
+     "correct": 1,
+     "explain": "16 = XVI (La Mã)."
+    },
+    {
+     "q": "Số 6 viết bằng chữ số La Mã là:",
+     "options": [
+      "VII",
+      "VI",
+      "VIII",
+      "V"
+     ],
+     "correct": 1,
+     "explain": "6 = VI (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã VIII là số nào?",
+     "options": [
+      "8",
+      "10",
+      "9",
+      "7"
+     ],
+     "correct": 0,
+     "explain": "VIII = 8."
+    },
+    {
+     "q": "Số 4 viết bằng chữ số La Mã là:",
+     "options": [
+      "III",
+      "IV",
+      "VI",
+      "V"
+     ],
+     "correct": 1,
+     "explain": "4 = IV (La Mã)."
+    },
+    {
+     "q": "Số 1 viết bằng chữ số La Mã là:",
+     "options": [
+      "I",
+      "III",
+      "II",
+      "III"
+     ],
+     "correct": 0,
+     "explain": "1 = I (La Mã)."
+    },
+    {
+     "q": "Chữ số La Mã XVIII là số nào?",
+     "options": [
+      "20",
+      "17",
+      "18",
+      "19"
+     ],
+     "correct": 2,
+     "explain": "XVIII = 18."
+    }
+   ]
+  },
+  {
+   "type": 4,
+   "title": "Nhân số có bốn chữ số với số có một chữ số",
+   "exercises": [
+    {
+     "q": "Đặt tính rồi tính: 7360 × 7 = ?",
+     "options": [
+      "51530",
+      "51520",
+      "51513",
+      "51527"
+     ],
+     "correct": 1,
+     "explain": "7360 × 7 = 51520."
+    },
+    {
+     "q": "Đặt tính rồi tính: 9342 × 3 = ?",
+     "options": [
+      "28023",
+      "28026",
+      "28029",
+      "28036"
+     ],
+     "correct": 1,
+     "explain": "9342 × 3 = 28026."
+    },
+    {
+     "q": "Đặt tính rồi tính: 9226 × 3 = ?",
+     "options": [
+      "27678",
+      "27681",
+      "27688",
+      "27675"
+     ],
+     "correct": 0,
+     "explain": "9226 × 3 = 27678."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4529 × 6 = ?",
+     "options": [
+      "27174",
+      "27180",
+      "27168",
+      "27184"
+     ],
+     "correct": 0,
+     "explain": "4529 × 6 = 27174."
+    },
+    {
+     "q": "Đặt tính rồi tính: 7942 × 6 = ?",
+     "options": [
+      "47646",
+      "47652",
+      "47658",
+      "47662"
+     ],
+     "correct": 1,
+     "explain": "7942 × 6 = 47652."
+    },
+    {
+     "q": "Đặt tính rồi tính: 7526 × 7 = ?",
+     "options": [
+      "52682",
+      "52689",
+      "52675",
+      "52692"
+     ],
+     "correct": 0,
+     "explain": "7526 × 7 = 52682."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1299 × 9 = ?",
+     "options": [
+      "11691",
+      "11700",
+      "11682",
+      "11701"
+     ],
+     "correct": 0,
+     "explain": "1299 × 9 = 11691."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6544 × 4 = ?",
+     "options": [
+      "26186",
+      "26172",
+      "26180",
+      "26176"
+     ],
+     "correct": 3,
+     "explain": "6544 × 4 = 26176."
+    },
+    {
+     "q": "Đặt tính rồi tính: 7177 × 9 = ?",
+     "options": [
+      "64603",
+      "64593",
+      "64584",
+      "64602"
+     ],
+     "correct": 1,
+     "explain": "7177 × 9 = 64593."
+    },
+    {
+     "q": "Đặt tính rồi tính: 8409 × 2 = ?",
+     "options": [
+      "16828",
+      "16816",
+      "16820",
+      "16818"
+     ],
+     "correct": 3,
+     "explain": "8409 × 2 = 16818."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6056 × 4 = ?",
+     "options": [
+      "24224",
+      "24234",
+      "24220",
+      "24228"
+     ],
+     "correct": 0,
+     "explain": "6056 × 4 = 24224."
+    },
+    {
+     "q": "Đặt tính rồi tính: 7278 × 2 = ?",
+     "options": [
+      "14566",
+      "14554",
+      "14558",
+      "14556"
+     ],
+     "correct": 3,
+     "explain": "7278 × 2 = 14556."
+    },
+    {
+     "q": "Đặt tính rồi tính: 2828 × 4 = ?",
+     "options": [
+      "11316",
+      "11308",
+      "11322",
+      "11312"
+     ],
+     "correct": 3,
+     "explain": "2828 × 4 = 11312."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6650 × 3 = ?",
+     "options": [
+      "19953",
+      "19947",
+      "19950",
+      "19960"
+     ],
+     "correct": 2,
+     "explain": "6650 × 3 = 19950."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1320 × 4 = ?",
+     "options": [
+      "5284",
+      "5290",
+      "5276",
+      "5280"
+     ],
+     "correct": 3,
+     "explain": "1320 × 4 = 5280."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3250 × 9 = ?",
+     "options": [
+      "29241",
+      "29260",
+      "29250",
+      "29259"
+     ],
+     "correct": 2,
+     "explain": "3250 × 9 = 29250."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4617 × 3 = ?",
+     "options": [
+      "13851",
+      "13848",
+      "13854",
+      "13861"
+     ],
+     "correct": 0,
+     "explain": "4617 × 3 = 13851."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4208 × 7 = ?",
+     "options": [
+      "29463",
+      "29466",
+      "29456",
+      "29449"
+     ],
+     "correct": 2,
+     "explain": "4208 × 7 = 29456."
+    },
+    {
+     "q": "Đặt tính rồi tính: 8414 × 9 = ?",
+     "options": [
+      "75736",
+      "75735",
+      "75717",
+      "75726"
+     ],
+     "correct": 3,
+     "explain": "8414 × 9 = 75726."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1491 × 7 = ?",
+     "options": [
+      "10430",
+      "10447",
+      "10444",
+      "10437"
+     ],
+     "correct": 3,
+     "explain": "1491 × 7 = 10437."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3586 × 4 = ?",
+     "options": [
+      "14348",
+      "14354",
+      "14340",
+      "14344"
+     ],
+     "correct": 3,
+     "explain": "3586 × 4 = 14344."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4878 × 3 = ?",
+     "options": [
+      "14631",
+      "14637",
+      "14634",
+      "14644"
+     ],
+     "correct": 2,
+     "explain": "4878 × 3 = 14634."
+    },
+    {
+     "q": "Đặt tính rồi tính: 2936 × 6 = ?",
+     "options": [
+      "17610",
+      "17626",
+      "17622",
+      "17616"
+     ],
+     "correct": 3,
+     "explain": "2936 × 6 = 17616."
+    },
+    {
+     "q": "Đặt tính rồi tính: 8515 × 8 = ?",
+     "options": [
+      "68128",
+      "68130",
+      "68120",
+      "68112"
+     ],
+     "correct": 2,
+     "explain": "8515 × 8 = 68120."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3423 × 2 = ?",
+     "options": [
+      "6848",
+      "6844",
+      "6856",
+      "6846"
+     ],
+     "correct": 3,
+     "explain": "3423 × 2 = 6846."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6705 × 4 = ?",
+     "options": [
+      "26830",
+      "26816",
+      "26824",
+      "26820"
+     ],
+     "correct": 3,
+     "explain": "6705 × 4 = 26820."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4204 × 4 = ?",
+     "options": [
+      "16820",
+      "16826",
+      "16816",
+      "16812"
+     ],
+     "correct": 2,
+     "explain": "4204 × 4 = 16816."
+    },
+    {
+     "q": "Đặt tính rồi tính: 2959 × 3 = ?",
+     "options": [
+      "8887",
+      "8874",
+      "8877",
+      "8880"
+     ],
+     "correct": 2,
+     "explain": "2959 × 3 = 8877."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1601 × 4 = ?",
+     "options": [
+      "6404",
+      "6408",
+      "6400",
+      "6414"
+     ],
+     "correct": 0,
+     "explain": "1601 × 4 = 6404."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6448 × 2 = ?",
+     "options": [
+      "12896",
+      "12898",
+      "12894",
+      "12906"
+     ],
+     "correct": 0,
+     "explain": "6448 × 2 = 12896."
+    },
+    {
+     "q": "Đặt tính rồi tính: 5430 × 7 = ?",
+     "options": [
+      "38003",
+      "38020",
+      "38017",
+      "38010"
+     ],
+     "correct": 3,
+     "explain": "5430 × 7 = 38010."
+    },
+    {
+     "q": "Đặt tính rồi tính: 4321 × 3 = ?",
+     "options": [
+      "12963",
+      "12966",
+      "12973",
+      "12960"
+     ],
+     "correct": 0,
+     "explain": "4321 × 3 = 12963."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3298 × 9 = ?",
+     "options": [
+      "29682",
+      "29691",
+      "29692",
+      "29673"
+     ],
+     "correct": 0,
+     "explain": "3298 × 9 = 29682."
+    },
+    {
+     "q": "Đặt tính rồi tính: 8075 × 8 = ?",
+     "options": [
+      "64610",
+      "64592",
+      "64600",
+      "64608"
+     ],
+     "correct": 2,
+     "explain": "8075 × 8 = 64600."
+    },
+    {
+     "q": "Đặt tính rồi tính: 8345 × 3 = ?",
+     "options": [
+      "25038",
+      "25035",
+      "25032",
+      "25045"
+     ],
+     "correct": 1,
+     "explain": "8345 × 3 = 25035."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3008 × 7 = ?",
+     "options": [
+      "21066",
+      "21063",
+      "21049",
+      "21056"
+     ],
+     "correct": 3,
+     "explain": "3008 × 7 = 21056."
+    },
+    {
+     "q": "Đặt tính rồi tính: 2385 × 2 = ?",
+     "options": [
+      "4780",
+      "4772",
+      "4770",
+      "4768"
+     ],
+     "correct": 2,
+     "explain": "2385 × 2 = 4770."
+    },
+    {
+     "q": "Đặt tính rồi tính: 9947 × 7 = ?",
+     "options": [
+      "69636",
+      "69629",
+      "69622",
+      "69639"
+     ],
+     "correct": 1,
+     "explain": "9947 × 7 = 69629."
+    },
+    {
+     "q": "Đặt tính rồi tính: 2617 × 9 = ?",
+     "options": [
+      "23562",
+      "23544",
+      "23553",
+      "23563"
+     ],
+     "correct": 2,
+     "explain": "2617 × 9 = 23553."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1006 × 7 = ?",
+     "options": [
+      "7052",
+      "7035",
+      "7049",
+      "7042"
+     ],
+     "correct": 3,
+     "explain": "1006 × 7 = 7042."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3504 × 3 = ?",
+     "options": [
+      "10509",
+      "10515",
+      "10522",
+      "10512"
+     ],
+     "correct": 3,
+     "explain": "3504 × 3 = 10512."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3360 × 6 = ?",
+     "options": [
+      "20160",
+      "20170",
+      "20154",
+      "20166"
+     ],
+     "correct": 0,
+     "explain": "3360 × 6 = 20160."
+    },
+    {
+     "q": "Đặt tính rồi tính: 5495 × 2 = ?",
+     "options": [
+      "11000",
+      "10988",
+      "10990",
+      "10992"
+     ],
+     "correct": 2,
+     "explain": "5495 × 2 = 10990."
+    },
+    {
+     "q": "Đặt tính rồi tính: 5767 × 5 = ?",
+     "options": [
+      "28840",
+      "28830",
+      "28835",
+      "28845"
+     ],
+     "correct": 2,
+     "explain": "5767 × 5 = 28835."
+    },
+    {
+     "q": "Đặt tính rồi tính: 6927 × 5 = ?",
+     "options": [
+      "34645",
+      "34640",
+      "34630",
+      "34635"
+     ],
+     "correct": 3,
+     "explain": "6927 × 5 = 34635."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3568 × 3 = ?",
+     "options": [
+      "10714",
+      "10701",
+      "10707",
+      "10704"
+     ],
+     "correct": 3,
+     "explain": "3568 × 3 = 10704."
+    },
+    {
+     "q": "Đặt tính rồi tính: 5926 × 6 = ?",
+     "options": [
+      "35566",
+      "35556",
+      "35562",
+      "35550"
+     ],
+     "correct": 1,
+     "explain": "5926 × 6 = 35556."
+    },
+    {
+     "q": "Đặt tính rồi tính: 9891 × 8 = ?",
+     "options": [
+      "79136",
+      "79138",
+      "79128",
+      "79120"
+     ],
+     "correct": 2,
+     "explain": "9891 × 8 = 79128."
+    },
+    {
+     "q": "Đặt tính rồi tính: 1841 × 5 = ?",
+     "options": [
+      "9205",
+      "9215",
+      "9200",
+      "9210"
+     ],
+     "correct": 0,
+     "explain": "1841 × 5 = 9205."
+    },
+    {
+     "q": "Đặt tính rồi tính: 3308 × 3 = ?",
+     "options": [
+      "9934",
+      "9921",
+      "9924",
+      "9927"
+     ],
+     "correct": 2,
+     "explain": "3308 × 3 = 9924."
+    }
+   ]
+  }
+ ]
+}
