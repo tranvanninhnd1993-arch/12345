@@ -378,19 +378,22 @@ function saveSettings(){LS.set('gsai_settings',settings);checkKey()}
 let STEPS={};
 try{fetch('steps.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){STEPS=d||{}}).catch(function(){})}catch(e){}
 
-/* ===== LỚP 3 THEO TUẦN (video thầy Quyền + kho bài tập) ===== */
-let G3=null;
-try{fetch('curriculum_g3.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){G3=d;applyG3()}).catch(function(){})}catch(e){}
-function applyG3(){
-  if(!G3||!G3.weeks||typeof BUILTIN==='undefined')return;
-  BUILTIN[3]={grade:3,byWeek:true,lessons:G3.weeks.map(function(w){
-    return {title:w.title, desc:w.videos.length+' video bài giảng · kho '+w.bank.length+' bài tập',
-            fromBank:true, videos:w.videos, summary:w.summary, quiz:w.bank};
+/* ===== LỚP THEO TUẦN/PHẦN (video + kho bài tập, fetch curriculum_g{N}.json) ===== */
+var GCUR={};
+[2,3,4,5].forEach(function(g){
+  try{fetch('curriculum_g'+g+'.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){GCUR[g]=d;applyGrade(g)}).catch(function(){})}catch(e){}
+});
+function applyGrade(g){
+  var d=GCUR[g];if(!d||!d.weeks||typeof BUILTIN==='undefined')return;
+  BUILTIN[g]={grade:g,byWeek:true,lessons:d.weeks.map(function(w){
+    return {title:w.title, desc:(w.videos?w.videos.length:0)+' video bài giảng · kho '+w.bank.length+' bài tập',
+            fromBank:true, videos:w.videos||[], summary:w.summary, quiz:w.bank};
   })};
-  if(typeof activeGrade!=='undefined' && activeGrade===3){CUR=BUILTIN[3];
+  if(typeof activeGrade!=='undefined' && activeGrade===g){CUR=BUILTIN[g];
     var vc=document.getElementById('view-curriculum');
     if(vc&&vc.classList.contains('active')&&typeof renderCurriculum==='function')renderCurriculum();}
 }
+function applyG3(){applyGrade(3);}
 
 /* ===== HELPERS ===== */
 function esc(t){return(''+t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
