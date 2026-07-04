@@ -120,4 +120,9 @@ body{font-family:var(--font-sans);background:#efe6d5;color:var(--text-primary);p
   load(startIdx);requestAnimationFrame(loop);
 })();
 </script>
+<script>
+function postH(){try{parent.postMessage({unblockH:Math.ceil(document.body.getBoundingClientRect().height)},'*');}catch(e){}}
+window.addEventListener('load',function(){postH();setTimeout(postH,350);});
+window.addEventListener('resize',postH);
+</script>
 </body></html>
