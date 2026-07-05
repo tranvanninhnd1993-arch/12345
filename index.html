@@ -230,18 +230,32 @@
     .btn{padding:11px 16px}
   }
 </style>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
+<script>
+try{
+  firebase.initializeApp({apiKey:"AIzaSyC_FJADDkiVRX4P4Gvc3Sx9IrHrSh8VfaE",authDomain:"toan2345-33901.firebaseapp.com",projectId:"toan2345-33901",storageBucket:"toan2345-33901.firebasestorage.app",messagingSenderId:"384751898910",appId:"1:384751898910:web:a5d737612e115f6597b90f"});
+  firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(function(){});
+  firebase.firestore().enablePersistence({synchronizeTabs:true}).catch(function(){});
+}catch(e){}
+</script>
 </head>
 <body>
 
 <!-- CỔNG MẬT KHẨU (thử nghiệm) -->
 <div id="gate" style="position:fixed;inset:0;z-index:99999;background:linear-gradient(160deg,#eef1ff,#f4f6fb);display:flex;align-items:center;justify-content:center;padding:20px;font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif">
-  <div style="background:#fff;border-radius:20px;box-shadow:0 18px 50px rgba(31,42,68,.14);padding:34px;max-width:380px;width:100%;text-align:center">
-    <div style="font-size:46px">🔒</div>
-    <h2 style="margin:6px 0;color:#1f2a44">Khu vực thử nghiệm</h2>
-    <p style="color:#6b7794;font-size:14px;margin:4px 0 16px">Nhập mật khẩu để vào học.</p>
-    <input id="gatePass" type="password" placeholder="Mật khẩu" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" style="width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box" />
-    <div id="gateErr" style="display:none;color:#dc2626;font-size:14px;margin-top:8px">Sai mật khẩu, thử lại nhé.</div>
-    <button id="gateBtn" style="margin-top:14px;width:100%;background:#4f6ef7;color:#fff;border:none;padding:12px;border-radius:10px;font-weight:700;font-size:16px;cursor:pointer">Vào học →</button>
+  <div style="background:#fff;border-radius:20px;box-shadow:0 18px 50px rgba(31,42,68,.14);padding:32px 28px;max-width:380px;width:100%;text-align:center">
+    <div style="font-size:44px">📚</div>
+    <h2 id="authTitle" style="margin:6px 0;color:#1f2a44">Đăng nhập</h2>
+    <p style="color:#6b7794;font-size:14px;margin:4px 0 16px">Đăng nhập để đồng bộ tiến độ học trên mọi thiết bị.</p>
+    <input id="authEmail" type="email" placeholder="Email (Gmail)" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" style="width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box" />
+    <input id="authPhone" type="tel" inputmode="numeric" placeholder="Số điện thoại" autocomplete="tel" style="display:none;width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box;margin-top:10px" />
+    <input id="authPass" type="password" placeholder="Mật khẩu (tối thiểu 6 ký tự)" autocomplete="current-password" style="width:100%;padding:12px 14px;border:1px solid #e4e8f1;border-radius:10px;font-size:16px;outline:none;box-sizing:border-box;margin-top:10px" />
+    <div id="authErr" style="display:none;font-size:14px;margin-top:8px"></div>
+    <button id="authBtn" style="margin-top:14px;width:100%;background:#4f6ef7;color:#fff;border:none;padding:12px;border-radius:10px;font-weight:700;font-size:16px;cursor:pointer">Đăng nhập →</button>
+    <div style="margin-top:12px;font-size:14px;color:#6b7794"><span id="authSwitchTxt">Chưa có tài khoản?</span> <a id="authSwitch" style="color:#4f6ef7;font-weight:600;cursor:pointer">Tạo tài khoản</a></div>
+    <div style="margin-top:8px"><a id="authForgot" style="color:#9aa3b8;font-size:13px;cursor:pointer;text-decoration:underline">Quên mật khẩu?</a></div>
   </div>
 </div>
 
@@ -311,6 +325,11 @@
       </section>
 
       <section class="view" id="view-settings">
+        <div class="card" id="accountCard">
+          <h2>👤 Tài khoản</h2>
+          <div class="sub" id="accEmail" style="margin-bottom:12px">—</div>
+          <button class="btn ghost" id="logoutBtn">Đăng xuất</button>
+        </div>
         <div class="card" id="installCard">
           <h2>📲 Cài như ứng dụng</h2>
           <div class="sub">Cài app vào màn hình chính để mở <strong>toàn màn hình như một ứng dụng</strong> — không còn thanh địa chỉ, học sinh tập trung hơn.</div>
@@ -396,9 +415,9 @@ if(!progress.learns||typeof progress.learns!=='object')progress.learns={};
 const SKIP_AFTER=5; /* tu lan hoc thu 5 moi hien nut "lam kiem tra" */
 let learnGateUnlocked=true; /* false = phai nghe het bai giang moi vao kiem tra */
 let testTimer=null; /* dong ho dem nguoc bai kiem tra */
-function saveProfile(){LS.set('gsai_profile',profile)}
-function saveProg(){LS.set('gsai_progress',progress)}
-function saveSettings(){LS.set('gsai_settings',settings);checkKey()}
+function saveProfile(){LS.set('gsai_profile',profile);scheduleSync()}
+function saveProg(){LS.set('gsai_progress',progress);scheduleSync()}
+function saveSettings(){LS.set('gsai_settings',settings);checkKey();scheduleSync()}
 
 /* mức đạt dùng PASS_RATIO (định nghĩa trong bộ sinh câu hỏi) */
 
@@ -2256,26 +2275,80 @@ document.getElementById('resetProg').addEventListener('click',()=>{if(confirm('X
 document.getElementById('clearAll').addEventListener('click',()=>{if(confirm('Xóa TẤT CẢ dữ liệu? Không thể hoàn tác.')){memStore={};try{localStorage.clear()}catch(e){}location.reload()}});
 
 /* ===== CỔNG MẬT KHẨU ===== */
-const PASS_HASH='e78e2a15d4bc24db96299e38e53ef75bfcdbf618deb08bd988e1b37ab388ce50';
-async function sha256hex(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return Array.from(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0')}).join('')}
-function gateGet(){try{return localStorage.getItem('gsai_gate')}catch(e){return null}}
-async function gateInit(){
-  const g=document.getElementById('gate');
-  if(gateGet()===PASS_HASH){g.style.display='none';boot();return}
-  const pass=document.getElementById('gatePass'),btn=document.getElementById('gateBtn'),err=document.getElementById('gateErr');
-  async function tryUnlock(){
-    err.style.display='none';
-    let h='';try{h=await sha256hex(pass.value.trim().toLowerCase())}catch(e){h=''}
-    if(h===PASS_HASH){try{localStorage.setItem('gsai_gate',PASS_HASH)}catch(e){}g.style.display='none';boot()}
-    else{err.style.display='block';pass.value='';pass.focus()}
+/* ===== ĐĂNG NHẬP FIREBASE (Email + mật khẩu) + ĐỒNG BỘ TIẾN ĐỘ ===== */
+var currentUser=null, syncT=null, authMode='login', _booted=false, regPhone=null;
+function scheduleSync(){
+  if(!currentUser||typeof firebase==='undefined')return;
+  if(syncT)clearTimeout(syncT);
+  syncT=setTimeout(function(){syncT=null;
+    try{firebase.firestore().collection('users').doc(currentUser.uid).set({profile:profile||null,progress:progress||null,settings:settings||null,updated:Date.now()},{merge:true});}catch(e){}
+  },900);
+}
+async function pullCloud(uid){
+  try{
+    var getP=firebase.firestore().collection('users').doc(uid).get();
+    var toP=new Promise(function(res){setTimeout(function(){res('__to__');},4500);});
+    var snap=await Promise.race([getP,toP]);
+    if(snap==='__to__')return false;
+    if(snap.exists){var d=snap.data()||{};
+      if(d.profile){profile=d.profile;LS.set('gsai_profile',profile);}
+      if(d.progress){progress=d.progress;LS.set('gsai_progress',progress);}
+      if(d.settings){settings=Object.assign(settings,d.settings);LS.set('gsai_settings',settings);}
+      if(d.phone&&!regPhone)regPhone=d.phone;
+      return true;}
+  }catch(e){}
+  return false;
+}
+function fbMsg(code){var m={
+  'auth/invalid-email':'Email không hợp lệ.',
+  'auth/user-not-found':'Chưa có tài khoản với email này — hãy Tạo tài khoản.',
+  'auth/wrong-password':'Sai mật khẩu.',
+  'auth/invalid-credential':'Email hoặc mật khẩu không đúng.',
+  'auth/email-already-in-use':'Email này đã có tài khoản — hãy Đăng nhập.',
+  'auth/weak-password':'Mật khẩu quá yếu (tối thiểu 6 ký tự).',
+  'auth/network-request-failed':'Lỗi mạng. Kiểm tra kết nối rồi thử lại.',
+  'auth/too-many-requests':'Thử quá nhiều lần, đợi lát rồi thử lại.'
+};return m[code]||('Có lỗi, thử lại. ('+(code||'')+')');}
+function authErr(msg,ok){var e=document.getElementById('authErr');if(!e)return;e.textContent=msg;e.style.color=ok?'#16a34a':'#dc2626';e.style.display='block';}
+function authInit(){
+  var g=document.getElementById('gate');
+  if(typeof firebase==='undefined'){authErr('Không tải được phần đăng nhập. Kiểm tra mạng rồi tải lại trang.');return;}
+  var email=document.getElementById('authEmail'),phone=document.getElementById('authPhone'),pass=document.getElementById('authPass'),btn=document.getElementById('authBtn');
+  var title=document.getElementById('authTitle'),swi=document.getElementById('authSwitch'),swt=document.getElementById('authSwitchTxt');
+  function setMode(m){authMode=m;title.textContent=m==='login'?'Đăng nhập':'Tạo tài khoản';btn.textContent=m==='login'?'Đăng nhập →':'Tạo tài khoản →';swt.textContent=m==='login'?'Chưa có tài khoản?':'Đã có tài khoản?';swi.textContent=m==='login'?'Tạo tài khoản':'Đăng nhập';phone.style.display=(m==='register'?'block':'none');document.getElementById('authErr').style.display='none';}
+  swi.onclick=function(){setMode(authMode==='login'?'register':'login');};
+  async function submit(){
+    document.getElementById('authErr').style.display='none';
+    var em=(email.value||'').trim(),pw=pass.value||'';
+    if(!em||!pw){authErr('Nhập email và mật khẩu.');return;}
+    if(pw.length<6){authErr('Mật khẩu tối thiểu 6 ký tự.');return;}
+    var ph='';
+    if(authMode==='register'){ph=(phone.value||'').trim();var dg=ph.replace(/\D/g,'');if(dg.length<9||dg.length>11){authErr('Nhập số điện thoại hợp lệ.');return;}}
+    btn.disabled=true;var old=btn.textContent;btn.textContent='Đang xử lý…';
+    try{var a=firebase.auth();
+      if(authMode==='register'){var cred=await a.createUserWithEmailAndPassword(em,pw);regPhone=ph;try{await firebase.firestore().collection('users').doc(cred.user.uid).set({phone:ph},{merge:true});}catch(e){}}
+      else await a.signInWithEmailAndPassword(em,pw);
+    }catch(e){authErr(fbMsg(e&&e.code));btn.disabled=false;btn.textContent=old;}
   }
-  btn.onclick=tryUnlock;
-  pass.addEventListener('keydown',function(e){if(e.key==='Enter')tryUnlock()});
-  pass.focus();
+  btn.onclick=submit;
+  pass.addEventListener('keydown',function(e){if(e.key==='Enter')submit();});
+  document.getElementById('authForgot').onclick=async function(){
+    var em=(email.value||'').trim();if(!em){authErr('Nhập email rồi bấm "Quên mật khẩu".');return;}
+    try{await firebase.auth().sendPasswordResetEmail(em);authErr('Đã gửi email đặt lại mật khẩu — kiểm tra hộp thư (cả mục Spam).',true);}catch(e){authErr(fbMsg(e&&e.code));}
+  };
+  var lo=document.getElementById('logoutBtn');if(lo)lo.onclick=function(){try{firebase.auth().signOut();}catch(e){}location.reload();};
+  firebase.auth().onAuthStateChanged(async function(user){
+    if(user){currentUser=user;
+      var ae=document.getElementById('accEmail');if(ae)ae.textContent=user.email||'';
+      await pullCloud(user.uid);
+      g.style.display='none';
+      if(!_booted){_booted=true;boot();var op=document.getElementById('obPhone');if(op&&!profile&&regPhone)op.value=regPhone;}
+    }else{currentUser=null;g.style.display='flex';if(btn)btn.disabled=false;}
+  });
 }
 
 /* ===== START ===== */
-gateInit();
+authInit();
 </script>
 
 <!-- ===== PWA: service worker + nút cài app ===== -->

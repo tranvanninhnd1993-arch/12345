@@ -1,9 +1,13 @@
 /* Service worker cho Gia Sư AI (PWA) */
-const VERSION = 'gsai-v6';
+const VERSION = 'gsai-v7';
+const FB = 'https://www.gstatic.com/firebasejs/10.12.5/';
 const CORE = [
   './',
   'index.html',
   'unblock.html',
+  FB + 'firebase-app-compat.js',
+  FB + 'firebase-auth-compat.js',
+  FB + 'firebase-firestore-compat.js',
   'steps.json',
   'curriculum_g2.json',
   'curriculum_g3.json',
@@ -35,7 +39,11 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;                 // chỉ xử lý GET
   const url = new URL(req.url);
-  if (url.origin !== self.location.origin) return;  // bỏ qua API ngoài (Gemini...), để mạng lo
+  if (url.host === 'www.gstatic.com') {             // SDK Firebase: cache-first để chạy offline
+    e.respondWith(caches.match(req).then((c) => c || fetch(req).then((res) => { const cp = res.clone(); caches.open(VERSION).then((k) => k.put(req, cp)); return res; })));
+    return;
+  }
+  if (url.origin !== self.location.origin) return;  // bỏ qua API ngoài (Gemini, Firestore...), để mạng lo
 
   // Điều hướng trang: ưu tiên mạng, hỏng thì lấy bản cache (chạy offline)
   if (req.mode === 'navigate') {
