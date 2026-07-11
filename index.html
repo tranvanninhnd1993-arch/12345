@@ -296,7 +296,6 @@ try{
   <aside class="sidebar" id="sidebar">
     <div class="logo"><span class="mark">🎓</span> Gia Sư AI</div>
     <button class="nav-btn active" data-view="curriculum"><span class="ic">🧭</span> Lộ trình Toán</button>
-    <button class="nav-btn" data-view="grade"><span class="ic">✅</span> Chấm bài nhanh</button>
     <button class="nav-btn" data-view="progress"><span class="ic">🏆</span> Thành tích</button>
     <button class="nav-btn" data-view="game"><span class="ic">🎮</span> Trò chơi</button>
     <button class="nav-btn" data-view="iqtest"><span class="ic">🧠</span> Test IQ</button>
@@ -320,16 +319,6 @@ try{
 
       <section class="view active" id="view-curriculum"></section>
       <section class="view" id="view-lesson"></section>
-
-      <section class="view" id="view-grade">
-        <p class="page-intro">Dán đề bài và bài làm của con — AI chấm điểm, chỉ chỗ sai và hướng dẫn sửa. (Cần API key Google)</p>
-        <div class="card">
-          <label class="field"><span>Đề bài / câu hỏi</span><textarea class="input" id="grQuestion" placeholder="Dán hoặc gõ đề bài..."></textarea></label>
-          <label class="field"><span>Bài làm của con</span><textarea class="input" id="grAnswer" placeholder="Dán hoặc gõ bài làm..." style="min-height:140px"></textarea></label>
-          <button class="btn" id="grSubmit">✅ Chấm bài</button>
-        </div>
-        <div id="grResult"></div>
-      </section>
 
       <section class="view" id="view-progress"></section>
 
@@ -363,7 +352,7 @@ try{
         </div>
         <div class="card">
           <h2>⚙️ Cài đặt AI</h2>
-          <div class="sub">Chỉ cần cho "Hỏi bài AI" và "Chấm bài nhanh". Học bài + kiểm tra không cần.</div>
+          <div class="sub">Chỉ cần cho "Hỏi bài AI". Học bài + kiểm tra không cần.</div>
           <label class="field">
             <span>Google Gemini API Key (miễn phí)</span>
             <input class="input" id="apiKey" type="password" placeholder="AIza..." autocomplete="off" />
@@ -1852,7 +1841,7 @@ function testVoice(){
 function autoSpeakLearn(){setTimeout(function(){const b=document.getElementById('speakBtn');if(b&&!isSpeaking())startLesson(b)},400)}
 
 /* ===== NAV ===== */
-const TITLES={curriculum:'Lộ trình Toán',lesson:'Bài học',grade:'Chấm bài nhanh',progress:'Thành tích',game:'Trò chơi',iqtest:'Test IQ',settings:'Cài đặt'};
+const TITLES={curriculum:'Lộ trình Toán',lesson:'Bài học',progress:'Thành tích',game:'Trò chơi',iqtest:'Test IQ',settings:'Cài đặt'};
 const navBtns=document.querySelectorAll('.nav-btn');
 function showView(v){
   stopSpeak();
@@ -2249,20 +2238,6 @@ function showReward(idx,correct,total,passed,stars){
     document.getElementById('rwLearn').onclick=()=>{close();vLesson.querySelector('.ltab[data-pane="learn"]').click()};
   }
 }
-
-/* ===== CHẤM BÀI NHANH ===== */
-document.getElementById('grSubmit').addEventListener('click',async()=>{
-  if(!settings.apiKey){showView('settings');return}
-  const q=document.getElementById('grQuestion').value.trim(),a=document.getElementById('grAnswer').value.trim();
-  if(!q||!a){alert('Cần nhập cả đề bài và bài làm.');return}
-  const btn=document.getElementById('grSubmit');btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Đang chấm…';
-  const out=document.getElementById('grResult');out.innerHTML='<div class="ai-out"><span class="typing">AI đang chấm…</span></div>';
-  const system='Em là giáo viên Toán '+gradeName(activeGrade)+' chấm bài cho học sinh nhỏ, công tâm và khích lệ. Trả lời bằng tiếng Việt.';
-  const prompt='Chấm bài sau.\nĐỀ BÀI:\n'+q+'\n\nBÀI LÀM:\n'+a+'\n\nTrình bày:\n**Điểm:** <số>/10\n**Nhận xét:** ...\n**Chỗ làm tốt:** ...\n**Lỗi sai & cách sửa:** ...\n**Lời khuyên:** ...';
-  try{const text=await callAI({system,messages:[{role:'user',content:prompt}],maxTokens:2048});out.innerHTML='<div class="card"><h2 style="margin-bottom:8px">✅ Kết quả chấm</h2><div class="ai-out">'+mdLite(text)+'</div></div>'}
-  catch(err){out.innerHTML='<div class="ai-out" style="color:var(--red)">⚠️ '+esc(err.message)+'</div>'}
-  finally{btn.disabled=false;btn.innerHTML='✅ Chấm bài'}
-});
 
 /* ===== THÀNH TÍCH ===== */
 function renderProgress(){
